@@ -1,0 +1,311 @@
+name: "zh-cn"
+languageName: "简体中文"
+
+contributors:
+  - "Loyisa"
+
+aliases:
+  - "schinese"
+  - "simplified_chinese"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/7f9bc035cdc80f1ab5e1198f29f3ad3fdd2b42d9a69aeb64de990681800b98dc"
+  lore:
+    - "&7将你的语言更改为简体中文"
+    - ""
+    - "&7贡献者:"
+    - "%contributors%"
+    - ""
+    - "&6点击更换您你的语言!"
+
+scoreboard:
+  title: "Loyisa的测试服务器"
+  kick: "踢出: "
+  damage: "伤害: "
+  hunger: "饥饿: "
+
+gui:
+  language:
+    title: "语言菜单"
+  anticheat:
+    title: "反作弊菜单"
+    disabled: "已禁用"
+    version: "版本"
+    author: "作者"
+    description: "简介"
+  setting:
+    title: "设置菜单"
+    status: "状态"
+    mode: "模式"
+    description: "简介"
+    flag:
+      name: "Flag"
+      description:
+        - "&f显示反作弊Flag"
+    flagmode:
+      name: "Flag模式"
+      description:
+        - "&f设置Flag模式"
+        - "&b可用模式:"
+        - "   &7▪ &fCHAT: 在聊天栏显示Flag"
+        - "   &7▪ &fACTIONBAR: 在ActionBar显示Flag"
+    kick:
+      name: "踢出"
+      description:
+        - "&f启用/禁用踢出"
+    damage:
+      name: "伤害"
+      description:
+        - "&f启用/禁用伤害"
+    hunger:
+      name: "饥饿"
+      description:
+        - "&f启用/禁用饥饿"
+    allowat:
+      name: "允许AT"
+      description:
+        - "&f允许其他玩家AT你"
+  warp:
+    title: "传送菜单"
+    world: "世界"
+  enchant:
+    title: "附魔菜单"
+    no-enchant: "此物品没有可用的附魔"
+    put-item: "请将物品放入左侧的空位中"
+    level: "等级"
+    left-click: "左键点击"
+    right-click: "右键点击"
+    add-enchant: "添加附魔"
+    remove-enchant: "移除附魔"
+    upgrade-enchant: "升级附魔"
+    downgrade-enchant: "降级附魔"
+    incompatible: "不兼容的附魔"
+    fix-item: "修复物品"
+    remove-all-enchant: "移除所有附魔"
+    unbreakable: "不可破坏"
+  potion:
+    title: "药水菜单"
+  filter:
+    title: "过滤系统"
+    empty: "空"
+    reset: "重置过滤系统"
+    next-page: "下一页"
+    previous-page: "上一页"
+    page: "页数: "
+    search: "搜索"
+    cancel-search: "取消搜索"
+    back: "返回"
+    type: "类型"
+  search:
+    title: "搜索菜单"
+    item: "搜索"
+
+messages:
+  message:
+    sender: "&7[&f我 &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &f我&7] &f%s"
+  chat:
+    mute: "你已被禁言!"
+    unmute: "你已被解除禁言!"
+    no-permission-at: "你没有权限来 @ 玩家!"
+    no-permission-at-everyone: "你没有权限来 @everyone!"
+  teleport:
+    success: "传送完成!"
+    expired: "你的传送请求已过期!"
+    ignored: "你不能向这位玩家发送传送请求!"
+    no-request:
+      to-accept: "你没有需要接受的传送请求!"
+      to-deny: "你没有需要拒绝的传送请求!"
+      to-cancel: "你没有需要取消的传送请求!"
+    request:
+      requester: "传送请求已发送给 %s."
+      receiver:
+        normal: "%s 请求传送到你这里."
+        here: "%s 请求你传送到Ta那里."
+    timeout:
+      requester: "你发送给 %s 的传送请求已超时!"
+      receiver: "%s 发送给你的传送请求已超时!"
+    cancelled:
+      requester: "你发送给 %s 的传送请求已取消!"
+      receiver: "%s 发送给你的传送请求已取消!"
+    denied:
+      requester: "%s 拒绝了你的传送请求!"
+      receiver: "你拒绝了 %s 的传送请求!"
+    accepted:
+      requester: "%s 接受了你的传送请求! 传送中..."
+      receiver: "你接受了 %s 的传送请求! 传送中..."
+    type:
+      cancel: "若要取消这个请求, 请输入 /tpacancel"
+      accept: "若要接受这个请求, 请输入 /tpaccept"
+      deny: "若要拒绝这个请求, 请输入 /tpdeny"
+    already-requested: "你已经给 %s 发送了一个传送请求! 输入 /tpacancel 取消这个请求."
+    not-online: "玩家 %s 不在线!"
+    self: "你不能给自己发送传送请求!"
+  command-cooldown: "你使用指令的速度太快了! 请稍后再试!"
+  no-permission: "你没有权限这样做!"
+  player-only: "这个指令只有玩家才能使用!"
+  player-not-found: "玩家 %s 不存在或不在线!"
+  welcome:
+    new-player:
+      - "欢迎来到Loyisa的测试服务器!"
+      - "在这个服务器里, 你可以测试反作弊并实时在游戏中切换反作弊!"
+      - "你可以使用 /ac 指令来切换反作弊"
+      - "你可以使用 /lang 来更换语言"
+      - "请使用 /help 来查看所有指令!"
+      - "玩的开心!"
+    old-player:
+      - "自您上次登录以来, 已经有 %s 天了"
+      - "欢迎回来!"
+
+  anticheat:
+    disabled: "%s 反作弊已禁用!"
+    dev-only: "%s 反作弊只有开发者才能使用!"
+    cant-use-with-others: "%s 反作弊不能和其他反作弊一起使用!"
+    must-use-with-others: "%s 反作弊必须和其他反作弊一起使用!"
+    amount-limit: "你不能同时使用超过 %s 个反作弊!"
+    selected: "已启用: %s"
+    not-found: "未找到反作弊: %s"
+
+  itemcleaner:
+    countdown: "地面上的所有物品将在 %s 秒后被清除!"
+    cleaned: "%s 个物品已被清除!"
+
+  scaffoldcleaner:
+    countdown: "所有的搭路区域将在 %s 秒后被清除!"
+
+  breaktest:
+    broken: "你破坏了 %s!"
+
+  damagetest:
+    damage: "预计伤害: %s  实际伤害: %s"
+
+  speedtest:
+    timeout: "你的速度测试已超时!"
+    not-found: "未找到速度测试房间: %s"
+    already-in-use: "这个速度测试房间已经有人在使用了!"
+    terminated: "你的速度测试已被终止!"
+    already-in-speedtest: "你已经在速度测试中了!"
+    result: "你的速度是: %s/秒"
+    faster: "你比原版疾跑跳跃快了 %s!"
+    slower: "你比原版疾跑跳跃慢了 %s!"
+
+commands:
+  anticheat:
+    usage: "用法: /ac [反作弊名称|ac ac ...]"
+    description: "切换反作弊"
+  health:
+    usage: "用法: /health <数值>"
+    description: "修改你的生命值"
+    updated: "你的生命值已更新！"
+    invalid-value: "无效的生命值, 请输入一个整数!"
+    error-value: "数值必须在 0 和 %s 之间!"
+  hunger:
+    usage: "用法: /hunger <数值>"
+    description: "修改你的饥饿值"
+    updated: "你的饥饿值已更新！"
+    invalid-value: "无效的饥饿值, 请输入一个整数!"
+    error-value: "数值必须在 0 和 20 之间!"
+  ip:
+    usage: "用法: /ip"
+    description: "显示你的IP地址"
+    player: "你的IP地址是: %s"
+  language:
+    usage: "用法: /language [语言名称]"
+    description: "更换语言"
+    changed: "你的语言已更换为 %s!"
+    not-found: "未找到语言: %s"
+  setting:
+    usage: "用法: /setting"
+    description: "修改设置"
+  warp:
+    usage: "用法: /warp [名称]"
+    description: "传送到某个传送点"
+    not-found: "未找到传送点: %s"
+  discord:
+    usage: "用法: /discord"
+    description: "显示Discord链接"
+    message: "Discord链接: %s"
+  help:
+    usage: "用法: /help [页数]"
+    description: "显示帮助"
+    help-page: "帮助页数:"
+    command: "指令: "
+    description-cmd: "简介: "
+    usage-cmd: "用法: "
+    invalid-number: "Invalid page number!"
+  ping:
+    usage: "用法: /ping"
+    description: "显示你的延迟, 并自动修复(如果你的延迟异常)"
+    message: "你的延迟是: %sms"
+    abnormal: "延迟异常, 修复中..."
+  message:
+    usage: "用法: /msg <玩家> <消息>"
+    description: "给玩家发送消息"
+    self-message: "你不能给自己发送消息!"
+    ignored: "你不能给这个玩家发送消息!"
+  reply:
+    usage: "用法: /reply <消息>"
+    description: "回复上一次收到的消息"
+    not-target: "你没有要回复的消息!"
+    target-not-online: "玩家 %s 不在线!"
+  spawn:
+    usage: "用法: /spawn"
+    description: "传送到出生点"
+    not-initialized: "出生点尚未初始化!请设置一个名为spawn的传送点!"
+  heal:
+    usage: "用法: /heal"
+    description: "恢复你的生命值和饥饿值"
+    healed: "你已经被恢复了!"
+  enchant:
+    usage: "用法: /enchant"
+    description: "附魔一个物品"
+  potion:
+    usage: "用法: /potion"
+    description: "获得一个药水"
+  tpa:
+    usage: "用法: /tpa <玩家>"
+    description: "请求传送到指定玩家"
+  tpahere:
+    usage: "用法: /tpahere <玩家>"
+    description: "请求指定玩家传送到你的位置"
+  tpacancel:
+    usage: "用法: /tpacancel"
+    description: "取消一个你发送的传送请求"
+  tpaccept:
+    usage: "用法: /tpaccept"
+    description: "接受一个传送请求"
+  tpdeny:
+    usage: "用法: /tpdeny"
+    description: "拒绝一个传送请求"
+  give:
+    usage: "用法: /give <物品> [数量]"
+    description: "给你一些物品"
+    invalid-amount: "无效的物品数量, 请输入一个整数!"
+    blacklisted: "此物品在黑名单中!"
+  filter:
+    usage: "用法: /fs"
+    description: "Bukkit事件/ProtocolLib数据包过滤系统"
+  kill:
+    usage: "用法: /kill [玩家]"
+    description: "自鲨或者鲨了其他玩家"
+    message: "你寄了"
+    success: "鲨了 %s!"
+  clear:
+    usage: "用法: /clear"
+    description: "清空你物品栏中的所有物品"
+  fly:
+    usage: "用法: /fly"
+    description: "起飞！"
+    flymode: "飞行模式: "
+  tp:
+    usage: "用法: /tp <玩家> [玩家]"
+    description: "传送到指定玩家"
+  gamemode:
+    usage: "用法: /gamemode <模式>"
+    description: "改变游戏模式"
+    invalid-mode: "无效的游戏模式: %s"
+    success: "你的游戏模式已更改为 %s!"
+  gameprotocol:
+    usage: "用法: /protocol"
+    description: "显示你的游戏协议版本"
+    player: "你的游戏协议版本是: %s"
