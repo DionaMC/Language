@@ -257,7 +257,7 @@ commands:
     healed: "你已经被恢复了!"
   enchant:
     usage: "用法: /enchant"
-    description: "附魔一个物品"
+    description: "打开附魔gui"
   potion:
     usage: "用法: /potion"
     description: "获得一个药水"
