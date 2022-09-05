@@ -143,7 +143,6 @@ messages:
     self: "你不能给自己发送传送请求!"
   command-cooldown: "你使用指令的速度太快了! 请稍后再试!"
   no-permission: "你没有权限这样做!"
-  player-only: "这个指令只有玩家才能使用!"
   player-not-found: "玩家 %s 不存在或不在线!"
   welcome:
     new-player:
