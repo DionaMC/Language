@@ -257,10 +257,10 @@ commands:
     healed: "你已经被恢复了!"
   enchant:
     usage: "用法: /enchant"
-    description: "打开附魔gui"
+    description: "打开附魔GUI"
   potion:
     usage: "用法: /potion"
-    description: "获得一个药水"
+    description: "打开药水GUI"
   tpa:
     usage: "用法: /tpa <玩家>"
     description: "请求传送到指定玩家"
