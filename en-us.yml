@@ -144,7 +144,6 @@ messages:
     self: "You can't request a teleport to yourself!"
   command-cooldown: "You are using this command too fast! Please calm down!"
   no-permission: "You don't have permission to do this!"
-  player-only: "This command can only be used by players!"
   player-not-found: "Player %s not found or not online!"
   welcome:
     new-player:
