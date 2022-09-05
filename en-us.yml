@@ -65,7 +65,7 @@ gui:
     allowat:
       name: "AllowAT"
       description:
-        - "&fAllow other players to at you in chat"
+        - "&fAllow other players to mention you in chat"
   warp:
     title: "Warp menu"
     world: "World"
@@ -115,9 +115,9 @@ messages:
     expired: "Your teleport request has expired!"
     ignored: "You can't request a teleport to this player!"
     no-request:
-      to-accept: "You don't have teleport request to accept!"
-      to-deny: "You don't have teleport request to deny!"
-      to-cancel: "You don't have teleport request to cancel!"
+      to-accept: "No teleport requests to accept!"
+      to-deny: "No teleport requests to deny!"
+      to-cancel: "No teleport requests to cancel!"
     request:
       requester: "Teleport request sent to %s."
       receiver:
@@ -219,7 +219,7 @@ commands:
     description: "Change settings"
   warp:
     usage: "Usage: /warp <warp name>"
-    description: "Teleport to a warp"
+    description: "Teleport to a warp point"
     not-found: "Warp %s not found!"
   discord:
     usage: "Usage: /discord"
@@ -280,7 +280,7 @@ commands:
   give:
     usage: "Usage: /give <item> [amount]"
     description: "Give you the item(s)"
-    invalid-amount: "Invalid item amount! Please enter a integer value!"
+    invalid-amount: "Invalid item amount! Please enter an integer value!"
     blacklisted: "This item is blacklisted!"
   filter:
     usage: "Usage: /fs"
@@ -299,7 +299,7 @@ commands:
     flymode: "Fly mode: "
   tp:
     usage: "Usage: /tp <player> [player]"
-    description: "Teleport to the specified player"
+    description: "Teleport to a specified player"
   gamemode:
     usage: "Usage: /gamemode <mode>"
     description: "Change your gamemode"
