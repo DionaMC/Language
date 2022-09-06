@@ -1,0 +1,311 @@
+name: "en-us"
+languageName: English
+
+contributors:
+  - "Shiiro"
+
+aliases:
+  - "de"
+  - "deutsch"
+  - "german"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/1a254168add287ab7bc8ff3470b3321db73e715979e0f4ef0e4a0b3953f36208"
+  lore:
+    - "&7Aender deine sprache zu Deutsch"
+    - ""
+    - "&7Contributors:"
+    - "%contributors%"
+    - ""
+    - "&6Klick um die Sprache zu aendern!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  kick: "Kick: "
+  damage: "Schaden: "
+  hunger: "Hunger: "
+
+gui:
+  language:
+    title: "Sprachen menu"
+  anticheat:
+    title: "Anticheats menu"
+    disabled: "Deaktiviert"
+    version: "Version"
+    author: "Author(en)"
+    description: "Beschreibung"
+  setting:
+    title: "Settings menu"
+    status: "Status"
+    mode: "Modus"
+    description: "Beschreibung"
+    flag:
+      name: "Flag"
+      description:
+        - "&fAnticheat flags anzeigen"
+    flagmode:
+      name: "Flag Modus"
+      description:
+        - "&fSet the flag mode"
+        - "&bVerfuegbare Modi:"
+        - "   &7▪ &fCHAT: flags im Chat anzeigen"
+        - "   &7▪ &fACTIONBAR: flags in der ActionBar anzeigen"
+    kick:
+      name: "Kick"
+      description:
+        - "&fEnable/disable kick"
+    damage:
+      name: "Schaden"
+      description:
+        - "&fAktiviere/Dektiviere Schaden"
+    hunger:
+      name: "Hunger"
+      description:
+        - "&fAktiviere/Dektiviere hunger"
+    allowat:
+      name: "Narkierungen Erlauben"
+      description:
+        - "&fErlaube es anderen Spielern dich im Chat zu markieren"
+  warp:
+    title: "Warp menu"
+    world: "Welt"
+  enchant:
+    title: "Verzauberungs menu"
+    no-enchant: "Es gibt keine Verzauberungen fuer dieses Item"
+    put-item: "Tu das Item in den Leeren Slot auf der linken Seite"
+    level: "Level"
+    left-click: "Links Klick"
+    right-click: "Rechts Klick"
+    add-enchant: "Verzauberung hinzufuegen"
+    remove-enchant: "Verzauberung entfernen"
+    upgrade-enchant: "Verzauberung upgraden"
+    downgrade-enchant: "Verzauberung downgraden"
+    incompatible: "Nicht kompatible Verzauberung"
+    fix-item: "Item reparieren"
+    remove-all-enchant: "Alle Verzauberungen entfernen"
+    unbreakable: "Unkaputtbar"
+  potion:
+    title: "Traenke menu"
+  filter:
+    title: "Filter system"
+    empty: "Leer"
+    reset: "Filtersystem zuruecksetzen"
+    next-page: "Naechste Seite"
+    previous-page: "Vorherige Seite"
+    page: "Seite: "
+    search: "Suche"
+    cancel-search: "Suche abbrechen"
+    back: "Zurueck"
+    type: "Typ"
+  search:
+    title: "Such menu"
+    item: "Suche"
+
+messages:
+  message:
+    sender: "&7[&fich &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fich&7] &f%s"
+  chat:
+    mute: "Du bist gestummt!"
+    unmute: "Du bist entstummt!"
+    no-permission-at: "Du hast nicht die noetigen Berechtigungen um diesen zu markieren!"
+    no-permission-at-everyone: "Du hast nicht die noetigen Berechtigungen um jeden zu markieren!"
+  teleport:
+    success: "Teleport abgeschlossen!"
+    expired: "Deine Teleportanfrage ist abgelaufen!"
+    ignored: "Du kannst diesem Spieler keine anfrage zum teleportieren schicken!"
+    no-request:
+      to-accept: "Keine Teleportanfragen zum annehmen!"
+      to-deny: "Keine Teleportanfragen zum ablehnen!"
+      to-cancel: "Keine Teleportanfragen zum abbrechen!"
+    request:
+      requester: "Teleportanfragen an %s gesendet."
+      receiver:
+        normal: "%s hat angefragt sich zu dir zu teleportieren."
+        here: "%s hat angefragt dich zu sich zu teleportieren."
+    timeout:
+      requester: "Deine Teleportanfragen an %s ist abgelaufen!"
+      receiver: "%s's Teleportanfragen an dich ist abgelaufen!"
+    cancelled:
+      requester: "Deine Teleportanfragen an %s wurde abgebrochen!"
+      receiver: "%s's Teleportanfragen an dich ist abgelaufen!!"
+    denied:
+      requester: "%s hat deine Teleportanfragen abgelehnt!"
+      receiver: "Du hast %s's Teleportanfragen abgelehnt!"
+    accepted:
+      requester: "%s hat deine Teleportanfragen angenommen! Teleortiere..."
+      receiver: "Du hast %s's Teleportanfragen angenommen! Teleortiere..."
+    type:
+      cancel: "Um die Teleportanfragen abzubrechen, gebe /tpacancel ein"
+      accept: "Um die Teleportanfragen anzunehmen, gebe /tpaccept ein"
+      deny: "Um die Teleportanfragen abzulehnen, gebe /tpdeny ein"
+    already-requested: "Du hast %s bereits eine Teleportanfragen geschickt! Gib /tpacancel ein um diese abzubrechen."
+    not-online: "Spieler %s ist nicht online!"
+    self: "Du kannst keine Teleportanfragen an dich selbst schicken!"
+  command-cooldown: "Du benutzt diesen Befehl zu schnell!"
+  no-permission: "DU hast nicht die noetigen rechte diesen Befehl einzugeben!"
+  player-not-found: "Spieler %s nicht gefunden!"
+  welcome:
+    new-player:
+      - "Hallo! Wilkommen auf Loyisa's test server!"
+      - "Auf diesem Server kannst zu AntiCheats testen und mitten drin wechseln!"
+      - "Benutze /ac um das AntiCheat zu wechseln"
+      - "Benutze /lang um deine Sprache zu aendern"
+      - "Bitte gibt /help fuer eine weitere auflistung von Befehlen ein!"
+      - "Viel Spass!"
+    old-player:
+      - "Hi! es sind %s Tage seit deinem letzten login vergangen!"
+      - "Wilkommen zurueck!"
+
+  anticheat:
+    disabled: "Anticheat %s wurde deaktiviert!"
+    dev-only: "Anticheat %s ist nur fuer Developer freigegeben!"
+    cant-use-with-others: "Anticheat %s kann nicht mit anderen Anticheats genutzt werden!"
+    must-use-with-others: "Anticheat %s muss mit anderen Anticheats kombiniert werden!"
+    amount-limit: "Du kannst nicht mehr als %s Anticheats zur selben Zeit benutzen!"
+    selected: "Du hast %s ausgewaehlt"
+    not-found: "Anticheat %s wurde nicht gefunden!"
+
+  itemcleaner:
+    countdown: "Alle Item auf dem Boden werden in %s Sekunden geloescht!"
+    cleaned: "%s items have been cleaned!"
+
+  scaffoldcleaner:
+    countdown: "Die Scaffold Bereiche werden in %s Sekunden geleert!"
+
+  breaktest:
+    broken: "Du hast %s zerstoert!"
+
+  damagetest:
+    damage: "Erwarteter Schaden: %s  Wirklicher Schaden: %s"
+
+  speedtest:
+    timeout: "Dein Geschwindigkeitstest ist abgelaufen!"
+    not-found: "Geschwindigkeitstest %s wurde nicht gefunden!"
+    already-in-use: "Diese Geschwindigkeitstest wird gerade schon genutzt!"
+    terminated: "Dein Geschwindigkeitstest wurde geloescht!"
+    already-in-speedtest: "Du bist bereits in einem Geschwindigkeitstest!"
+    result: "Deine geschwindigkeit ist %s/s"
+    faster: "Du bist %s schneller als vanilla sprint-jumping!"
+    slower: "Du bist %s langsamer als vanilla sprint-jumping!"
+
+commands:
+  anticheat:
+    usage: "Benutzung: /ac [anticheat|ac ac ...]"
+    description: "Switch anticheats"
+  health:
+    usage: "Benutzung: /health <anzahl>"
+    description: "Aendern deinen Gesundheitsbetrag"
+    updated: "Deine Gesundheit wurde geaendert!"
+    invalid-value: "Ungueltiger Gesundheitsbetrag! bitte gib einen Integer Betrag ein!"
+    error-value: "Der Betrag muss zwischen 0 und %s liegen!"
+  hunger:
+    usage: "Benutzung: /hunger <anzahl>"
+    description: "Aendern deinen Hungerbetrag"
+    updated: "Deine Hungerbetrag wurde geaendert!"
+    invalid-value: "Ungueltiger Hungerbetrag! bitte gib einen Integer Betrag ein!"
+    error-value: "Der Betrag muss zwischen 0 und %s liegen!"
+  ip:
+    usage: "Benutzung: /ip"
+    description: "Gibt deine IP-Adresse aus"
+    player: "Deine IP ist %s"
+  language:
+    usage: "Benutzung: /language [sprache]"
+    description: "Aendert deine Sprache"
+    changed: "Deine Sprache wurde zu %s geaendert!"
+    not-found: "Die Sprache %s wurde nicht gefunden!"
+  setting:
+    usage: "Benutzung: /setting"
+    description: "Hier kannst du deine Einstellungen aendern"
+  warp:
+    usage: "Benutzung: /warp <warp name>"
+    description: "Teleportiere dich zu einem warp punkt"
+    not-found: "Warp %s wurde nicht gefunden!"
+  discord:
+    usage: "Benutzung: /discord"
+    description: "Zeigt den Discord Link"
+    message: "Discord link: %s"
+  help:
+    usage: "Benutzung: /help [seite]"
+    description: "Zeigt Hilfe"
+    help-page: "Hilfe seite:"
+    command: "Befehl: "
+    description-cmd: "Beschreibung: "
+    usage-cmd: "Benutzung: "
+    invalid-number: "Ungueltiger Seitennummer!"
+  ping:
+    usage: "Benutzung: /ping"
+    description: "Zeigt deinen ping und behebt diesen(falls dieser nicht normal ist)"
+    message: "Dein Ping ist %sms"
+    abnormal: "Dein Ping ist nicht normal! Behebung..."
+  message:
+    usage: "Benutzung: /msg <spieler> <nachricht>"
+    description: "Sendet eine Nachricht an einen Spieler"
+    self-message: "Du kannst dir nicht selbst schreiben!"
+    ignored: "Du kannst diesen Spieler nicht anschreiben!"
+  reply:
+    usage: "Benutzung: /reply <nachricht>"
+    description: "Antwortet der letzten person"
+    not-target: "Du hast niemandem den du antworten kannst!"
+    target-not-online: "Spieler %s ist nicht online!"
+  spawn:
+    usage: "Benutzung: /spawn"
+    description: "Teleportiert dich zum Spawn"
+    not-initialized: "Es gibt keinen Spawnpunkt! Bitte erstelle ein Warp mit dem namen 'spawn'!"
+  heal:
+    usage: "Benutzung: /heal"
+    description: "Heilt unt fuettert dich"
+    healed: "Du wurdest geheilt!"
+  enchant:
+    usage: "Benutzung: /enchant"
+    description: "Verzaubert ein Item"
+  potion:
+    usage: "Benutzung: /potion"
+    description: "Bekomme einen Trank"
+  tpa:
+    usage: "Benutzung: /tpa <player>"
+    description: "Sende eine Teleportanfrage an einen Spieler"
+  tpahere:
+    usage: "Benutzung: /tpahere <player>"
+    description: "Sende eine Teleportanfrage an einen spieler um diesen zu dir zu teleportieren"
+  tpacancel:
+    usage: "Benutzung: /tpacancel"
+    description: "Bricht eine Teleportanfrage ab"
+  tpaccept:
+    usage: "Benutzung: /tpaccept"
+    description: "Nimmt eine Teleportanfrage an"
+  tpdeny:
+    usage: "Benutzung: /tpdeny"
+    description: "Lehnt eine Teleportanfrage ab"
+  give:
+    usage: "Benutzung: /give <item> [anzahl]"
+    description: "Gibt dir das gewahlte Item"
+    invalid-amount: "Ungueltige Item Anzahl! Bitte gebe eine Integer anzahl ein!"
+    blacklisted: "Dieses Item kannst du dir nicht geben!"
+  filter:
+    usage: "Benutzung: /fs"
+    description: "Bukkit Event/ProtocolLib Packet Filter System"
+  kill:
+    usage: "Benutzung: /kill [spieler]"
+    description: "Toetet dich oder andere Spieler"
+    self: "Auf Wiedersehen grausame Welt :(..."
+    success: "Killed %s"
+  clear:
+    usage: "Benutzung: /clear"
+    description: "Entfernt alle Items aus deinem Inventar"
+  fly:
+    usage: "Benutzung: /fly"
+    description: "Fliegen bis zum Mond"
+    flymode: "Fly modus: "
+  tp:
+    usage: "Benutzung: /tp <spieler> [spieler]"
+    description: "Teleportiert dich zu einem gewissen Spieler"
+  gamemode:
+    usage: "Benutzung: /gamemode <modus>"
+    description: "Aendert deinen Gamemode"
+    invalid-mode: "Ungueltiger Gamemode: %s"
+    success: "Dein Gamemode wurde zu %s geaendert!"
+  gameprotocol:
+    usage: "Benutzung: /protocol"
+    description: "Zeigt dein Spielprotokoll an"
+    player: "Dein Protokoll ist %s"
