@@ -14,7 +14,7 @@ skullItem:
   lore:
     - "&7Aender deine sprache zu Deutsch"
     - ""
-    - "&7Contributors:"
+    - "&7Mitwirkende:"
     - "%contributors%"
     - ""
     - "&6Klick um die Sprache zu aendern!"
@@ -29,13 +29,13 @@ gui:
   language:
     title: "Sprachen menu"
   anticheat:
-    title: "Anticheats menu"
+    title: "Anticheat menu"
     disabled: "Deaktiviert"
     version: "Version"
     author: "Author(en)"
     description: "Beschreibung"
   setting:
-    title: "Settings menu"
+    title: "Einstellungs menu"
     status: "Status"
     mode: "Modus"
     description: "Beschreibung"
@@ -46,14 +46,14 @@ gui:
     flagmode:
       name: "Flag Modus"
       description:
-        - "&fSet the flag mode"
+        - "&fSetz den Flag Modus"
         - "&bVerfuegbare Modi:"
         - "   &7▪ &fCHAT: flags im Chat anzeigen"
         - "   &7▪ &fACTIONBAR: flags in der ActionBar anzeigen"
     kick:
       name: "Kick"
       description:
-        - "&fEnable/disable kick"
+        - "&fAktiviere/Dektiviere kicks"
     damage:
       name: "Schaden"
       description:
@@ -143,7 +143,7 @@ messages:
     not-online: "Spieler %s ist nicht online!"
     self: "Du kannst keine Teleportanfragen an dich selbst schicken!"
   command-cooldown: "Du benutzt diesen Befehl zu schnell!"
-  no-permission: "DU hast nicht die noetigen rechte diesen Befehl einzugeben!"
+  no-permission: "Du hast nicht die noetigen rechte diesen Befehl einzugeben!"
   player-not-found: "Spieler %s nicht gefunden!"
   welcome:
     new-player:
