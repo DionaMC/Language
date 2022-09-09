@@ -154,7 +154,7 @@ messages:
       - "For other commands, please use /help to see all commands!"
       - "Have fun!"
     old-player:
-      - "Hi! it has been %s days since you last login!"
+      - "Hi! it has been %s days since your last login!"
       - "Welcome back!"
 
   anticheat:
@@ -235,13 +235,13 @@ commands:
     invalid-number: "Invalid page number!"
   ping:
     usage: "Usage: /ping"
-    description: "Get your ping and fix your ping(if your ping is abnormal)"
+    description: "Gets your ping and fixes your ping (if your ping is abnormal)"
     message: "Your ping is %sms"
     abnormal: "Your ping is abnormal! Fixing..."
   message:
     usage: "Usage: /msg <player> <message>"
     description: "Send a message to a player"
-    self-message: "You can't send message to yourself!"
+    self-message: "You can't send a message to yourself!"
     ignored: "You can't send message to this player!"
   reply:
     usage: "Usage: /reply <message>"
@@ -295,7 +295,7 @@ commands:
     description: "Clear all items in your inventory"
   fly:
     usage: "Usage: /fly"
-    description: "Fly You to the Moon"
+    description: "Fly you to the moon"
     flymode: "Fly mode: "
   tp:
     usage: "Usage: /tp <player> [player]"
