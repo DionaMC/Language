@@ -1,5 +1,5 @@
 name: "de-de"
-languageName: Deutsch
+languageName: "Deutsch"
 
 contributors:
   - "Shiiro"
@@ -63,9 +63,9 @@ gui:
       description:
         - "&fAktiviere/Dektiviere hunger"
     allowat:
-      name: "Narkierungen Erlauben"
+      name: "Erwaehnungen"
       description:
-        - "&fErlaube es anderen Spielern dich im Chat zu markieren"
+        - "&fErlaube es anderen Spielern dich im Chat zu erwaehnen"
   warp:
     title: "Warp menu"
     world: "Welt"
@@ -93,7 +93,7 @@ gui:
     next-page: "Naechste Seite"
     previous-page: "Vorherige Seite"
     page: "Seite: "
-    search: "Suche"
+,    search: "Suche"
     cancel-search: "Suche abbrechen"
     back: "Zurueck"
     type: "Typ"
@@ -295,7 +295,7 @@ commands:
     description: "Entfernt alle Items aus deinem Inventar"
   fly:
     usage: "Benutzung: /fly"
-    description: "Fliegen bis zum Mond"
+    description: "Sei fly wie ein Plane und so high wie ein Crane"
     flymode: "Fly modus: "
   tp:
     usage: "Benutzung: /tp <spieler> [spieler]"
