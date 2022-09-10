@@ -306,6 +306,6 @@ commands:
     invalid-mode: "Invalid gamemode: %s"
     success: "Your gamemode has been changed to %s!"
   gameprotocol:
-    usage: "Usage: /protocol"
+    usage: "Usage: /gameprotocol"
     description: "Get your game protocol"
     player: "Your Protocol is %s"

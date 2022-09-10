@@ -303,6 +303,6 @@ commands:
     invalid-mode: "Mode de jeu invalide: %s"
     success: "Votre mode de jeu est désormais %s!"
   gameprotocol:
-    usage: "Utilisation: /protocol"
+    usage: "Utilisation: /gameprotocol"
     description: "Affiche la version actuel de votre jeu"
     player: "Vous utilisez actuellement la version %s"
