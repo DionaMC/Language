@@ -93,7 +93,7 @@ gui:
     next-page: "Naechste Seite"
     previous-page: "Vorherige Seite"
     page: "Seite: "
-,    search: "Suche"
+    search: "Suche"
     cancel-search: "Suche abbrechen"
     back: "Zurueck"
     type: "Typ"
