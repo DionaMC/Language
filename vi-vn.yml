@@ -197,7 +197,7 @@ commands:
     usage: "Cách sử dụng: /health <số lượng>"
     description: "Đổi giá trị máu của bạn"
     updated: "Máu của bạn đã được cập nhật!"
-    invalid-value: "Lượng máu không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
+    invalid-value: "Giá trị máu không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
     error-value: "Giá trị phải giữa 0 và %s!"
   hunger:
     usage: "Cách sử dụng: /hunger <số lượng>"
