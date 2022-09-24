@@ -112,34 +112,34 @@ messages:
     no-permission-at-everyone: "Bạn không được phép đề cập mọi người!"
   teleport:
     success: "Hoàn thành dịch chuyển!"
-    expired: "Lời yêu cầu dịch chuyển của bạn đã hết hạn!"
+    expired: "Yêu cầu dịch chuyển của bạn đã hết hạn!"
     ignored: "Bạn không thể gửi yêu cầu dịch chuyển tới người chơi này!"
     no-request:
-      to-accept: "Không có lời yêu cầu dịch chuyển nào để chấp nhận!"
-      to-deny: "Không có lời yêu cầu dịch chuyển nào để từ chối!"
-      to-cancel: "Không có lời yêu cầu dịch chuyển nào để hủy!"
+      to-accept: "Không có yêu cầu dịch chuyển nào để chấp nhận!"
+      to-deny: "Không có yêu cầu dịch chuyển nào để từ chối!"
+      to-cancel: "Không có yêu cầu dịch chuyển nào để hủy!"
     request:
-      requester: "Lời yêu cầu dịch chuyển đã gửi tới %s."
+      requester: "Yêu cầu dịch chuyển đã gửi tới %s."
       receiver:
         normal: "%s đã yêu cầu dịch chuyển tới bạn."
         here: "%s đã yêu cầu dịch chuyển bạn tới họ."
     timeout:
-      requester: "Lời yêu cầu dịch chuyển tới %s của đã hết hạn!"
-      receiver: "Lời yêu cầu dịch chuyển của %s tới bạn đã hết hạn!"
+      requester: "Yêu cầu dịch chuyển tới %s của đã hết hạn!"
+      receiver: "Yêu cầu dịch chuyển của %s tới bạn đã hết hạn!"
     cancelled:
-      requester: "Lời yêu cầu dịch chuyển tới %s của đã bị hủy!"
-      receiver: "Lời yêu cầu dịch chuyển của %s tới bạn đã bị hủy!"
+      requester: "Yêu cầu dịch chuyển tới %s của đã bị hủy!"
+      receiver: "Yêu cầu dịch chuyển của %s tới bạn đã bị hủy!"
     denied:
-      requester: "%s đã từ chối lời yêu cầu dịch chuyển!"
-      receiver: "Bạn đã từ chối lời yêu cầu dịch chuyển của %s's!"
+      requester: "%s đã từ chối yêu cầu dịch chuyển!"
+      receiver: "Bạn đã từ chối yêu cầu dịch chuyển của %s's!"
     accepted:
-      requester: "%s đã chấp nhận lời yêu cầu dịch chuyển của bạn! Đang dịch chuyển..."
-      receiver: "Bạn đã chấp nhân lời yêu cầu dịch chuyển của %s's! Đang dịch chuyển..."
+      requester: "%s đã chấp nhận yêu cầu dịch chuyển của bạn! Đang dịch chuyển..."
+      receiver: "Bạn đã chấp nhân yêu cầu dịch chuyển của %s's! Đang dịch chuyển..."
     type:
-      cancel: "Để hủy lời yêu cầu dịch chuyển, ghi /tpacancel"
+      cancel: "Để hủy yêu cầu dịch chuyển, ghi /tpacancel"
       accept: "Để dịch chuyển, ghi /tpaccept"
-      deny: "Để từ chối lời yêu cầu dịch chuyển, ghi /tpdeny"
-    already-requested: "Bạn đã gừi lời yêu cầu dịch chuyển tới %s! Ghi /tpacancel để hủy."
+      deny: "Để từ chối yêu cầu dịch chuyển, ghi /tpdeny"
+    already-requested: "Bạn đã gừi yêu cầu dịch chuyển tới %s! Ghi /tpacancel để hủy."
     not-online: "Người chơi %s đang không hoạt động!"
     self: "Bạn không thể gửi yêu cầu dịch chuyển tới chính bạn!"
   command-cooldown: "Bạn đang sử dụng lênh này quá nhanh! Xin hãy từ từ!"
