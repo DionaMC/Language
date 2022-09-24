@@ -1,0 +1,311 @@
+name: "vi-vn"
+languageName: Vietnamese
+
+contributors:
+  - "SonThanhVN"
+
+
+aliases:
+  - "vi"
+  - "vietnamese"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/d136f05feb3e971bea900ee75aeab03ccc754fab2f98d5a15a250ecae0c65a85"
+  lore:
+    - "&7Chuyển sang tiếng Việt"
+    - ""
+    - "&7những người đóng góp:"
+    - "%contributors%"
+    - ""
+    - "&6Bấm vào đây để đổi ngôn ngữ!"
+
+scoreboard:
+  title: "Server thử nghiệm của Loyisa"
+  kick: "Kick: "
+  damage: "Sát thương: "
+  hunger: "Đói: "
+
+gui:
+  language:
+    title: "Bảng ngôn ngữ"
+  anticheat:
+    title: "Bảng anticheat"
+    disabled: "Tắt"
+    version: "Phiên bản"
+    author: "(Những) người sáng lập"
+    description: "Mô tả"
+  setting:
+    title: "Bảng điều khiển"
+    status: "Trạng thái"
+    mode: "Chế độ"
+    description: "Mô tả"
+    flag:
+      name: "Flag"
+      description:
+        - "&fHiện flag anticheat"
+    flagmode:
+      name: "chế độ Flag"
+      description:
+        - "&fThiết lập chế độ Flag"
+        - "&bNhững chế độ có sẵn:"
+        - "   &7▪ &fCHAT: hiện Flag ở Chat"
+        - "   &7▪ &fACTIONBAR: hiện Flag ở Actionbar"
+    kick:
+      name: "Kick"
+      description:
+        - "&fBật/Tắt kick"
+    damage:
+      name: "Sát thương"
+      description:
+        - "&fBật/Tắt Sát thương"
+    hunger:
+      name: "Đói"
+      description:
+        - "&fBật/Tắt đói"
+    allowat:
+      name: "Đề cập"
+      description:
+        - "&fCho phép những người chơi khác đề cập bạn"
+  warp:
+    title: "Bảng Warp"
+    world: "Thế Giới"
+  enchant:
+    title: "Bảng phù phép"
+    no-enchant: "Không có phù phép nào cho vật phẩm này"
+    put-item: "Đặt vật phẩm vào ô trống bên trái"
+    level: "Level"
+    left-click: "Chuột trái"
+    right-click: "Chuột phải"
+    add-enchant: "thêm phù phép"
+    remove-enchant: "xóa phù phép"
+    upgrade-enchant: "nâng cấp phù phép"
+    downgrade-enchant: "hạ cấp phù phép"
+    incompatible: "phù phép không tương thích"
+    fix-item: "Sửa vật phẩm"
+    remove-all-enchant: "xóa tất cả phù phép"
+    unbreakable: "Không thể phá vỡ"
+  potion:
+    title: "Bảng thuốc"
+  filter:
+    title: "Hệ thống lọc"
+    empty: "Trống"
+    reset: "Đặt lại hệ thống lọc"
+    next-page: "Trang tiếp theo"
+    previous-page: "Trang trước"
+    page: "Trang: "
+    search: "Tìm kiếm"
+    cancel-search: "Hủy tìm kiếm"
+    back: "Quay về"
+    type: "Kiểu"
+  search:
+    title: "Bảng tìm kiếm"
+    item: "Tìm kiếm"
+
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Bạn đã bị mute!"
+    unmute: "Bạn đã được unmute!"
+    no-permission-at: "Bạn không được phép đề cập đến người chơi này!"
+    no-permission-at-everyone: "Bạn không được phép đề cập mọi người!"
+  teleport:
+    success: "Hoàn thành dịch chuyển!"
+    expired: "Lời yêu cầu dịch chuyển của bạn đã hết hạn!"
+    ignored: "Bạn không thể gửi yêu cầu dịch chuyển tới người chơi này!"
+    no-request:
+      to-accept: "Không có lời yêu cầu dịch chuyển nào để chấp nhận!"
+      to-deny: "Không có lời yêu cầu dịch chuyển nào để từ chối!"
+      to-cancel: "Không có lời yêu cầu dịch chuyển nào để hủy!"
+    request:
+      requester: "Lời yêu cầu dịch chuyển đã gửi tới %s."
+      receiver:
+        normal: "%s đã yêu cầu dịch chuyển tới bạn."
+        here: "%s đã yêu cầu dịch chuyển bạn tới họ."
+    timeout:
+      requester: "Lời yêu cầu dịch chuyển tới %s của đã hết hạn!"
+      receiver: "Lời yêu cầu dịch chuyển của %s tới bạn đã hết hạn!"
+    cancelled:
+      requester: "Lời yêu cầu dịch chuyển tới %s của đã bị hủy!"
+      receiver: "Lời yêu cầu dịch chuyển của %s tới bạn đã bị hủy!"
+    denied:
+      requester: "%s đã từ chối lời yêu cầu dịch chuyển!"
+      receiver: "Bạn đã từ chối lời yêu cầu dịch chuyển của %s's!"
+    accepted:
+      requester: "%s đã chấp nhận lời yêu cầu dịch chuyển của bạn! Đang dịch chuyển..."
+      receiver: "Bạn đã chấp nhân lời yêu cầu dịch chuyển của %s's! Đang dịch chuyển..."
+    type:
+      cancel: "Để hủy lời yêu cầu dịch chuyển, ghi /tpacancel"
+      accept: "Để dịch chuyển, ghi /tpaccept"
+      deny: "Để từ chối lời yêu cầu dịch chuyển, ghi /tpdeny"
+    already-requested: "Bạn đã gừi lời yêu cầu dịch chuyển tới %s! Ghi /tpacancel để hủy."
+    not-online: "Người chơi %s đang không hoạt động!"
+    self: "Bạn không thể gửi yêu cầu dịch chuyển tới chính bạn!"
+  command-cooldown: "Bạn đang sử dụng lênh này quá nhanh! Xin hãy từ từ!"
+  no-permission: "Bạn không thể làm điều này!"
+  player-not-found: "Người chơi %s không thể tìm thấy hoặc không hoạt động!"
+  welcome:
+    new-player:
+      - "Xin chào! Chào mừng bạn đến với server thử nghiệm của Loyisa!"
+      - "Trong server này, bạn có thể thử nghiệm với các Anticheat và thay đổi chúng trong game!"
+      - "Bạn có thể dùng /ac để đổi Anticheat"
+      - "Bạn có thể dùng /lang để đổi ngôn ngữ"
+      - "Đối với các lệnh khác, xin hãy dùng /help để xem tất cả các lệnh!"
+      - "Chúc vui vẻ!"
+    old-player:
+      - "Xin chào! Đã %s ngày kể từ lần cuối bạn đăng nhập!"
+      - "Chào mừng trở lại!"
+
+  anticheat:
+    disabled: "Anticheat %s đã tắt!"
+    dev-only: "Anticheat %s chỉ có sẵn cho các nhà phát triển!"
+    cant-use-with-others: "Anticheat %s không thể dùng với các Anticheat khác!"
+    must-use-with-others: "Anticheat %s phải được sử dụng với Anticheat khác!"
+    amount-limit: "Bạn không thể sử dụng nhiều hơn %s Anticheat cùng một lúc!"
+    selected: "Bạn đã chọn: %s"
+    not-found: "Không thể tìm thấy %s Anticheat!"
+
+  itemcleaner:
+    countdown: "Tất cả vật phẩm ở dưới đất sẽ bị xóa bỏ trong %s giây!"
+    cleaned: "%s vật phẩm đã bị xóa!"
+
+  scaffoldcleaner:
+    countdown: "Tất cả khu vật Scaffold sẽ được dọn sạch trong %s giây"
+
+  breaktest:
+    broken: "Bạn đã phá được %s!"
+
+  damagetest:
+    damage: "Sát thương dự kiến: %s  Sát thương thật sự: %s"
+
+  speedtest:
+    timeout: "kiểm tra tốc độ của bạn đã hết hạn!"
+    not-found: "phòng kiểm tra tốc độ %s không tìm thấy!"
+    already-in-use: "Phòng kiểm tra tốc độ này đã được sử dụng!"
+    terminated: "kiểm tra tốc độ của bạn đã bị hủy bỏ!"
+    already-in-speedtest: "Bạn đã ở trong phòng kiểm tra tốc độ!"
+    result: "Tốc độ của bạn là %s/s"
+    faster: "Bạn nhanh hơn chạy-nhảy bình thường %s lần!"
+    slower: "Bạn chậm hơn chạy-nhảy bình thường %s lần!"
+
+commands:
+  anticheat:
+    usage: "Cách sử dụng: /ac [anticheat|ac ac ...]"
+    description: "Đổi anticheat"
+  health:
+    usage: "Cách sử dụng: /health <số lượng>"
+    description: "Đổi giá trị máu của bạn"
+    updated: "Máu của bạn đã được cập nhật!"
+    invalid-value: "Lượng máu không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
+    error-value: "Giá trị phải giữa 0 và %s!"
+  hunger:
+    usage: "Cách sử dụng: /hunger <số lượng>"
+    description: "Đổi giá trị đói của bạn"
+    updated: "Độ đói của bạn đã được cập nhật!"
+    invalid-value: "Giá trị đói không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
+    error-value: "Giá trị phải giữa 0 and 20!"
+  ip:
+    usage: "Cách sử dụng: /ip"
+    description: "Lấy địa chỉ IP của bạn"
+    player: "IP của bạn là %s"
+  language:
+    usage: "Cách sử dụng: /language [ngôn ngữ]"
+    description: "Đổi ngôn ngữ của bạn"
+    changed: "Ngôn ngữ của bạn đã được đổi sang %s !"
+    not-found: "Không tìm thấy ngôn ngữ %s!"
+  setting:
+    usage: "Cách sử dụng: /setting"
+    description: "Thay đổi cài đặt"
+  warp:
+    usage: "Cách sử dụng: /warp <tên warp>"
+    description: "Dịch chuyển đến điểm warp"
+    not-found: "Không tìm thấy warp %s!"
+  discord:
+    usage: "Cách sử dụng: /discord"
+    description: "Lấy link discord"
+    message: "Link discord: %s"
+  help:
+    usage: "Cách sử dụng: /help [trang]"
+    description: "Hiện trợ giúp"
+    help-page: "trang trợ giúp:"
+    command: "Lệnh: "
+    description-cmd: "Mô tả: "
+    usage-cmd: "Cách sử dụng: "
+    invalid-number: "số trang không hợp lệ!"
+  ping:
+    usage: "Cách sử dụng: /ping"
+    description: "Lấy và sửa ping của bạn (Nếu ping của bạn bất thường)"
+    message: "Ping của bạn là %sms"
+    abnormal: "Ping của bạn khá bất thường! Đang sửa..."
+  message:
+    usage: "Cách sử dụng: /msg <Người chơi> <Tin nhắn>"
+    description: "Gửi tín nhắn tới người chơi khác"
+    self-message: "Bạn không thể gửi tin nhắn cho chính bạn!"
+    ignored: "Bạn không thể gửi tin nhắn tới người chơi này!"
+  reply:
+    usage: "Cách sử dụng: /reply <message>"
+    description: "Trả lời tin nhắn trước đó"
+    not-target: "Bạn không có tin nhắn để trả lời!"
+    target-not-online: "Người chơi %s đang không hoạt động!"
+  spawn:
+    usage: "Cách sử dụng: /spawn"
+    description: "Dịch chuyển tới spawn"
+    not-initialized: "Khu vực spawn chưa được thiết lập! Xin hãy tạo warp với tên 'spawn'!"
+  heal:
+    usage: "Cách sử dụng: /heal"
+    description: "Hồi máu cho bạn"
+    healed: "Bạn đã được hồi máu!"
+  enchant:
+    usage: "Cách sử dụng: /enchant"
+    description: "Phù phép vật phẩm"
+  potion:
+    usage: "Cách sử dụng: /potion"
+    description: "Lấy thuốc"
+  tpa:
+    usage: "Cách sử dụng: /tpa <người chơi>"
+    description: "Yêu cầu dịch chuyển đến người chơi được chỉ định"
+  tpahere:
+    usage: "Cách sử dụng: /tpahere <người chơi>"
+    description: "Yêu cầu người chơi được chỉ định dịch chuyển đến bạn"
+  tpacancel:
+    usage: "Cách sử dụng: /tpacancel"
+    description: "Hủy yêu cầu dịch chuyển do bạn gửi"
+  tpaccept:
+    usage: "Cách sử dụng: /tpaccept"
+    description: "Chấp nhận yêu cầu dịch chuyển"
+  tpdeny:
+    usage: "Cách sử dụng: /tpdeny"
+    description: "Từ chối yêu cầu dịch chuyển"
+  give:
+    usage: "Cách sử dụng: /give <vật phẩm> [số lượng]"
+    description: "Đưa bạn vật phẩm"
+    invalid-amount: "Số lượng vật phẩm không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
+    blacklisted: "Vật phẩm này bị cấm!"
+  filter:
+    usage: "Cách sử dụng: /fs"
+    description: "Bukkit Event/ProtocolLib Packet Filter system"
+  kill:
+    usage: "Cách sử dụng: /kill [người chơi]"
+    description: "Giết bạn hoặc người chơi khác"
+    self: "Tạm biệt thế giới tàn ác..."
+    success: "Đã giết %s"
+  clear:
+    usage: "Cách sử dụng: /clear"
+    description: "Xóa tất cả vật phẩm trong túi đồ của bạn"
+  fly:
+    usage: "Cách sử dụng: /fly"
+    description: "Bật chế độ bay lên, bật chế độ bay lên"
+    flymode: "Chế độ bay: "
+  tp:
+    usage: "Cách sử dụng: /tp <người chơi> [người chơi]"
+    description: "Dịch chuyển đến một người chơi cụ thể"
+  gamemode:
+    usage: "Cách sử dụng: /gamemode <chế độ>"
+    description: "thay đổi chế độ chơi"
+    invalid-mode: "chế độ chơi không hợp lệ: %s"
+    success: "Chế độ chơi của bạn đã chuyển qua %s!"
+  gameprotocol:
+    usage: "Cách sử dụng dụng: /gameprotocol"
+    description: "Lấy phiên bản game của bạn"
+    player: "Phiên bản của bạn là %s"
