@@ -291,7 +291,7 @@ commands:
     success: "%s is Vermoord"
   clear:
     usage: "Gebruikswijze: /clear"
-    description: "Verwijder alle voorwerpen van je invetaris"
+    description: "Verwijder alle voorwerpen van je inventaris"
   fly:
     usage: "Gebruikswijze: /fly"
     description: "Vlieg naar de maan"
