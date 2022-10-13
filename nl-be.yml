@@ -1,0 +1,310 @@
+name: "nl-be"
+languageName: Nederlands
+
+contributors:
+  - "Gamerb.class"
+
+aliases:
+  - "nl"
+  - "Nederlands"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/eee1e86fd1d3dbe5c78615930f563bfed7d9cc269cd5701d69801eebc7fdb4c7"
+  lore:
+    - "&7Verander je taal naar Nederlands"
+    - ""
+    - "&7Contributors:"
+    - "%contributors%"
+    - ""
+    - "&6klik om te veranderen naar jouw taal!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  kick: "Kick: "
+  damage: "Schade: "
+  hunger: "Honger: "
+
+gui:
+  language:
+    title: "Taal menu"
+  anticheat:
+    title: "Anticheat menu"
+    disabled: "Gedeactiveerd"
+    version: "Version"
+    author: "Author(s)"
+    description: "Beschrijving"
+  setting:
+    title: "Instellingen menu"
+    status: "Toestand"
+    mode: "Modus"
+    description: "Beschrijving"
+    flag:
+      name: "Flag"
+      description:
+        - "&fAnticheat flags laten zien"
+    flagmode:
+      name: "Flag modus"
+      description:
+        - "&fZet de flag Modus"
+        - "&bVerkrijgbare modes:"
+        - "   &7▪ &fCHAT: flags laten zien in de chat"
+        - "   &7▪ &fACTIEBAR: flags laten zien in de ActieBar"
+    kick:
+      name: "Kick"
+      description:
+        - "&fActiveer/deactiveer kick"
+    damage:
+      name: "Schade"
+      description:
+        - "&fActiveer/deactiveer damage"
+    hunger:
+      name: "Honger"
+      description:
+        - "&fActiveer/deactiveer hunger"
+    allowat:
+      name: "PingToestaan"
+      description:
+        - "&fSta toe dat mensen je taggen in de chat" 
+  warp:
+    title: "Teleporteer menu"
+    world: "Wereld"
+  enchant:
+    title: "Betover menu"
+    no-enchant: "Geen betoveringen mogelijk voor dit voorwerp"
+    put-item: "Leg het voorwerp in het lege vak aan de linkerkant"
+    level: "Level"
+    left-click: "Linker muisknop"
+    right-click: "Rechter muisknop"
+    add-enchant: "Voeg een betovering toe"
+    remove-enchant: "Verwijder een betovering"
+    upgrade-enchant: "Verbeter een betovering"
+    downgrade-enchant: "Verslechter een betovering"
+    incompatible: "Onverenigbare betovering"
+    fix-item: "Repareer een voorwerp"
+    remove-all-enchant: "Verwijder alle betoveringen"
+    unbreakable: "Onbreekbaar"
+  potion:
+    title: "Toverdrank menu"
+  filter:
+    title: "Filter systeem"
+    empty: "Leeg"
+    reset: "Reset filter systeem"
+    next-page: "Volgende pagina"
+    previous-page: "Vorige pagina"
+    page: "Pagina: "
+    search: "Zoek"
+    cancel-search: "Anuleer zoeken"
+    back: "Terug"
+    type: "Type"
+  search:
+    title: "Zoek menu"
+    item: "Zoek"
+
+messages:
+  message:
+    sender: "&7[&fik &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fik&7] &f%s"
+  chat:
+    mute: "Jij bent gestomt!"
+    unmute: "Jij bent niet meer gestomt!"
+    no-permission-at: "Jij hebt geen toestemming om @ speler te doen!" 
+    no-permission-at-everyone: "Jij hebt geen toestemming om @iedereen te doen!"
+  teleport:
+    success: "Teleporteren compleet!"
+    expired: "Jouw teleportatie verzoek is verlopen!" 
+    ignored: "Jij kan niet deze spelet verzoeken om te teleporteren!" 
+    no-request:
+      to-accept: "Geen teleportatie verzoeken om te accepteren!" 
+      to-deny: "Geen teleportatie verzoeken om te ontkennen !"
+      to-cancel: "Geen teleportatie verzoeken om te annuleren!"
+    request:
+      requester: "Teleportatie verzoek verzonden %s."
+      receiver:
+        normal: "%s heeft verzocht om naar jouw te teleporteren." 
+        here: "%s heeft verzocht om naar hem te teleporteren."
+    timeout:
+      requester: "Jouw teleportatie verzoek naar %s is verlopen!"  
+      receiver: "%s's Teleportatie verzoek naar jouw is verlopen!" 
+    cancelled:
+      requester: "Jouw teleportatie verzoek naar %s is geannuleerd!"  
+      receiver: "%s's Teleportatie verzoek naar jouw is geannuleerd!"
+    denied:
+      requester: "%s ontkende jouw teleportatie verzoek!" 
+      receiver: "Jij ontkende %s's teleportatie verzoek!"  
+    accepted:
+      requester: "%s Accepteerde jouw teleportatie verzoek! Teleporteren..." 
+      receiver: "Jij accepteerde %s's teleportatie verzoek! Teleporteren..." 
+    type:
+      cancel: "Om een teleportatie verzoek te annuleren, type /tpacancel" 
+      accept: "Om te teleporteren, type /tpaccept" 
+      deny: "Om het teleportatie verzoek af te wijzen, type /tpdeny"
+    already-requested: "Je hebt al een teleportatie verzoek verzonden naar %s! Type /tpacancel om het te annuleren." 
+    not-online: "Speler %s is niet online!"
+    self: "Je kan jezelf geen teleportatie verzoek sturen!"
+  command-cooldown: "Je gebruikt deze command te vlug! Alstublieft afkoelen!"
+  no-permission: "Je hebt geen toegang om dit te doen!"
+  player-not-found: "Speler %s is niet gevonden of niet online!"
+  welcome:
+    new-player:
+      - "Hallo! Welkom op de Loyisa's test server!" 
+      - "In deze server, kan je anticheat's testen en wisselen in het spel!"
+      - "Je kan /ac gebruiken om van anticheat te wisselen"
+      - "Je kan /lang gebruiken om van taal te wisselen"
+      - "Voor andere commando's, gebruik /help om ze allemaal te zien!"
+      - "Veel Plezier!"
+    old-player:
+      - "Hoi! Het is %s dagen geleden sinds dat je de laatste keer hebt ingelogt!"
+      - "Welkom terug!"
+
+  anticheat:
+    disabled: "Anticheat %s is nu uitgeschakelt!"
+    dev-only: "Anticheat %s is alleen toegankelijk voor developers!"
+    cant-use-with-others: "Anticheat %s kan niet worden gebruikt met andere anticheat's!"
+    must-use-with-others: "Anticheat %s moet worden gebruikt met andere anticheat's!"
+    amount-limit: "Je kan niet meer dan %s anticheat's op het zelfde moment gebruiken!"
+    selected: "Je hebt geselecteerd: %s"
+    not-found: "Anticheat %s is niet gevonden!"
+
+  itemcleaner:
+    countdown: "Alle spullen op de grond worden opgeruimd in %s seconden!"
+    cleaned: "%s spullen zijn opgeruimd!"
+
+  scaffoldcleaner:
+    countdown: "Alle scaffold plekken worden opgeruimd in %s seconden!"
+
+  breaktest:
+    broken: "Je hebt dit gebroken %s!"
+
+  damagetest:
+    damage: "Verwachtte schade: %s  Gekregen schade: %s"
+
+  speedtest:
+    timeout: "Your SpeedTest has timed out!"
+    not-found: "SnelheidsTest kamer %s is niet gevonden!"
+    already-in-use: "Deze SnelheidsTest kamer is al in gebruik!"
+    terminated: "Deze SnelheidsTest zla worden geannuleerd!"
+    already-in-speedtest: "Je bent al in een SnelheidsTest kamer!"
+    result: "Jouw snelheid is %s/s"
+    faster: "Jij bent %s sneller dan normaal sprinten en springen!"
+    slower: "Jij bent %s slomer dan normaal sprinten en springen!"
+
+commands:
+  anticheat:
+    usage: "Gebruikswijze: /ac [anticheat|ac ac ...]"
+    description: "Verander anticheat's"
+  health:
+    usage: "Gebruikswijze: /health <amount>"
+    description: "Verander je levens aantal"
+    updated: "Jouw levens zijn veranderd!"
+    invalid-value: "Ongeldig levens aantal! Vul Alstublieft een heel getal in!"
+    error-value: "Het getal moet tussen 0 en %s liggen!"
+  hunger:
+    usage: "Gebruikswijze: /hunger <aantal>"
+    description: "Verandert jouw hongers aantal"
+    updated: "Jouw honger is geüpdatet!"
+    invalid-value: "Ongeldig honger aantal! vul alstublieft een heel getal in!"
+    error-value: "Het getal moet tussen de 0 en 20 zijn!"
+  ip:
+    usage: "Gebruikswijze: /ip"
+    description: "Krijg jouw IP address"
+    player: "Jouw IP is %s"
+  language:
+    usage: "Gebruikswijze: /language [taal]"
+    description: "Verander jouw taal"
+    changed: "Jouw taal is veranderd naar %s !"
+    not-found: "de taal %s is niet gevonden!"
+  setting:
+    usage: "Gebruikswijze: /setting"
+    description: "Verander instellingen"
+  warp:
+    usage: "Gebruikswijze: /warp <plaats naam>"
+    description: "Teleporteer naar een plaats punt"
+    not-found: "Plaats %s is niet gevonden!"
+  discord:
+    usage: "Gebruikswijze: /discord"
+    description: "krijg de discord link"
+    message: "Discord link: %s"
+  help:
+    usage: "Gebruikswijze: /help [pagina nummer]"
+    description: "Laat help menu zien"
+    help-page: "Help pagina:"
+    command: "Command: "
+    description-cmd: "Beschrijving: "
+    usage-cmd: "Gebruikswijze: "
+    invalid-number: "Ongeldig pagina nummer!"
+  ping:
+    usage: "Gebruikswijze: /ping"
+    description: "krijg je ping en repareerd je ping (als je ping abnormaal is)"
+    message: "Jouw ping is %sms"
+    abnormal: "Jouw ping is abnormaal! Repareren..."
+  message:
+    usage: "Gebruikswijze: /msg <speler> <bericht>"
+    description: "Verzend een bericht naar een speler"
+    self-message: "je kan geen bericht verzenden naar jezelf!"
+    ignored: "Je kan geen berichten sturen naar deze speler!"
+  reply:
+    usage: "Gebruikswijze: /reply <bericht>"
+    description: "Beantwoord je laatste bericht"
+    not-target: "Je hebt geen bericht om te beantwoorden!"
+    target-not-online: "Speler %s is niet online!"
+  spawn:
+    usage: "Gebruikswijze: /spawn"
+    description: "Teleporteer naar spawn Locatie"
+    not-initialized: "Spawn locatie is nog niet gezet! Zet alstublieft een plaats met de naam 'spawn'!"
+  heal:
+    usage: "Gebruikswijze: /heal"
+    description: "Genees jezelf en herstel je honger"
+    healed: "Je bent genezen!"
+  enchant:
+    usage: "Gebruikswijze: /enchant"
+    description: "Betover een voorwerp"
+  potion:
+    usage: "Gebruikswijze: /potion"
+    description: "Krijg een toverdrankje"
+  tpa:
+    usage: "Gebruikswijze: /tpa <speler>"
+    description: "Vraag om te teleporteren naar een speler"
+  tpahere:
+    usage: "Gebruikswijze: /tpahere <speler>"
+    description: "Vraag een speler om naar jouw te teleporteren"
+  tpacancel:
+    usage: "Gebruikswijze: /tpacancel"
+    description: "Annuleer een teleportatie verzoek verzonden door jouw"
+  tpaccept:
+    usage: "Gebruikswijze: /tpaccept"
+    description: "Accepteer een teleportatie verzoek"
+  tpdeny:
+    usage: "Gebruikswijze: /tpdeny"
+    description: "Ontken een teleportatie verzoek"
+  give:
+    usage: "Gebruikswijze: /give <voorwerp> [aantal]"
+    description: "Geef voorwerp(en)"
+    invalid-amount: "Ongeldig voorwerp aantal! Vul alstublieft een heel getal in!"
+    blacklisted: "Dit voorwerp is verboden te geven!"
+  filter:
+    usage: "Gebruikswijze: /fs"
+    description: "Bukkit Event/ProtocolLib Packet Filter systeem"
+  kill:
+    usage: "Gebruikswijze: /kill [speler]"
+    description: "Vermoord jezelf of een andere speler"
+    self: "Vaarwel vreselijke wereld..."
+    success: "%s is Vermoord"
+  clear:
+    usage: "Gebruikswijze: /clear"
+    description: "Verwijder alle voorwerpen van je inventaris"
+  fly:
+    usage: "Gebruikswijze: /fly"
+    description: "Vlieg naar de maan"
+    flymode: "Vlieg modus: "
+  tp:
+    usage: "Gebruikswijze: /tp <speler> [speler]"
+    description: "Teleporteer naar een speler"
+  gamemode:
+    usage: "Gebruikswijze: /gamemode <modus>"
+    description: "Verander je gamemode"
+    invalid-mode: "Deze gamemode: %s is ongeldig"
+    success: "Je gamemode is veranderd naar %s!"
+  gameprotocol:
+    usage: "Gebruikswijze: /gameprotocol"
+    description: "Krijg jouw game protocol"
+    player: "Jouw Protocol is %s"
