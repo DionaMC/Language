@@ -308,3 +308,10 @@ commands:
     usage: "用法: /gameprotocol"
     description: "显示你的游戏协议版本"
     player: "你的游戏协议版本是: %s"
+  damagetick:
+    usage: "用法: /damagetick <数值>"
+    description: "设置你的伤害间隔tick"
+    updated: "你的伤害间隔tick已更新为 %s!"
+    invalid-value: "无效的伤害间隔tick! 请输入一个整数!"
+    error-value: "数值必须在0和20之间!"
+    current: "你的当前伤害间隔tick是 %s"
