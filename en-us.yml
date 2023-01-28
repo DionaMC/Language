@@ -309,3 +309,10 @@ commands:
     usage: "Usage: /gameprotocol"
     description: "Get your game protocol"
     player: "Your Protocol is %s"
+  damagetick:
+    usage: "Usage: /damagetick <amount>"
+    description: "Change your damage tick value"
+    updated: "Your damage tick is now %s!"
+    invalid-value: "Invalid damage tick value! Please enter a integer value!"
+    error-value: "The value must be between 0 and 20!"
+    current: "Your current damage tick is %s"
