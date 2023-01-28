@@ -23,6 +23,7 @@ scoreboard:
   kick: "踢出: "
   damage: "伤害: "
   hunger: "饥饿: "
+  blocking: "格挡中: "
 
 gui:
   language:

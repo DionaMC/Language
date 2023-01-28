@@ -24,6 +24,7 @@ scoreboard:
   kick: "Kick: "
   damage: "Damage: "
   hunger: "Hunger: "
+  blocking: "Blocking: "
 
 gui:
   language:
