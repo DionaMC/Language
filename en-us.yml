@@ -317,3 +317,9 @@ commands:
     invalid-value: "Invalid damage tick value! Please enter a integer value!"
     error-value: "The value must be between 0 and 20!"
     current: "Your current damage tick is %s"
+  back:
+    usage: "Usage: /back"
+    description: "Teleport to your last death location"
+    no-location: "You don't have a last death location!"
+    teleported: "Teleported to your last death location!"
+    on-death: "Use /back to teleport to your last death location!"

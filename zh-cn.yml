@@ -316,3 +316,9 @@ commands:
     invalid-value: "无效的伤害间隔tick! 请输入一个整数!"
     error-value: "数值必须在0和20之间!"
     current: "你的当前伤害间隔tick是 %s"
+  back:
+    usage: "用法: /back"
+    description: "传送到你上一次死亡的位置"
+    no-location: "你没有上一次死亡的位置!"
+    teleported: "你已传送到你上一次死亡的位置!"
+    on-death: "使用 /back 传送到你上一次死亡的位置!"
