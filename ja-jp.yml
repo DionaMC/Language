@@ -10,7 +10,7 @@ aliases:
   - "japanese"
 
 skullItem:
-  textureUrl: "https://textures.minecraft.net/texture/4cac9774da1217248532ce147f7831f67a12fdcca1cf0cb4b3848de6bc94b4"
+  textureUrl: http://textures.minecraft.net/texture/d6c2ca7238666ae1b9dd9daa3d4fc829db22609fb569312dec1fb0c8d6dd6c1d"
   lore:
     - "&7言語を日本語に変更します"
     - ""
