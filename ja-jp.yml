@@ -1,0 +1,325 @@
+name: "ja-jp"
+languageName: Japanese
+
+contributors:
+  - "Genshin"
+  - "Asteroid"
+
+aliases:
+  - "jp"
+  - "japanese"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/4cac9774da1217248532ce147f7831f67a12fdcca1cf0cb4b3848de6bc94b4"
+  lore:
+    - "&7言語を日本語に変更します"
+    - ""
+    - "&7翻訳者:"
+    - "%contributors%"
+    - ""
+    - "&6クリックして言語を変更します！"
+
+scoreboard:
+  title: "Loyisaのテストサーバー"
+  kick: "キック: "
+  damage: "ダメージ: "
+  hunger: "空腹: "
+  blocking: "ブロッキング: "
+
+gui:
+  language:
+    title: "言語メニュー"
+  anticheat:
+    title: "アンチチートメニュー"
+    disabled: "無効"
+    version: "バージョン"
+    author: "作者"
+    description: "説明"
+  setting:
+    title: "設定メニュー"
+    status: "状態"
+    mode: "モード"
+    description: "説明"
+    flag:
+      name: "フラグ"
+      description:
+        - "&fアンチチートのフラグを表示します"
+    flagmode:
+      name: "フラグモード"
+      description:
+        - "&fフラグのモードを設定します"
+        - "&b利用可能なモード:"
+        - "   &7▪ &fチャット: チャットにフラグを表示します"
+        - "   &7▪ &fアクションバー: アクションバーにフラグを表示します"
+    kick:
+      name: "キック"
+      description:
+        - "&fキックを有効/無効にします"
+    damage:
+      name: "ダメージ"
+      description:
+        - "&fダメージを有効/無効にします"
+    hunger:
+      name: "空腹"
+      description:
+        - "&f空腹を有効/無効にします"
+    allowat:
+      name: "メンション"
+      description:
+        - "&fチャットであなたのことをメンションすることを有効/無効にします"
+  warp:
+    title: "ワープメニュー"
+    world: "ワールド"
+  enchant:
+    title: "エンチャントメニュー"
+    no-enchant: "このアイテムにはエンチャントはありません"
+    put-item: "空きスロットにアイテムを入れてください"
+    level: "レベル"
+    left-click: "左クリック"
+    right-click: "右クリック"
+    add-enchant: "エンチャントを追加"
+    remove-enchant: "エンチャントを削除"
+    upgrade-enchant: "エンチャントをアップグレード"
+    downgrade-enchant: "エンチャントをダウングレード"
+    incompatible: "互換性のないエンチャント"
+    fix-item: "アイテムを修復"
+    remove-all-enchant: "全てのエンチャントを削除"
+    unbreakable: "破壊不可"
+  potion:
+    title: "ポーションメニュー"
+  filter:
+    title: "フィルターシステム"
+    empty: "空白"
+    reset: "フィルターをリセットします"
+    next-page: "次のページ"
+    previous-page: "前のページ"
+    page: "ページ: "
+    search: "検索"
+    cancel-search: "検索をキャンセルする"
+    back: "戻る"
+    type: "タイプ"
+  search:
+    title: "検索メニュー"
+    item: "検索"
+
+messages:
+  message:
+    sender: "&7[&f自分 &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &f自分&7] &f%s"
+  chat:
+    mute: "ミュートされています！"
+    unmute: "あなたのミュートは解除されました！"
+    no-permission-at: "@ プレイヤーへのアクセス権はありません！"
+    no-permission-at-everyone: "@everyoneへのアクセス権はありません"
+  teleport:
+    success: "テレポートしました！"
+    expired: "テレポートリクエストは失効しました！"
+    ignored: "このプレイヤーにテレポートはできません！"
+    no-request:
+      to-accept: "許可可能なテレポートリクエストはありません！"
+      to-deny: "拒否可能なテレポートリクエストはありません！"
+      to-cancel: "キャンセル可能なテレポートリクエストはありません！"
+    request:
+      requester: "テレポートリクエストを %s に送信しました"
+      receiver:
+        normal: "%s があなたにテレポートリクエストを送信しました！"
+        here: "%s があなたにテレポートリクエストを要求しました！"
+    timeout:
+      requester: "Yあなたの %s へのテレポートリクエストは失効しました！"
+      receiver: "%s によるテレポートリクエストは失効しました！"
+    cancelled:
+      requester: "あなたの %s に対するテレポートリクエストはキャンセルされました！"
+      receiver: "%s のあなたに対するテレポートリクエストはキャンセルされました！"
+    denied:
+      requester: "あなたの %s に対するテレポートリクエストは拒否されました！"
+      receiver: "%s のあなたに対するテレポートリクエストは拒否されました！"
+    accepted:
+      requester: "%s のテレポートリクエストが承諾されました。ワープ中です..."
+      receiver: "%s のテレポートリクエストを承諾しました。ワープ中です..."
+    type:
+      cancel: "ワープをキャンセルするには /tpacancel と入力してください"
+      accept: "ワープをするには /tpaccept と入力してください"
+      deny: "ワープを拒否するには /tpdeny と入力してください"
+    already-requested: "あなたは既に %s に対するテレポートリクエストを送信しています！ /tpacancel と入力するとキャンセルします"
+    not-online: "%s はオフラインです！"
+    self: "あなたは自分にテレポートリクエストを送信できません！"
+  command-cooldown: "あなたはコマンドを実行するのが早すぎます！少し待ってください..."
+  no-permission: "このコマンドを実行する権限がありません！"
+  player-not-found: "プレイヤー %s は存在しないか、オフラインです！"
+  welcome:
+    new-player:
+      - "こんにちは！Loyisaのテストサーバーへようこそ！"
+      - "このサーバーでは、アンチチートを自分でテストすることができます！"
+      - "/ac を利用して、アンチチートを変更できます！"
+      - "/lang を使用して、言語を変更できます！"
+      - "他のコマンドは /help で確認してください！"
+      - "ゆっくりしていってね！"
+    old-player:
+      - "こんにちは！ %s 日ぶりのログインですね！"
+      - "おかえりなさい！"
+
+  anticheat:
+    disabled: "%s は無効にされています！"
+    dev-only: "%s は開発者専用です！"
+    cant-use-with-others: "%s は他のアンチチートと併用できません！"
+    must-use-with-others: "%s は他のアンチチートと併用する必要があります！"
+    amount-limit: "同時に %s 個のアンチチートは使用できません！"
+    selected: "%s を選択しました"
+    not-found: "%s は見つかりませんでした！"
+
+  itemcleaner:
+    countdown: "全てのアイテムは %s 秒後に削除されます！"
+    cleaned: "%s つのアイテムが削除されました！"
+
+  scaffoldcleaner:
+    countdown: "建築エリアは %s 秒後にリセットされます！"
+
+  breaktest:
+    broken: "あなたは %s を壊しました！"
+
+  damagetest:
+    damage: "予想されるダメージ: %s  正確なダメージ: %s"
+
+  speedtest:
+    timeout: "スピードテストはタイムアウトしました！"
+    not-found: "スピードテストルーム %s は見つかりませんでした！"
+    already-in-use: "このスピードテストルームは既に使用されています！"
+    terminated: "このスピードテストルームは終了しました！"
+    already-in-speedtest: "あなたは既にスピードテストに参加しています！"
+    result: "あなたのスピードは毎秒 %s/s でした"
+    faster: "あなたはバニラのダッシュジャンプより %s 早いです！"
+    slower: "あなたはバニラのダッシュジャンプより %s 早いです！"
+
+commands:
+  anticheat:
+    usage: "使い方: /ac [アンチチート]"
+    description: "アンチチートを変更します"
+  health:
+    usage: "使い方: /health <値>"
+    description: "あなたの体力を変更します"
+    updated: "あなたの体力を変更しました！"
+    invalid-value: "無効な値です！整数で入力してください！"
+    error-value: "値は 0 から %s である必要があります！"
+  hunger:
+    usage: "使い方: /hunger <値>"
+    description: "あなたの満腹度を変更します"
+    updated: "あなたの満腹度を変更しました！"
+    invalid-value: "無効な値です！整数で入力してください！"
+    error-value: "値は 0 から 20 である必要があります！"
+  ip:
+    usage: "使い方: /ip"
+    description: "あなたのIPアドレスを所得します"
+    player: "あなたのIPは %s です"
+  language:
+    usage: "使い方: /language [言語]"
+    description: "言語を変更します"
+    changed: "あなたの言語は %s に変更されました！"
+    not-found: "%s は見つかりませんでした！"
+  setting:
+    usage: "使い方: /setting"
+    description: "設定を変更します"
+  warp:
+    usage: "使い方: /warp <ワープ場所>"
+    description: "ワープポイントにてレポートします"
+    not-found: "%s は見つかりませんでした！"
+  discord:
+    usage: "使い方: /discord"
+    description: "Discordのリンクを所得します"
+    message: "Discord: %s"
+  help:
+    usage: "使い方: /help [ページ]"
+    description: "ヘルプを表示します"
+    help-page: "ヘルプページ:"
+    command: "コマンド: "
+    description-cmd: "説明: "
+    usage-cmd: "使い方: "
+    invalid-number: "無効なページ番号です！"
+  ping:
+    usage: "使い方: /ping"
+    description: "あなたのPingを所得し、修正します（異常である場合）"
+    message: "あなたのPingは %smsです。"
+    abnormal: "あなたのPingは異常です！修正しています..."
+  message:
+    usage: "使い方: /msg <プレイヤー> <メッセージ>"
+    description: "プレーヤーに個別にメッセージを送信します"
+    self-message: "あなたは自分自身にメッセージを送信できません！"
+    ignored: "あなたはこのプレイヤーにメッセージを送信できません！"
+  reply:
+    usage: "使い方: /reply <message>"
+    description: "送られてきたメッセージに返信をします。"
+    not-target: "あなたへの返信相手はいません！"
+    target-not-online: "%s はオフラインです！"
+  spawn:
+    usage: "使い方: /spawn"
+    description: "スポーン地点にワープします"
+    not-initialized: "スポーン地点が設定されていません！ 'spawn'に設定してください！"
+  heal:
+    usage: "使い方: /heal"
+    description: "自分自身を回復します"
+    healed: "回復しました！"
+  enchant:
+    usage: "使い方: /enchant"
+    description: "アイテムをエンチャントします"
+  potion:
+    usage: "使い方: /potion"
+    description: "ポーション効果を付与します"
+  tpa:
+    usage: "使い方: /tpa <player>"
+    description: "指定したプレイヤーにテレポートリクエストを送信します"
+  tpahere:
+    usage: "使い方: /tpahere <player>"
+    description: "指定したプレイヤーに、自分のところへのテレポートリクエストを送信します"
+  tpacancel:
+    usage: "使い方: /tpacancel"
+    description: "あなたが送信したテレポートリクエストをキャンセルします"
+  tpaccept:
+    usage: "使い方: /tpaccept"
+    description: "テレポートリクエストを承諾します"
+  tpdeny:
+    usage: "使い方: /tpdeny"
+    description: "テレポートリクエストを拒否します"
+  give:
+    usage: "使い方: /give <アイテム> [数]"
+    description: "アイテムを付与します"
+    invalid-amount: "不正な値です！整数で入力してください。"
+    blacklisted: "このアイテムは無効化されています！"
+  filter:
+    usage: "使い方: /fs"
+    description: "Bukkit Event/ProtocolLibのパケットフィルターシステムです"
+  kill:
+    usage: "使い方: /kill [プレイヤー]"
+    description: "自分自身を殺すか、指定したプレイヤーをキルします"
+    self: "残酷な世界よ...さようなら"
+    success: "%s をキルしました"
+  clear:
+    usage: "使い方: /clear"
+    description: "アイテムを削除します"
+  fly:
+    usage: "使い方: /fly"
+    description: "空をとぼうぜ！"
+    flymode: "飛行モード: "
+  tp:
+    usage: "使い方: /tp <プレイヤー> [プレイヤー]"
+    description: "指定のプレイヤーへワープします"
+  gamemode:
+    usage: "使い方: /gamemode <モード>"
+    description: "ゲームモードを変更します"
+    invalid-mode: "%s は無効はゲームモードです"
+    success: "ゲームモードを %s に変更しました！"
+  gameprotocol:
+    usage: "使い方: /gameprotocol"
+    description: "ゲームプロコトルを所得します"
+    player: "あなたのプロコトルは %s です"
+  damagetick:
+    usage: "使い方: /damagetick <値>"
+    description: "あなたのダメージTickを変更します"
+    updated: "あなたのダメージTickは %s に変更されました！"
+    invalid-value: "無効な値です！整数で入力してください！"
+    error-value: "値は0から20である必要があります！"
+    current: "あなたの現在のダメージTickは %s です"
+  back:
+    usage: "使い方: /back"
+    description: "最後に死亡した座標へワープします"
+    no-location: "あなたは死亡していません！"
+    teleported: "最後に死亡した座標へワープしました！"
+    on-death: "/back を使用して最後に死亡した座標へワープします！"
