@@ -190,6 +190,8 @@ messages:
     faster: "You are %s faster than vanilla sprint-jumping!"
     slower: "You are %s slower than vanilla sprint-jumping!"
 
+  client-brand: "Your client brand is %s"
+
 commands:
   anticheat:
     usage: "Usage: /ac [anticheat|ac ac ...]"

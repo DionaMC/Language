@@ -189,6 +189,8 @@ messages:
     faster: "你比原版疾跑跳跃快了 %s!"
     slower: "你比原版疾跑跳跃慢了 %s!"
 
+  client-brand: "你的客户端标识为: %s"
+
 commands:
   anticheat:
     usage: "用法: /ac [反作弊名称|ac ac ...]"
