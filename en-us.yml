@@ -25,6 +25,7 @@ scoreboard:
   damage: "Damage: "
   hunger: "Hunger: "
   blocking: "Blocking: "
+  sneaking: "Sneaking: "
 
 gui:
   language:
