@@ -236,6 +236,8 @@ commands:
     description-cmd: "Description: "
     usage-cmd: "Usage: "
     invalid-number: "Invalid page number!"
+    previous-page: "Previous page"
+    next-page: "Next page"
   ping:
     usage: "Usage: /ping"
     description: "Gets your ping and fixes your ping (if your ping is abnormal)"
