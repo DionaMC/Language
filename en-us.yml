@@ -192,6 +192,7 @@ messages:
     slower: "You are %s slower than vanilla sprint-jumping!"
 
   client-brand: "Your client brand is %s"
+  client-forge-mod-list: "Your forge mod list is generated! (hover to see)"
 
 commands:
   anticheat:

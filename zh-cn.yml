@@ -191,6 +191,7 @@ messages:
     slower: "你比原版疾跑跳跃慢了 %s!"
 
   client-brand: "你的客户端标识为: %s"
+  client-forge-mod-list: "你的Forge Mod列表已生成(将鼠标悬停在这里查看)"
 
 commands:
   anticheat:
