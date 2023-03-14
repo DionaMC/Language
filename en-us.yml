@@ -194,7 +194,7 @@ messages:
   client-brand: "Your client brand is %s"
   client:
     forge-mod-list:
-      message: "Your Forge mod list is generated! (hover to see)"
+      message: "*Hover here to view your Forge mod list*"
       by-client: "This mod list was reported by your client"
 
 commands:
