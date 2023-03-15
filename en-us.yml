@@ -191,8 +191,9 @@ messages:
     faster: "You are %s faster than vanilla sprint-jumping!"
     slower: "You are %s slower than vanilla sprint-jumping!"
 
-  client-brand: "Your client brand is %s"
   client:
+    brand:
+      message: "Your client brand is %s"
     forge-mod-list:
       message: "*Hover here to view your Forge mod list*"
       by-client: "This mod list was reported by your client"

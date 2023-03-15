@@ -190,8 +190,9 @@ messages:
     faster: "你比原版疾跑跳跃快了 %s!"
     slower: "你比原版疾跑跳跃慢了 %s!"
 
-  client-brand: "你的客户端标识为: %s"
   client:
+    brand:
+      message: "你的客户端标识为: %s"
     forge-mod-list:
       message: "*将鼠标悬浮到这里以查看Forge mod列表*"
       by-client: "该mod列表由你的客户端生成"
