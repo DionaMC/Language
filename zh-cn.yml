@@ -334,3 +334,9 @@ commands:
     no-location: "你没有上一次死亡的位置!"
     teleported: "你已传送到你上一次死亡的位置!"
     on-death: "使用 /back 传送到你上一次死亡的位置!"
+  resourceexploittest:
+    usage: "此命令是用来检查你的客户端是否受ResourcePack目录遍历漏洞的影响 (https://suo.yt/carHDPo) \n我们会对你的.minecraft目录下的servers.dat进行访问。 \n如果你已知风险，并且同意继续进行漏洞检测 \n请输入/resexp confirm"
+    description: "测试你的客户端是否受到ResourceExploit漏洞的影响。"
+    messages:
+      vulnerable: "糟糕，我们发现你的客户端是受影响的。"
+      notvulnerable: "恭喜你，你的客户端似乎并不受影响！"
