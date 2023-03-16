@@ -196,6 +196,8 @@ messages:
     forge-mod-list:
       message: "*将鼠标悬浮到这里以查看Forge mod列表*"
       by-client: "该mod列表由你的客户端生成"
+    lunarclient:
+      message: "您正在使用LunarClient！（检测到API）"
 
 commands:
   anticheat:
