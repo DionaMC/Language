@@ -197,6 +197,8 @@ messages:
     forge-mod-list:
       message: "*Hover here to view your Forge mod list*"
       by-client: "This mod list was reported by your client"
+    lunarclient:
+      message: "You are using LunarClient!(API Detected)"
 
 commands:
   anticheat:
