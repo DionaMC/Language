@@ -335,9 +335,17 @@ commands:
     no-location: "You don't have a last death location!"
     teleported: "Teleported to your last death location!"
     on-death: "Use /back to teleport to your last death location!"
-  resourceexploittest:
-    usage: "This command is used to check if your client is affected by the ResourcePack directory traversal vulnerability (https://suo.yt/carHDPo) \nWe will access servers.dat in your .minecraft directory. \nIf you are known to be at risk and agree to proceed with vulnerability detection \nPlease enter /resexp confirm"
-    description: "Test if your client is affected by the ResourceExploit vulnerability."
-    messages:
-      vulnerable: "Oops, we found your client to be vulnerable."
+  exploit:
+    usage: "Usage: /exploit <confirm|exec [exploit]|list>"
+    description: "Test if your client is affected by exploits"
+    crash: "WARNING: This exploit may crash your client!"
+    non-crash: "WARNING: This exploit may be harmful to your client!"
+    confirm: "If you know the risks and agree to execute the exploit, please type /exploit confirm"
+    not-found: "Exploit %s not found!"
+    available: "Available exploits: %s"
+    executed: "Exploit %s executed!"
+    no-exploit: "You don't have any exploit to execute!"
+    resourcepack:
+      alert: "This vulnerability can only detect if the file exists, we will try to access servers.dat in your \".minecraft\" directory."
+      vulnerable: "Oops, you client seems to be vulnerable."
       notvulnerable: "Congratulations, your client is not vulnerable!"
