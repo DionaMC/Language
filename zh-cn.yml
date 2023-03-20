@@ -335,7 +335,7 @@ commands:
     teleported: "你已传送到你上一次死亡的位置!"
     on-death: "使用 /back 传送到你上一次死亡的位置!"
   exploit:
-    usage: "用法: /exploit <confirm|exec [exploit]|list>"
+    usage: "用法: /exploit <exec|list> [exploit]"
     description: "检测你的客户端是否受到漏洞影响"
     crash: "警告: 此漏洞可能会使您的客户端崩溃!"
     non-crash: "警告: 此漏洞可能对您的客户端有害!"

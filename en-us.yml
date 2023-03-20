@@ -336,7 +336,7 @@ commands:
     teleported: "Teleported to your last death location!"
     on-death: "Use /back to teleport to your last death location!"
   exploit:
-    usage: "Usage: /exploit <confirm|exec [exploit]|list>"
+    usage: "Usage: /exploit <exec|list> [exploit]"
     description: "Test if your client is affected by exploits"
     crash: "WARNING: This exploit may crash your client!"
     non-crash: "WARNING: This exploit may be harmful to your client!"
