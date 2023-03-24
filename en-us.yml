@@ -179,7 +179,7 @@ messages:
     broken: "You broke the %s!"
 
   damagetest:
-    damage: "Excpected damage: %s  Actual damage: %s"
+    damage: "Expected damage: %s  Actual damage: %s"
 
   speedtest:
     timeout: "Your SpeedTest has timed out!"
