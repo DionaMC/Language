@@ -4,6 +4,7 @@ languageName: Japanese
 contributors:
   - "Genshin"
   - "Asteroid"
+  - "Tsubaki_Shiron4"
 
 aliases:
   - "jp"
@@ -25,6 +26,7 @@ scoreboard:
   damage: "ダメージ: "
   hunger: "空腹: "
   blocking: "ブロッキング: "
+  sneaking: "しゃがむ: "
 
 gui:
   language:
