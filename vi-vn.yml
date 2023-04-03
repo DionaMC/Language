@@ -24,6 +24,8 @@ scoreboard:
   kick: "Kick: "
   damage: "Sát thương: "
   hunger: "Đói: "
+  blocking: "Chặn: "
+  sneaking: "Ngồi: "
 
 gui:
   language:
@@ -188,6 +190,15 @@ messages:
     result: "Tốc độ của bạn là %s/s"
     faster: "Bạn nhanh hơn chạy-nhảy bình thường %s lần!"
     slower: "Bạn chậm hơn chạy-nhảy bình thường %s lần!"
+	
+  client:
+    brand:
+      message: "Client của bạn là %s"
+    forge-mod-list:
+      message: "*Di chuột vào đây để xem danh sách mod Forge của bạn*"
+      by-client: "Danh sách mod này đã được báo cáo bởi client của bạn"
+    lunarclient:
+      message: "Bạn đang sử dụng LunarClient!(Đã phát hiện API)"
 
 commands:
   anticheat:
@@ -232,7 +243,9 @@ commands:
     command: "Lệnh: "
     description-cmd: "Mô tả: "
     usage-cmd: "Cách sử dụng: "
-    invalid-number: "số trang không hợp lệ!"
+    invalid-number: "Số trang không hợp lệ!"
+	previous-page: "Trang trước đó"
+    next-page: "Trang tiếp theo"
   ping:
     usage: "Cách sử dụng: /ping"
     description: "Lấy và sửa ping của bạn (Nếu ping của bạn bất thường)"
@@ -309,3 +322,30 @@ commands:
     usage: "Cách sử dụng dụng: /gameprotocol"
     description: "Lấy phiên bản game của bạn"
     player: "Phiên bản của bạn là %s"
+  damagetick:
+    usage: "Cách sử dụng dụng: /damagetick <tick>"
+    description: "Thay đổi giá trị sát thương của bạn"
+    updated: "Tick sát thương của bạn bây giờ là %s!"
+    invalid-value: "Giá trị tick sát thương không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
+    error-value: "Giá trị phải nằm trong khoảng từ 0 đến 20!"
+    current: "Tick sát thương hiện tại của bạn là %s"
+  back:
+    usage: "Cách sử dụng dụng: /back"
+    description: "Dịch chuyển đến vị trí chết cuối cùng của bạn"
+    no-location: "Bạn không có một vị trí chết!"
+    teleported: "Đã dịch chuyển đến vị trí chết cuối cùng của bạn!"
+    on-death: "Sử dụng /back để dịch chuyển đến vị trí chết cuối cùng của bạn!"
+  exploit:
+    usage: "Cách sử dụng: /exploit <exec|list> [Lỗ hổng]"
+    description: "Kiểm tra client của bạn có bị ảnh hưởng bởi những lỗ hổng này không"
+    crash: "CẢNH BÁO: Lỗ hỏng này có thể làm văng client của bạn!"
+    non-crash: "CẢNH BÁO: Lỗ hổng này có thể sẽ có hại đến client của bạn"
+    confirm: "Nếu bạn biết các rủi ro và đồng ý thực hiện lỗ hổng này, vui lòng nhập /exploit để xác nhận"
+    not-found: "Không tìm thấy lỗ hổng %s"
+    available: "Những lỗ hổng có thể dùng: %s"
+    executed: "Đã thực hiện lỗ hổng %s"
+    no-exploit: "Bạn không có lỗ hổng nào để thực hiện!"
+    resourcepack:
+      alert: "Lỗ hổng này chỉ có thể phát hiện nếu tệp tồn tại, chúng tôi sẽ cố gắng truy cập server.dat trong thư mục \".minecraft\" của bạn."
+      vulnerable: "Rất tiếc, client của bạn có vẻ có lỗ hổng."
+      notvulnerable: "Xin chúc mừng, client của bạn không có lỗ hổng"
