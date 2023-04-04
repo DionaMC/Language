@@ -201,7 +201,7 @@ messages:
       message: "You are using LunarClient!(API Detected)"
 
 commands:
-  anticheat:
+  ac:
     usage: "Usage: /ac [anticheat|ac ac ...]"
     description: "Switch anticheats"
   health:
@@ -225,7 +225,7 @@ commands:
     description: "Change your language"
     changed: "Your language has been changed to %s !"
     not-found: "Language %s not found!"
-  setting:
+  settings:
     usage: "Usage: /setting"
     description: "Change settings"
   warp:
@@ -295,7 +295,7 @@ commands:
     description: "Give you the item(s)"
     invalid-amount: "Invalid item amount! Please enter an integer value!"
     blacklisted: "This item is blacklisted!"
-  filter:
+  fs:
     usage: "Usage: /fs"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
