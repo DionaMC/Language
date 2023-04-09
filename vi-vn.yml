@@ -190,7 +190,6 @@ messages:
     result: "Tốc độ của bạn là %s/s"
     faster: "Bạn nhanh hơn chạy-nhảy bình thường %s lần!"
     slower: "Bạn chậm hơn chạy-nhảy bình thường %s lần!"
-	
   client:
     brand:
       message: "Client của bạn là %s"
@@ -244,7 +243,7 @@ commands:
     description-cmd: "Mô tả: "
     usage-cmd: "Cách sử dụng: "
     invalid-number: "Số trang không hợp lệ!"
-	previous-page: "Trang trước đó"
+    previous-page: "Trang trước đó"
     next-page: "Trang tiếp theo"
   ping:
     usage: "Cách sử dụng: /ping"
