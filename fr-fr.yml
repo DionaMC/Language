@@ -31,7 +31,7 @@ gui:
     version: "Version"
     author: "Auteur(s)"
     description: "Description"
-  setting:
+  settings:
     title: "Paramètres"
     status: "Status"
     mode: "Mode"
@@ -211,8 +211,8 @@ commands:
     description: "Modifie la langue utilisée"
     changed: "Vous utilisez désormais la langue %s !"
     not-found: "La langue %s n'existe pas !"
-  setting:
-    usage: "Utilisation: /setting"
+  settings:
+    usage: "Utilisation: /settings"
     description: "Modifie les paramètres globaux"
   warp:
     usage: "Utilisation: /warp <nom du warp>"
@@ -280,7 +280,7 @@ commands:
     invalid-quantité: "La valeur spécifiée ne semble pas être un entier"
     blacklisted: "Cet objet est interdit"
   filter:
-    usage: "Utilisation: /fs"
+    usage: "Utilisation: /filter"
     description: "Affiche les filtres d'évènements/packets"
   kill:
     usage: "Utilisation: /kill [joueur]"

@@ -37,7 +37,7 @@ gui:
     version: "バージョン"
     author: "作者"
     description: "説明"
-  setting:
+  settings:
     title: "設定メニュー"
     status: "状態"
     mode: "モード"
@@ -217,8 +217,8 @@ commands:
     description: "言語を変更します"
     changed: "あなたの言語は %s に変更されました！"
     not-found: "%s は見つかりませんでした！"
-  setting:
-    usage: "使い方: /setting"
+  settings:
+    usage: "使い方: /settings"
     description: "設定を変更します"
   warp:
     usage: "使い方: /warp <ワープ場所>"
@@ -286,7 +286,7 @@ commands:
     invalid-amount: "不正な値です！整数で入力してください。"
     blacklisted: "このアイテムは無効化されています！"
   filter:
-    usage: "使い方: /fs"
+    usage: "使い方: /filter"
     description: "Bukkit Event/ProtocolLibのパケットフィルターシステムです"
   kill:
     usage: "使い方: /kill [プレイヤー]"

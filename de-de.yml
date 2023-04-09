@@ -34,7 +34,7 @@ gui:
     version: "Version"
     author: "Author(en)"
     description: "Beschreibung"
-  setting:
+  settings:
     title: "Einstellungs menu"
     status: "Status"
     mode: "Modus"
@@ -214,8 +214,8 @@ commands:
     description: "Aendert deine Sprache"
     changed: "Deine Sprache wurde zu %s geaendert!"
     not-found: "Die Sprache %s wurde nicht gefunden!"
-  setting:
-    usage: "Benutzung: /setting"
+  settings:
+    usage: "Benutzung: /settings"
     description: "Hier kannst du deine Einstellungen aendern"
   warp:
     usage: "Benutzung: /warp <warp name>"
@@ -283,7 +283,7 @@ commands:
     invalid-amount: "Ungueltige Item Anzahl! Bitte gebe eine Integer anzahl ein!"
     blacklisted: "Dieses Item kannst du dir nicht geben!"
   filter:
-    usage: "Benutzung: /fs"
+    usage: "Benutzung: /filter"
     description: "Bukkit Event/ProtocolLib Packet Filter System"
   kill:
     usage: "Benutzung: /kill [spieler]"

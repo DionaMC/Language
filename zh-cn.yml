@@ -35,7 +35,7 @@ gui:
     version: "版本"
     author: "作者"
     description: "简介"
-  setting:
+  settings:
     title: "设置菜单"
     status: "状态"
     mode: "模式"
@@ -224,8 +224,8 @@ commands:
     description: "更换语言"
     changed: "你的语言已更换为 %s!"
     not-found: "未找到语言: %s"
-  setting:
-    usage: "用法: /setting"
+  settings:
+    usage: "用法: /settings"
     description: "修改设置"
   warp:
     usage: "用法: /warp [名称]"
@@ -295,7 +295,7 @@ commands:
     invalid-amount: "无效的物品数量, 请输入一个整数!"
     blacklisted: "此物品在黑名单中!"
   filter:
-    usage: "用法: /fs"
+    usage: "用法: /filter"
     description: "Bukkit事件/ProtocolLib数据包过滤系统"
   kill:
     usage: "用法: /kill [玩家]"

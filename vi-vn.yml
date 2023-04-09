@@ -36,7 +36,7 @@ gui:
     version: "Phiên bản"
     author: "(Những) người sáng lập"
     description: "Mô tả"
-  setting:
+  settings:
     title: "Bảng điều khiển"
     status: "Trạng thái"
     mode: "Chế độ"
@@ -224,8 +224,8 @@ commands:
     description: "Đổi ngôn ngữ của bạn"
     changed: "Ngôn ngữ của bạn đã được đổi sang %s !"
     not-found: "Không tìm thấy ngôn ngữ %s!"
-  setting:
-    usage: "Cách sử dụng: /setting"
+  settings:
+    usage: "Cách sử dụng: /settings"
     description: "Thay đổi cài đặt"
   warp:
     usage: "Cách sử dụng: /warp <tên warp>"
@@ -295,7 +295,7 @@ commands:
     invalid-amount: "Số lượng vật phẩm không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
     blacklisted: "Vật phẩm này bị cấm!"
   filter:
-    usage: "Cách sử dụng: /fs"
+    usage: "Cách sử dụng: /filter"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
     usage: "Cách sử dụng: /kill [người chơi]"
