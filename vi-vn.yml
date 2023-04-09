@@ -339,7 +339,7 @@ commands:
     description: "Kiểm tra client của bạn có bị ảnh hưởng bởi những lỗ hổng này không"
     crash: "CẢNH BÁO: Lỗ hỏng này có thể làm văng client của bạn!"
     non-crash: "CẢNH BÁO: Lỗ hổng này có thể sẽ có hại đến client của bạn"
-    confirm: "Nếu bạn biết các rủi ro và đồng ý thực hiện lỗ hổng này, vui lòng nhập /exploit để xác nhận"
+    confirm: "Nếu bạn biết các rủi ro và đồng ý thực hiện lỗ hổng này, vui lòng nhập /exploit confirm"
     not-found: "Không tìm thấy lỗ hổng %s"
     available: "Những lỗ hổng có thể dùng: %s"
     executed: "Đã thực hiện lỗ hổng %s"
