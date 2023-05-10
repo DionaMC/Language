@@ -345,6 +345,6 @@ commands:
     executed: "Exploit %s ทำงานแล้ว!"
     no-exploit: "คุณไม่มี exploit ในการดำเนินการ!"
     resourcepack:
-      alert: "exploit นี้ตรวจจับได้ก็ต่อเมื่อมีไฟล์อยู่ เราจะพยายามเข้าถึง servers.dat ในโฟลเดอร์ \".minecraft\" ของคุณ"."
+      alert: "exploit นี้ตรวจจับได้ก็ต่อเมื่อมีไฟล์อยู่ เราจะพยายามเข้าถึง servers.dat ในโฟลเดอร์ \".minecraft\" ของคุณ."
       vulnerable: "Oops, client ของคุณดูเหมือนจะมีช่องโหว่."
       notvulnerable: "ขอแสดงความยินดี! client ของคุณไม่เสี่ยง!”!"
