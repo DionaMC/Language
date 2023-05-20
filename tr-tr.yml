@@ -1,0 +1,313 @@
+name: "tr-tr"
+languageName: "Türkçe"
+
+contributors:
+  - "LaxrFar"
+  - "mfps"
+  - "FirefoxNightly"
+
+aliases:
+  - "tr"
+  - "Türkçe"
+  - "Turkish"
+
+skullItem:
+  textureUrl: "http://textures.minecraft.net/texture/6bbeaf52e1c4bfcd8a1f4c6913234b840241aa48829c15abc6ff8fdf92cd89e"
+  lore:
+    - "&7Dilinizi Türkçe olarak değiştirin"
+    - ""
+    - "&7Katkıda bulunanlar:"
+    - "%contributors%"
+    - ""
+    - "&6Dili değiştirmek için tıklayın!"
+
+scoreboard:
+  title: "Loyisa'nın Test Sunucusu"
+  kick: "Tekmele: "
+  damage: "Hasar: "
+  hunger: "Açlık: "
+
+gui:
+  language:
+    title: "Diller menüsü"
+  anticheat:
+    title: "Anticheat menüsü"
+    disabled: "Engelli"
+    version: "Versiyon"
+    author: "Yazar"
+    description: "Açıklama"
+  settings:
+    title: "Ayarlar menüsü"
+    status: "Durum"
+    mode: "Mod"
+    description: "Açıklama"
+    flag:
+      name: "Bayrak"
+      description:
+        - "&fAntik bayrakları göster"
+    flagmode:
+      name: "Bayrak modu"
+      description:
+        - "&fBayrak modunu ayarlayın"
+        - "&bMevcut modlar:"
+        - "   &7▪ &fSOHBET: Sohbette bayrakları göster"
+        - "   &7▪ &fACTIONBAR: ActionBar'da bayrakları göster"
+    kick:
+      name: "Tekme"
+      description:
+        - "&fTekmeleri Etkinleştir/Devre Dışı Bırak"
+    damage:
+      name: "Hasar"
+      description:
+        - "&fHasarı Etkinleştir/Devre Dışı Bırak"
+    hunger:
+      name: "Açlık
+      description:
+        - "&fAçlığı Etkinleştir/Devre Dışı Bırak"
+    allowat:
+      name: "Vahiyler"
+      description:
+        - "&fDiğer oyuncuların sohbette sizden bahsetmesine izin verin"
+  warp:
+    title: "Warp menüsü"
+    world: "Dünya"
+  enchant:
+    title: "Büyü menüsü"
+    no-enchant: "Bu öğe için herhangi bir büyü yok"
+    put-item: "Öğeyi sol taraftaki boş yuvaya yerleştirin."
+    level: "Seviye"
+    left-click: "Sol tıklama"
+    right-click: "Sağ tıklama"
+    add-enchant: "Büyü ekle"
+    remove-enchant: "Büyüyü kaldır"
+    upgrade-enchant: "Yükseltme Büyüsü"
+    downgrade-enchant: "Büyü düşürme"
+    incompatible: "Uyumsuz büyü"
+    fix-item: "Onarım kalemi"
+    remove-all-enchant: "Tüm büyüleri kaldır"
+    unbreakable: "Kırılmaz"
+  potion:
+    title: "Traenke menüsü"
+  filter:
+    title: "Filtre sistemi"
+    empty: "Boş"
+    reset: "Filtre sistemini sıfırla"
+    next-page: "Sonraki sayfa"
+    previous-page: "Önceki sayfa"
+    page: "Sayfa: "
+    search: "Arama"
+    cancel-search: "Suche abbrechen"
+    back: "Geri"
+    type: "tip"
+  search:
+    title: "Arama menüsü"
+    item: "Arama"
+
+messages:
+  message:
+    sender: "&7[&fI &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fich&7] &f%s"
+  chat:
+    mute: "Sessizsin!"
+    unmute: "Sessizleştirildin!"
+    no-permission-at: "Bunu işaretlemek için gerekli izinlere sahip değilsiniz!"
+    no-permission-at-everyone: "Herkesi etiketlemek için izniniz yok!"
+  teleport:
+    success: "Işınlanma tamamlandı!"
+    expired: "Işınlanma talebinizin süresi doldu!"
+    ignored: "Bu oyuncuya ışınlanma isteği gönderemezsiniz!"
+    no-request:
+      to-accept: "Kabul edilecek ışınlanma talebi yok!"
+      to-deny: "Reddedilecek ışınlanma talebi yok!"
+      to-cancel: "İptal edilecek ışınlanma talebi yok!"
+    request:
+      requester: "Işınlanma talepleri %s'a gönderildi."
+      receiver:
+        normal: "%s sana ışınlanmayı talep etti."
+        here: "%s ona ışınlanmanı istedi."
+    timeout:
+      requester: "%s'ye ışınlanma isteğinizin süresi doldu!"
+      receiver: "%s'in ışınlanma taleplerinin süresi doldu!"
+    cancelled:
+      requester: "%s'e olan ışınlanma talepleriniz iptal edildi!"
+      receiver: "%s'in ışınlanma taleplerinin süresi doldu!"
+    denied:
+      requester: "%s ışınlanma taleplerinizi reddetti!"
+      receiver: "%s'in ışınlanma isteklerini reddettin!"
+    accepted:
+      requester: "%s ışınlanma taleplerinizi kabul etti! Işınlanma..."
+      receiver: "%s'in ışınlanma taleplerini kabul ettiniz! Işınlanma..."
+    type:
+      cancel: "Işınlanma isteklerini iptal etmek için /tpacancel yazın"
+      accept: "Işınlanma isteklerini kabul etmek için /tpaccept yazın"
+      deny: "Işınlanma isteklerini reddetmek için /tpdeny yazın"
+    already-requested: "Zaten %s'ye bir ışınlanma isteği gönderdiniz! İptal etmek için /tpacancel yazın."
+    not-online: "Zaten %s'ye bir ışınlanma isteği gönderdiniz! İptal etmek için /tpacancel yazın."
+    self: "Kendinize ışınlanma isteği gönderemezsiniz!"
+  command-cooldown: "Bu komutu çok hızlı kullanıyorsunuz!"
+  no-permission: "Bu komutu girmek için gerekli haklara sahip değilsiniz!"
+  player-not-found: "Oyuncu %s bulunamadı!"
+  welcome:
+    new-player:
+      - "Loyisa'nın test sunucusuna hoş geldiniz!"
+      - "Bu sunucuda AntiCheats'i test edebilir ve ortada geçiş yapabilirsiniz!"
+      - "AntiCheat'i değiştirmek için /ac kullanın"
+      - "Dilinizi değiştirmek için /lang kullanın"
+      - "Komutların başka bir listesi için lütfen /help girin!"
+      - "İyi eğlenceler!"
+    old-player:
+      - "Merhaba! Son girişinizden bu yana %s gün geçti!"
+      - "Tekrar hoş geldiniz!"
+
+  anticheat:
+    disabled: "Anticheat %s devre dışı bırakıldı!"
+    dev-only: "Anticheat %s sadece geliştiriciler için yayınlandı!"
+    cant-use-with-others: "Antikateat %s diğer antikateatlarla birlikte kullanılamaz!"
+    must-use-with-others: "Antikat %s diğer antikatlarla birleştirilmelidir!"
+    amount-limit: "Aynı anda %s'den fazla anticheats kullanamazsınız!"
+    selected: "%s'yi seçtiniz"
+    not-found: "Anticheat %s bulunamadı!"
+
+  itemcleaner:
+    countdown: "Yerdeki tüm öğeler %s saniye içinde silinir!"
+    cleaned: "%s'in eşyaları temizlendi!"
+
+  scaffoldcleaner:
+    countdown: "İskele alanları %s saniye içinde boşaltılır!"
+
+  breaktest:
+    broken: "%s'leri yok ettiniz!"
+
+  damagetest:
+    damage: "Beklenen hasar: %s Gerçek hasar: %s"
+
+  speedtest:
+    timeout: "Hız testinizin süresi doldu!"
+    not-found: "Hız testi %s bulunamadı!"
+    already-in-use: "Bu hız testi şu anda zaten kullanılıyor!"
+    terminated: "Hız testiniz silindi!"
+    already-in-speedtest: "Zaten bir hız testindesiniz!"
+    result: "Hızınız %s/s"
+    faster: "Vanilla sprint-jumping'den %s daha hızlısın!"
+    slower: "Vanilla sprint-jumping'den %s daha yavaşsın!"
+
+commands:
+  anticheat:
+    usage: "Kullanım: /ac [anticheat|ac ac ...]"
+    description: "Anticheats'i değiştirin"
+  health:
+    usage: "Kullanım: /health <sayı>"
+    description: "Sağlık miktarınızı değiştirin"
+    updated: "Sağlığınız değişti!"
+    invalid-value: "Geçersiz sağlık miktarı! lütfen tam sayı bir miktar girin!"
+    error-value: "Tutar 0 ile %s arasında olmalıdır!"
+  hunger:
+    usage: "Kullanım: /hunger <sayı>"
+    description: "Açlık miktarınızı değiştirin"
+    updated: "Açlık miktarınız değiştirildi!"
+    invalid-value: "Geçersiz açlık miktarı! lütfen tam sayı bir miktar girin!"
+    error-value: "Tutar 0 ile %s arasında olmalıdır!"
+  ip:
+    usage: "Kullanım: /ip"
+    description: "IP adresinizi verir"
+    player: "IP adresiniz %s"
+  language:
+    usage: "Kullanım: /language [dil]"
+    description: "Dilinizi değiştirin"
+    changed: "Diliniz %s olarak değiştirildi!"
+    not-found: "Dil %s bulunamadı!"
+  settings:
+    usage: "Kullanım: /settings"
+    description: "Burada ayarlarınızı değiştirebilirsiniz"
+  warp:
+    usage: "Kullanım: /warp <warp adı>"
+    description: "Bir warp noktasına ışınlanma"
+    not-found: "Warp %s bulunamadı!"
+  discord:
+    usage: "Kullanım: /discord"
+    description: "Discord bağlantısını gösterir"
+    message: "Discord bağlantısı: %s"
+  help:
+    usage: "Kullanım: /help [sayfa]"
+    description: "Yardım gösterileri"
+    help-page: "Yardım sayfası:"
+    command: "Emredin: "
+    description-cmd: "Açıklama: "
+    usage-cmd: "Kullan: "
+    invalid-number: "Suçsuz sayfa numarası!"
+  ping:
+    usage: "Kullanım: /ping"
+    description: "Pinginizi gösterir ve düzeltir (normal değilse)"
+    message: "Ping değeriniz %sms"
+    abnormal: "Ping'iniz normal değil! Çare..."
+  message:
+    usage: "Kullanım: /msg <oyuncu> <mesaj>"
+    description: "Bir oyuncuya mesaj gönderir"
+    self-message: "Kendine yazamazsın!"
+    ignored: "Bu oyuncuya yazamazsınız!"
+  reply:
+    usage: "Kullanım: /reply <mesaj>"
+    description: "Son kişiye yanıt verir"
+    not-target: "Hesap vereceğin kimse yok!"
+    target-not-online: "Oyuncu %s çevrimiçi değil!"
+  spawn:
+    usage: "Kullanım: /spawn"
+    description: "Sizi doğduğunuz yere ışınlar"
+    not-initialized: "Spawn noktası yok! Lütfen 'spawn' adında bir warp oluşturun!"
+  heal:
+    usage: "Kullanım: /heal"
+    description: "Sizi iyileştirir ve besler"
+    healed: "Sizi iyileştirir ve besler"
+  enchant:
+    usage: "Kullanım: /enchant"
+    description: "Bir eşyayı büyüler"
+  potion:
+    usage: "Kullanım: /potion"
+    description: "Bir iksir al"
+  tpa:
+    usage: "Kullanım: /tpa <oyuncu>"
+    description: "Bir oyuncuya ışınlanma isteği gönderme"
+  tpahere:
+    usage: "Kullanım: /tpahere <oyuncu>"
+    description: "Bir oyuncuya ışınlanma isteği göndererek onu size ışınlamasını sağlayın."
+  tpacancel:
+    usage: "Kullanım: /tpacancel"
+    description: "Bir ışınlanma isteğini iptal eder"
+  tpaccept:
+    usage: "Kullanım: /tpaccept"
+    description: "Işınlanma isteğini kabul eder"
+  tpdeny:
+    usage: "Kullanım: /tpdeny"
+    description: "Işınlanma isteğini reddeder"
+  give:
+    usage: "Bkullanım: /give <item> [sayı]"
+    description: "Size seçili öğeyi verir"
+    invalid-amount: "Geçersiz ürün numarası! Lütfen bir tam sayı girin!"
+    blacklisted: "Bu ürünü kendinize veremezsiniz!"
+  filter:
+    usage: "Kullanım: /filter"
+    description: "Bukkit Event/ProtocolLib Paket Filtre Sistemi"
+  kill:
+    usage: "Kullanım: /kill [oyuncu]"
+    description: "Kendinizi veya diğer oyuncuları öldürün"
+    self: "Güle güle zalim dünya :(...."
+    success: "Öldürülen %s"
+  clear:
+    usage: "Kullanım: /clear"
+    description: "Envanterinizdeki tüm öğeleri kaldırır"
+  fly:
+    usage: "Kullanım: /fly"
+    description: "Bir muşamba kadar uçucu ve bir vinç kadar yüksek olun"
+    flymode: "Uçuş modu: "
+  tp:
+    usage: "Kullanım: /tp <oyuncu> [oyuncu]."
+    description: "Sizi belirli bir oyuncuya ışınlar"
+  gamemode:
+    usage: "Kullanım: /gamemode <mode>"
+    description: "Oyun modunuzu değiştirin"
+    invalid-mode: "Uygun olmayan oyun modu: %s"
+    success: "Oyun modunuz %s olarak değiştirildi!"
+  gameprotocol:
+    usage: "Kullanım: /gameprotocol"
+    description: "Maç günlüğünüzü görüntüler"
+    player: "Protokolünüz %s"
