@@ -61,7 +61,7 @@ gui:
       description:
         - "&fHasarı Etkinleştir/Devre Dışı Bırak"
     hunger:
-      name: "Açlık
+      name: "Açlık"
       description:
         - "&fAçlığı Etkinleştir/Devre Dışı Bırak"
     allowat:
