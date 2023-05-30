@@ -1,0 +1,350 @@
+name: "fi-fi"
+languageName: Finnish
+
+contributors:
+  - "Kellohylly"
+
+aliases:
+  - "fin"
+  - "finnish"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/59f2349729a7ec8d4b1478adfe5ca8af96479e983fbad238ccbd81409b4ed"
+  lore:
+    - "&7Vaihda kielisi suomeksi"
+    - ""
+    - "&7Avustajat:"
+    - "%contributors%"
+    - ""
+    - "&6Paina vaihtaaksesi kieltä!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  kick: "Kick: "
+  damage: "Vahinko: "
+  hunger: "Nälkä: "
+  blocking: "Blocking: "
+  sneaking: "Sneaking: "
+
+gui:
+  language:
+    title: "Kieli valikko"
+  anticheat:
+    title: "Anticheats Valikko"
+    disabled: "Pois päältä"
+    version: "Versio"
+    author: "Tekijät/Kirjoittajat"
+    description: "Kuvaus"
+  settings:
+    title: "Asetus valikko"
+    status: "Tila"
+    mode: "Mode"
+    description: "Kuvaus"
+    flag:
+      name: "Flag"
+      description:
+        - "&fNäytä anticheat flagit"
+    flagmode:
+      name: "Flag mode"
+      description:
+        - "&fVaihda flag muotoa"
+        - "&bSaatavat muodot:"
+        - "   &7▪ &fCHAT: Näytä flagit chatissa"
+        - "   &7▪ &fACTIONBAR: Näytä flagit actionbarissa"
+    kick:
+      name: "Kick"
+      description:
+        - "&Laita kick pois/päälle"
+    damage:
+      name: "Vahinko"
+      description:
+        - "&fLaita vahinko pois/päälle"
+    hunger:
+      name: "Nälkä"
+      description:
+        - "&fLaita nälkä pois/päälle"
+    allowat:
+      name: "AllowAT"
+      description:
+        - "&fAnna muiden pelaajien tägätä sinut chatissä"
+  warp:
+    title: "Warp valikko"
+    world: "Maailma"
+  enchant:
+    title: "Lumous menu"
+    no-enchant: "Ei lumouksia tälle tavaralle"
+    put-item: "Laita tavara tyhjälle aukolle vasemmalla"
+    level: "Taso"
+    left-click: "Vasen click"
+    right-click: "Oikea click"
+    add-enchant: "lisää lumous"
+    remove-enchant: "poista lumous"
+    upgrade-enchant: "päivitä lumous"
+    downgrade-enchant: "alenna lumous"
+    incompatible: "Epäsopiva lumous"
+    fix-item: "Korjaa esine"
+    remove-all-enchant: "Poista kaikki lumoukset"
+    unbreakable: "Rikkoutumaton"
+  potion:
+    title: "Potion valikko"
+  filter:
+    title: "Suodatinjärjestelmä"
+    empty: "Tyhjä"
+    reset: "Nollaa suodatinjärjestelmä"
+    next-page: "Seuraava sivu"
+    previous-page: "Viime sivu"
+    page: "Sivu: "
+    search: "Etsi"
+    cancel-search: "Peruuta etsiminen"
+    back: "Takaisin"
+    type: "Tyyppi"
+  search:
+    title: "Haku valikko"
+    item: "Hae"
+
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Sinut on hiljennetty!"
+    unmute: "Sinut on epähiljennetty!"
+    no-permission-at: "Sinulla ei ole lupaa tägätä pelaajaa!"
+    no-permission-at-everyone: "Sinulla ei ole lupaa tägätä kaikkia!"
+  teleport:
+    success: "Teleportti valmis!"
+    expired: "Sinun teleportti pyyntö on vanhentunut!"
+    ignored: "Sinä et voi pyytää teleporttia tältä pelaajalta!"
+    no-request:
+      to-accept: "Ei teleportti pyyntöjä hyväksyntävänä!"
+      to-deny: "Ei teleportti pyyntöjä hylättäväksi!"
+      to-cancel: "Ei teleportti pyyntojä peruutettavanal!"
+    request:
+      requester: "Teleporttaus pyynto lähetetty %s."
+      receiver:
+        normal: "%s pyytä teleportata sinuun."
+        here: "%s pyytää että sinä teleporttaat häneen."
+    timeout:
+      requester: "Sinun teleporttaus pyyntö %s on vanhentunut!"
+      receiver: "%sn teleporttaus pyyntö sinuun!"
+    cancelled:
+      requester: "Sinun teleporttaus pyyntö %s on peruutettu!"
+      receiver: "%sn teleporttaus pyyntö sinuun on peruutettu!"
+    denied:
+      requester: "%s hylkäsi teleporttaus pyyntösi!"
+      receiver: "Sinä hylkäsit %sn teleporttaus pyynnön!"
+    accepted:
+      requester: "%s hyväksyi teleporttaus pyyntösi, Teleportataan..."
+      receiver: "Hyväksyit %sn teleporttaus pyynnön, Teleportataan..."
+    type:
+      cancel: "Peruuttaaksesi teleporttaus pyynnön, kirjoita /tpacancel"
+      accept: "Teleportataksesi, kirjoita /tpaccept"
+      deny: "Kieltääksesi teleporttaus pyynnön, kirjoita /tpdeny"
+    already-requested: "Olet jo lähettänyt %s teleporttaus pyynnön! Kirjoita /tpacancel peruuttaaksesi sen."
+    not-online: "%s ei ole paikalla!"
+    self: "Et voi yrittää teleportata itseesi!"
+  command-cooldown: "Käytät tätä komentoa liian nopeasti! Hidasta!"
+  no-permission: "Sinulla ei ole lupaa tehdä tätä!"
+  player-not-found: "%s ei löydy tai ei ole paikalla!"
+  welcome:
+    new-player:
+      - "Moi! Tervetuloa Loyisan test serveriin!"
+      - "Täällä on anticheatteja joita voit vaihtaa ja testata niitä!"
+      - "Käytä /ac vaihtaaksesi anticheatteja"
+      - "Käytä /lang vaihtaaksesi kieltä"
+      - "Muille komennoille käytä /help nähdäksesi kaikki komennot!"
+      - "Pidä hauskaa!"
+    old-player:
+      - "Moi! on ollut %s päivää viime kerrasta kun loginnasit!"
+      - "Tervetuloa takaisin"
+
+  anticheat:
+    disabled: "%s ei ole käytössä!"
+    dev-only: "%s on avoinna vain ohjelmistokehittäjille!"
+    cant-use-with-others: "%s ei voi käyttää muiden anticheattien kanssa!"
+    must-use-with-others: "%s pitää kayttä muiden anticheattien kanssa!"
+    amount-limit: "Et voi käyttää enempää kuin %s anticheattia samaan aikaan!"
+    selected: "Valitsit: %s"
+    not-found: "Anticheat %s ei löydy!"
+
+  itemcleaner:
+    countdown: "Kaikki tavarat siivotaan lattialta %s sekunnin päästä!"
+    cleaned: "%s tavaraa on siivottu!"
+
+  scaffoldcleaner:
+    countdown: "Kaikki scaffold alueet siivotaan %s sekunnissa!"
+
+  breaktest:
+    broken: "Rikoit %s!"
+
+  damagetest:
+    damage: "Oletettu vahinko: %s  Oikea vahinko: %s"
+
+  speedtest:
+    timeout: "Sinun SpeedTest on peruuntunut!"
+    not-found: "SpeedTest Huone %s ei löydy!"
+    already-in-use: "Tämä SpeedTest huone on jo käytössä!"
+    terminated: "Sinun SpeedTest on peruutettu/tuhottu!"
+    already-in-speedtest: "Olet jo SpeedTest huoneessa!"
+    result: "Nopeutesi on %s/s"
+    faster: "Olet %s nopeampi kuin vanilla sprint-hyppiminen!"
+    slower: "Olet %s hitaampi kuin vanilla sprint-hyppiminen!"
+
+  client:
+    brand:
+      message: "Client brändisi on %s"
+    forge-mod-list:
+      message: "*Hover here to view your Forge mod list*"
+      by-client: "Tämän mod listan Clienttisi kertoi"
+    lunarclient:
+      message: "Käytät LunarClienttia!(API Huomattu)"
+
+commands:
+  anticheat:
+    usage: "Käyttötapa: /ac [anticheat|ac ac ...]"
+    description: "Vaihda anticheatteja"
+  health:
+    usage: "Käyttötapa: /health <määrä>"
+    description: "Vaihda elämä määrääsi"
+    updated: "Elämä määräsi on paivitetty!"
+    invalid-value: "Epäsopiva elämä määrä, Laita numeroina!"
+    error-value: "Elämä määrän pitää olla 0 ja %s välillä!"
+  hunger:
+    usage: "Käyttötapa: /hunger <määrä>"
+    description: "Vaihda nälkä määräsi"
+    updated: "Nälkä määräsi on päivitetty!"
+    invalid-value: "Epäsopiva nälkä määrä, Laita numeroina!"
+    error-value: "Nälän pitää olla 0 ja 20 välillä!"
+  ip:
+    usage: "Käyttötapa: /ip"
+    description: "Saa IP osoitteesi"
+    player: "Sinun IP osoite on: %s"
+  language:
+    usage: "Käyttötapa: /language [kieli]"
+    description: "Vaihda kieltä"
+    changed: "Kielesi on vaihdettu %s !"
+    not-found: "Kieli %s ei löydy!"
+  settings:
+    usage: "Käyttötapa: /settings"
+    description: "Vaihda asetuksia"
+  warp:
+    usage: "Käyttötapa: /warp <warpin nimi>"
+    description: "Teleporttaa warp pisteeseen"
+    not-found: "Warp %s ei löydy!"
+  discord:
+    usage: "Käyttötapa: /discord"
+    description: "Saa discord linkki"
+    message: "Discord link: %s"
+  help:
+    usage: "Käyttötapa: /help [sivy]"
+    description: "Näytä apua"
+    help-page: "Apu sivu:"
+    command: "Komento: "
+    description-cmd: "Kuvaus: "
+    usage-cmd: "Käyttötapa: "
+    invalid-number: "Epäsopiva sivunumero!"
+    previous-page: "Viime sivu"
+    next-page: "Seuraava sivu"
+  ping:
+    usage: "Käyttötapa: /ping"
+    description: "Saa pinggisi ja korjaa sen (jos pinggisi on epänormaali)"
+    message: "Pinggisi on %sms"
+    abnormal: "Pinggisi on epänormaali, korjataan..."
+  message:
+    usage: "Käyttötapa: /msg <pelaaja> <viesti>"
+    description: "Lähetä viesti pelaajalle"
+    self-message: "Et voi lähettää itsellesi viestiä!"
+    ignored: "Et voi lähettää tälle pelaajalle viestiä!"
+  reply:
+    usage: "Käyttötapa: /reply <viesti>"
+    description: "Vastaa viimeisimpään saamaasi viestiin"
+    not-target: "Sinulla ei ole viestejä joihin voisit vastata!"
+    target-not-online: "%s ei ole paikalla!"
+  spawn:
+    usage: "Käyttötapa: /spawn"
+    description: "Teleporttaa spawnille"
+    not-initialized: "Spawn lokaatio ei ole varmistettu! Tee warppi nimeltä 'spawn'!"
+  heal:
+    usage: "Käyttötapa: /heal"
+    description: "Paranna itsesi"
+    healed: "Sinut on parannettu!"
+  enchant:
+    usage: "Käyttötapa: /enchant"
+    description: "Lumoa tavara"
+  potion:
+    usage: "Käyttötapa: /potion"
+    description: "Saa potioni"
+  tpa:
+    usage: "Käyttötapa: /tpa <pelaaja>"
+    description: "Pyydä lupaa teleportata pelaajaan"
+  tpahere:
+    usage: "Käyttötapa: /tpahere <pelaaja>"
+    description: "Pyydä pelaajaa teleporttaamaan sinuun"
+  tpacancel:
+    usage: "Käyttötapa: /tpacancel"
+    description: "Peruuta teleporttaus pyyntö jonka olet lähettänyt"
+  tpaccept:
+    usage: "Käyttötapa: /tpaccept"
+    description: "Hyväksy teleporttaus pyyntö"
+  tpdeny:
+    usage: "Käyttötapa: /tpdeny"
+    description: "Kieltäydy pelaajan teleporttaus pyynnöstä"
+  give:
+    usage: "Käyttötapa: /give <tavara> [määrä]"
+    description: "Antaa sinulle tavaran / tavarat"
+    invalid-amount: "Epäsopiva tavara määrä! Laita numeroina!"
+    blacklisted: "Tämä tavara ei ole sallitty!"
+  filter:
+    usage: "Käyttötapa: /filter"
+    description: "Bukkit Event/ProtocolLib Packet Filter system"
+  kill:
+    usage: "Käyttötapa: /kill [pelaaja]"
+    description: "Tapa itsesi tai joku muu"
+    self: "Hyvästi julma maailma..."
+    success: "Tapoit %s"
+  clear:
+    usage: "Käyttötapa: /clear"
+    description: "Siivoa kaikki tavarat tavaraluettelostasi"
+  fly:
+    usage: "Käyttötapa: /fly"
+    description: "Lennä kuuhun"
+    flymode: "Lento mode: "
+  tp:
+    usage: "Käyttötapa: /tp <pelaaja> [pelaaja]"
+    description: "Teleporttaa pelaajaan"
+  gamemode:
+    usage: "Käyttötapa: /gamemode <mode>"
+    description: "Vaihda pelimuotosi"
+    invalid-mode: "Epäsopiva pelimuoto: %s"
+    success: "Pelimuotosi on vaihdettu: %s!"
+  gameprotocol:
+    usage: "Käyttötapa: /gameprotocol"
+    description: "Get your game protocol"
+    player: "Your Protocol is %s"
+  damagetick:
+    usage: "Käyttötapa: /damagetick <määrä>"
+    description: "Vaihda vahinko tickkien määrää"
+    updated: "Damage tickkisit on nyt: %s!"
+    invalid-value: "Epäsopiva määrä! Laita numerioina!"
+    error-value: "Määrän pitää pööa 0 ja 20 välillä!"
+    current: "Nykyiset damage tickkisit ovat: %s"
+  back:
+    usage: "Käyttötapa: /back"
+    description: "Teleporttaa viimeisimpään kuolinpaikkaan"
+    no-location: "Sinulla ei ole viimeisintä kuolin paikkaa!"
+    teleported: "Teleportattu viimeisimpään kuolin paikkaan!"
+    on-death: "Käytä /back teleportataksesi viimeisimpään kuolinpaikkaan!"
+  exploit:
+    usage: "Käyttötapa: /exploit <exec|list> [exploit]"
+    description: "Test if your client is affected by exploits"
+    crash: "WARNING: This exploit may crash your client!"
+    non-crash: "WARNING: This exploit may be harmful to your client!"
+    confirm: "If you know the risks and agree to execute the exploit, please type /exploit confirm"
+    not-found: "Exploit %s not found!"
+    available: "Available exploits: %s"
+    executed: "Exploit %s executed!"
+    no-exploit: "You don't have any exploit to execute!"
+    resourcepack:
+      alert: 'This vulnerability can only detect if the file exists, we will try to access servers.dat in your ".minecraft" directory.'
+      vulnerable: "Oops, you client seems to be vulnerable."
+      notvulnerable: "Congratulations, your client is not vulnerable!"
