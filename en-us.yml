@@ -26,6 +26,7 @@ scoreboard:
   hunger: "Hunger: "
   blocking: "Blocking: "
   sneaking: "Sneaking: "
+  sprinting: "Sprinting: "
 
 gui:
   language:
