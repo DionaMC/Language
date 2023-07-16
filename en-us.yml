@@ -342,3 +342,6 @@ commands:
   client:
     usage: "Usage: /client"
     description: "Show your client information"
+  menu:
+    usage: "Usage: /menu"
+    description: "Open the menu"

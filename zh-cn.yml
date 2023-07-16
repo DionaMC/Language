@@ -342,3 +342,6 @@ commands:
   client:
     usage: "用法: /client"
     description: "显示你的客户端信息"
+  menu:
+    usage: "用法: /menu"
+    description: "打开菜单"
