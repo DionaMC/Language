@@ -93,6 +93,20 @@ gui:
   search:
     title: "Search menu"
     item: "Search"
+  client:
+    title: "Client information"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
 
 messages:
   message:

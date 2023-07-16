@@ -93,6 +93,20 @@ gui:
   search:
     title: "搜索菜单"
     item: "搜索"
+  client:
+    title: "客户端信息"
+    # you don't have to translate this
+    profile: "档案"
+    name: "名称: "
+    network: "网络"
+    ping: "Ping: "
+    client: "客户端"
+    brand: "Brand: "
+    version: "版本: "
+    protocol-version: "协议版本: "
+    forge-mod-list: "Forge模组列表"
+    mod: "模组: "
+    none: "无"
 
 messages:
   message:
