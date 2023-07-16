@@ -21,10 +21,8 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
-  kick: "Kick: "
-  damage: "Damage: "
-  hunger: "Hunger: "
   blocking: "Blocking: "
+  sprinting: "Sprinting: "
   sneaking: "Sneaking: "
   sprinting: "Sprinting: "
 
