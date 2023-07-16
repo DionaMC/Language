@@ -107,7 +107,9 @@ gui:
     forge-mod-list: "Forge模组列表"
     mod: "模组: "
     none: "无"
-
+  menu:
+    title: "菜单"
+    click-to-view: "点击查看"
 messages:
   message:
     sender: "&7[&f我 &b-> &f%s&7] &f%s"

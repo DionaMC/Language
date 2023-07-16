@@ -107,7 +107,9 @@ gui:
     forge-mod-list: "Forge mod list"
     mod: "Mod(s): "
     none: "None"
-
+  menu:
+    title: "Menu"
+    click-to-view: "Click to view"
 messages:
   message:
     sender: "&7[&fme &b-> &f%s&7] &f%s"
