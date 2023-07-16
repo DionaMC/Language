@@ -44,13 +44,6 @@ gui:
       name: "Flag"
       description:
         - "&fShow anticheat flags"
-    flagmode:
-      name: "Flag mode"
-      description:
-        - "&fSet the flag mode"
-        - "&bAvailable modes:"
-        - "   &7▪ &fCHAT: show flags in chat"
-        - "   &7▪ &fACTIONBAR: show flags in ActionBar"
     kick:
       name: "Kick"
       description:
@@ -348,3 +341,6 @@ commands:
       alert: "This vulnerability can only detect if the file exists, we will try to access servers.dat in your \".minecraft\" directory."
       vulnerable: "Oops, you client seems to be vulnerable."
       notvulnerable: "Congratulations, your client is not vulnerable!"
+  client:
+    usage: "Usage: /client"
+    description: "Show your client information"

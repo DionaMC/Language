@@ -43,13 +43,6 @@ gui:
       name: "Flag"
       description:
         - "&f显示反作弊Flag"
-    flagmode:
-      name: "Flag模式"
-      description:
-        - "&f设置Flag模式"
-        - "&b可用模式:"
-        - "   &7▪ &fCHAT: 在聊天栏显示Flag"
-        - "   &7▪ &fACTIONBAR: 在ActionBar显示Flag"
     kick:
       name: "踢出"
       description:
@@ -347,3 +340,6 @@ commands:
       alert: "这个漏洞只能检测文件是否存在, 我们会尝试访问你的“.minecraft”目录下的 servers.dat 文件"
       vulnerable: "糟糕,你的客户端似乎受此漏洞影响."
       notvulnerable: "恭喜,您的客户不易受攻击!"
+  client:
+    usage: "用法: /client"
+    description: "显示你的客户端信息"
