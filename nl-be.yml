@@ -20,9 +20,6 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
-  kick: "Kick: "
-  damage: "Schade: "
-  hunger: "Honger: "
 
 gui:
   language:
@@ -42,13 +39,6 @@ gui:
       name: "Flag"
       description:
         - "&fAnticheat flags laten zien"
-    flagmode:
-      name: "Flag modus"
-      description:
-        - "&fZet de flag Modus"
-        - "&bVerkrijgbare modes:"
-        - "   &7▪ &fCHAT: flags laten zien in de chat"
-        - "   &7▪ &fACTIEBAR: flags laten zien in de ActieBar"
     kick:
       name: "Kick"
       description:
@@ -230,7 +220,6 @@ commands:
     help-page: "Help pagina:"
     command: "Command: "
     description-cmd: "Beschrijving: "
-    usage-cmd: "Gebruikswijze: "
     invalid-number: "Ongeldig pagina nummer!"
   ping:
     usage: "Gebruikswijze: /ping"

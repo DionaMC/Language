@@ -20,9 +20,6 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
-  kick: "Kick: "
-  damage: "Vahinko: "
-  hunger: "Nälkä: "
   blocking: "Blocking: "
   sneaking: "Sneaking: "
 
@@ -44,13 +41,6 @@ gui:
       name: "Flag"
       description:
         - "&fNäytä anticheat flagit"
-    flagmode:
-      name: "Flag mode"
-      description:
-        - "&fVaihda flag muotoa"
-        - "&bSaatavat muodot:"
-        - "   &7▪ &fCHAT: Näytä flagit chatissa"
-        - "   &7▪ &fACTIONBAR: Näytä flagit actionbarissa"
     kick:
       name: "Kick"
       description:
@@ -241,7 +231,6 @@ commands:
     help-page: "Apu sivu:"
     command: "Komento: "
     description-cmd: "Kuvaus: "
-    usage-cmd: "Käyttötapa: "
     invalid-number: "Epäsopiva sivunumero!"
     previous-page: "Viime sivu"
     next-page: "Seuraava sivu"

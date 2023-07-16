@@ -23,9 +23,6 @@ skullItem:
 
 scoreboard:
   title: "Loyisa'nın Test Sunucusu"
-  kick: "Tekmele: "
-  damage: "Hasar: "
-  hunger: "Açlık: "
 
 gui:
   language:
@@ -45,13 +42,6 @@ gui:
       name: "Bayrak"
       description:
         - "&fAntik bayrakları göster"
-    flagmode:
-      name: "Bayrak modu"
-      description:
-        - "&fBayrak modunu ayarlayın"
-        - "&bMevcut modlar:"
-        - "   &7▪ &fSOHBET: Sohbette bayrakları göster"
-        - "   &7▪ &fACTIONBAR: ActionBar'da bayrakları göster"
     kick:
       name: "Tekme"
       description:
@@ -233,7 +223,6 @@ commands:
     help-page: "Yardım sayfası:"
     command: "Emredin: "
     description-cmd: "Açıklama: "
-    usage-cmd: "Kullan: "
     invalid-number: "Suçsuz sayfa numarası!"
   ping:
     usage: "Kullanım: /ping"

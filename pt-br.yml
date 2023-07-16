@@ -22,9 +22,6 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
-  kick: "Kick: "
-  damage: "Dano: "
-  hunger: "Fome: "
   blocking: "Blocking: "
   sneaking: "Sneaking: "
 
@@ -46,13 +43,6 @@ gui:
       name: "Flag"
       description:
         - "&fMostrar flag do anticheat"
-    flagmode:
-      name: "Flag mode"
-      description:
-        - "&fSeleciona a forma de ver os Flags"
-        - "&bModos disponíveis:"
-        - "   &7▪ &fCHAT: mostre os flags no chat"
-        - "   &7▪ &fACTIONBAR: mostre os flags na ActionBar"
     kick:
       name: "Kick"
       description:
@@ -243,7 +233,6 @@ commands:
     help-page: "Página de ajuda:"
     command: "Comando: "
     description-cmd: "Descrição: "
-    usage-cmd: "Uso: "
     invalid-number: "Número da página inválido!"
     previous-page: "Página anterior"
     next-page: "Próxima página"

@@ -22,7 +22,6 @@ skullItem:
 scoreboard:
   title: "Loyisa's Testserver"
   blocking: "Blocking: "
-  sprinting: "Sprinting: "
   sneaking: "Sneaking: "
   sprinting: "Sprinting: "
 
@@ -234,7 +233,6 @@ commands:
     help-page: "Help page:"
     command: "Command: "
     description-cmd: "Description: "
-    usage-cmd: "Usage: "
     invalid-number: "Invalid page number!"
     previous-page: "Previous page"
     next-page: "Next page"

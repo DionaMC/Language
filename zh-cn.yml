@@ -233,7 +233,6 @@ commands:
     help-page: "帮助页数:"
     command: "指令: "
     description-cmd: "简介: "
-    usage-cmd: "用法: "
     invalid-number: "Invalid page number!"
     previous-page: "上一页"
     next-page: "下一页"

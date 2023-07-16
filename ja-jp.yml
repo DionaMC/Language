@@ -22,9 +22,6 @@ skullItem:
 
 scoreboard:
   title: "Loyisaのテストサーバー"
-  kick: "キック: "
-  damage: "ダメージ: "
-  hunger: "空腹: "
   blocking: "ブロッキング: "
   sneaking: "しゃがむ: "
 
@@ -46,13 +43,6 @@ gui:
       name: "フラグ"
       description:
         - "&fアンチチートのフラグを表示します"
-    flagmode:
-      name: "フラグモード"
-      description:
-        - "&fフラグのモードを設定します"
-        - "&b利用可能なモード:"
-        - "   &7▪ &fチャット: チャットにフラグを表示します"
-        - "   &7▪ &fアクションバー: アクションバーにフラグを表示します"
     kick:
       name: "キック"
       description:
@@ -234,7 +224,6 @@ commands:
     help-page: "ヘルプページ:"
     command: "コマンド: "
     description-cmd: "説明: "
-    usage-cmd: "使い方: "
     invalid-number: "無効なページ番号です！"
   ping:
     usage: "使い方: /ping"

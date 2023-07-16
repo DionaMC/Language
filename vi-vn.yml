@@ -21,9 +21,6 @@ skullItem:
 
 scoreboard:
   title: "Server thử nghiệm của Loyisa"
-  kick: "Kick: "
-  damage: "Sát thương: "
-  hunger: "Đói: "
   blocking: "Chặn: "
   sneaking: "Ngồi: "
 
@@ -45,13 +42,6 @@ gui:
       name: "Flag"
       description:
         - "&fHiện flag anticheat"
-    flagmode:
-      name: "chế độ Flag"
-      description:
-        - "&fThiết lập chế độ Flag"
-        - "&bNhững chế độ có sẵn:"
-        - "   &7▪ &fCHAT: hiện Flag ở Chat"
-        - "   &7▪ &fACTIONBAR: hiện Flag ở Actionbar"
     kick:
       name: "Kick"
       description:
@@ -241,7 +231,6 @@ commands:
     help-page: "trang trợ giúp:"
     command: "Lệnh: "
     description-cmd: "Mô tả: "
-    usage-cmd: "Cách sử dụng: "
     invalid-number: "Số trang không hợp lệ!"
     previous-page: "Trang trước đó"
     next-page: "Trang tiếp theo"

@@ -18,9 +18,6 @@ skullItem:
 
 scoreboard:
   title: "Test serveur de Loyisa"
-  kick: "Exclusion: "
-  damage: "Dégâts: "
-  hunger: "Faim: "
 
 gui:
   language:
@@ -40,13 +37,6 @@ gui:
       name: "Notifications"
       description:
         - "&fAffiche les notifications de l'anti-triche"
-    flagmode:
-      name: "Mode de notification"
-      description:
-        - "&fModifie l'endroit où les notifications sont affichées"
-        - "&bModes disponibles:"
-        - "   &7▪ &fCHAT: envoie les messages dans le chat"
-        - "   &7▪ &fACTIONBAR: affiche les messages au dessus de la bar d'équipement"
     kick:
       name: "Exclusion"
       description:
@@ -228,7 +218,6 @@ commands:
     help-page: "Page d'aide:"
     command: "Commande: "
     description-cmd: "Description: "
-    usage-cmd: "Utilisation: "
     invalid-number: "La page indiquée n'existe pas !"
   ping:
     usage: "Utilisation: /ping"
