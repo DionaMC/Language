@@ -1,0 +1,362 @@
+name: "en-us"
+languageName: English
+
+contributors:
+  - "Szypko"
+
+aliases:
+  - "pl"
+  - "polish"
+
+skullItem:
+  textureUrl: "http://textures.minecraft.net/texture/921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb"
+  lore:
+    - "&7Zmień swój język na polski"
+    - ""
+    - "&7Contributors:"
+    - "%contributors%"
+    - ""
+    - "&6Click to change your language!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  blocking: "Blocking: "
+  sneaking: "Sneaking: "
+  sprinting: "Sprinting: "
+
+gui:
+  language:
+    title: "Languages menu"
+  anticheat:
+    title: "Anticheats menu"
+    disabled: "Disabled"
+    version: "Version"
+    author: "Author(s)"
+    description: "Description"
+  settings:
+    title: "Settings menu"
+    status: "Status"
+    mode: "Mode"
+    description: "Description"
+    flag:
+      name: "Flag"
+      description:
+        - "&fShow anticheat flags"
+    kick:
+      name: "Kick"
+      description:
+        - "&fEnable/disable kick"
+    damage:
+      name: "Damage"
+      description:
+        - "&fEnable/disable damage"
+    hunger:
+      name: "Hunger"
+      description:
+        - "&fEnable/disable hunger"
+    allowat:
+      name: "AllowAT"
+      description:
+        - "&fAllow other players to mention you in chat"
+  warp:
+    title: "Warp menu"
+    world: "World"
+  enchant:
+    title: "Enchant menu"
+    no-enchant: "No enchantments for this item"
+    put-item: "Put the item in the empty slot on the left"
+    level: "Level"
+    left-click: "Left click"
+    right-click: "Right click"
+    add-enchant: "add enchantment"
+    remove-enchant: "remove enchantment"
+    upgrade-enchant: "upgrade enchantment"
+    downgrade-enchant: "downgrade enchantment"
+    incompatible: "Incompatible enchantment"
+    fix-item: "Fix item"
+    remove-all-enchant: "Remove all enchantments"
+    unbreakable: "Unbreakable"
+  potion:
+    title: "Potion menu"
+  filter:
+    title: "Filter system"
+    empty: "Empty"
+    reset: "Reset filter system"
+    next-page: "Next page"
+    previous-page: "Previous page"
+    page: "Page: "
+    search: "Search"
+    cancel-search: "Cancel search"
+    back: "Back"
+    type: "Type"
+  search:
+    title: "Search menu"
+    item: "Search"
+  client:
+    title: "Client information"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Menu"
+    click-to-view: "Click to view"
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "You are muted!"
+    unmute: "You are unmuted!"
+    no-permission-at: "You don't have permission to @ player!"
+    no-permission-at-everyone: "You don't have permission to @everyone!"
+  teleport:
+    success: "Teleport complete!"
+    expired: "Your teleport request has expired!"
+    ignored: "You can't request a teleport to this player!"
+    no-request:
+      to-accept: "No teleport requests to accept!"
+      to-deny: "No teleport requests to deny!"
+      to-cancel: "No teleport requests to cancel!"
+    request:
+      requester: "Teleport request sent to %s."
+      receiver:
+        normal: "%s has requested to teleport to you."
+        here: "%s has requested that you teleport to them."
+    timeout:
+      requester: "Your teleport request to %s has timed out!"
+      receiver: "%s's teleport request to you has timed out!"
+    cancelled:
+      requester: "Your teleport request to %s has been cancelled!"
+      receiver: "%s's teleport request to you has been cancelled!"
+    denied:
+      requester: "%s denied your teleport request!"
+      receiver: "You denied %s's teleport request!"
+    accepted:
+      requester: "%s accepted your teleport request! Teleporting..."
+      receiver: "You accepted %s's teleport request! Teleporting..."
+    type:
+      cancel: "To cancel the teleport request, type /tpacancel"
+      accept: "To teleport, type /tpaccept"
+      deny: "To deny the teleport request, type /tpdeny"
+    already-requested: "You have already sent %s a teleport request! Type /tpacancel to cancel it."
+    not-online: "Player %s is not online!"
+    self: "You can't request a teleport to yourself!"
+  command-cooldown: "You are using this command too fast! Please calm down!"
+  no-permission: "You don't have permission to do this!"
+  player-not-found: "Player %s not found or not online!"
+  welcome:
+    new-player:
+      - "Hello! Welcome to Loyisa's test server!"
+      - "In this server, you can test anticheats and switch them in game!"
+      - "You can use /ac to switch anticheats"
+      - "You can use /lang to change the language"
+      - "For other commands, please use /help to see all commands!"
+      - "Have fun!"
+    old-player:
+      - "Hi! it has been %s days since your last login!"
+      - "Welcome back!"
+
+  anticheat:
+    disabled: "Anticheat %s has been disabled!"
+    dev-only: "Anticheat %s is only available for developers!"
+    cant-use-with-others: "Anticheat %s can't be used with others anticheats!"
+    must-use-with-others: "Anticheat %s must be used with others anticheats!"
+    amount-limit: "You can't use more than %s anticheats at the same time!"
+    selected: "You selected: %s"
+    not-found: "Anticheat %s not found!"
+
+  itemcleaner:
+    countdown: "All items on the ground will be cleaned in %s seconds!"
+    cleaned: "%s items have been cleaned!"
+
+  scaffoldcleaner:
+    countdown: "All scaffold areas will be cleaned in %s seconds!"
+
+  breaktest:
+    broken: "You broke the %s!"
+
+  damagetest:
+    damage: "Expected damage: %s  Actual damage: %s"
+
+  speedtest:
+    timeout: "Your SpeedTest has timed out!"
+    not-found: "SpeedTest Room %s not found!"
+    already-in-use: "This SpeedTest Room is already in use!"
+    terminated: "Your SpeedTest has been terminated!"
+    already-in-speedtest: "You are already in a SpeedTest Room!"
+    result: "Your speed is %s/s"
+    faster: "You are %s faster than vanilla sprint-jumping!"
+    slower: "You are %s slower than vanilla sprint-jumping!"
+
+  client:
+    brand:
+      message: "Your client brand is %s"
+    forge-mod-list:
+      message: "*Hover here to view your Forge mod list*"
+      by-client: "This mod list was reported by your client"
+    lunarclient:
+      message: "You are using LunarClient!(API Detected)"
+
+commands:
+  anticheat:
+    usage: "Usage: /ac [anticheat|ac ac ...]"
+    description: "Switch anticheats"
+  health:
+    usage: "Usage: /health <amount>"
+    description: "Change your health value"
+    updated: "Your health has been updated!"
+    invalid-value: "Invalid health value! Please enter a integer value!"
+    error-value: "The value must be between 0 and %s!"
+  hunger:
+    usage: "Usage: /hunger <amount>"
+    description: "Change your hunger value"
+    updated: "Your hunger has been updated!"
+    invalid-value: "Invalid hunger value! Please enter a integer value!"
+    error-value: "The value must be between 0 and 20!"
+  ip:
+    usage: "Usage: /ip"
+    description: "Get your IP address"
+    player: "Your IP is %s"
+  language:
+    usage: "Usage: /language [language]"
+    description: "Change your language"
+    changed: "Your language has been changed to %s !"
+    not-found: "Language %s not found!"
+  settings:
+    usage: "Usage: /settings"
+    description: "Change settings"
+  warp:
+    usage: "Usage: /warp <warp name>"
+    description: "Teleport to a warp point"
+    not-found: "Warp %s not found!"
+  discord:
+    usage: "Usage: /discord"
+    description: "Get the discord link"
+    message: "Discord link: %s"
+  help:
+    usage: "Usage: /help [page]"
+    description: "Show help"
+    help-page: "Help page:"
+    command: "Command: "
+    description-cmd: "Description: "
+    invalid-number: "Invalid page number!"
+    previous-page: "Previous page"
+    next-page: "Next page"
+  ping:
+    usage: "Usage: /ping"
+    description: "Gets your ping and fixes your ping (if your ping is abnormal)"
+    message: "Your ping is %sms"
+    abnormal: "Your ping is abnormal! Fixing..."
+  message:
+    usage: "Usage: /msg <player> <message>"
+    description: "Send a message to a player"
+    self-message: "You can't send a message to yourself!"
+    ignored: "You can't send message to this player!"
+  reply:
+    usage: "Usage: /reply <message>"
+    description: "Reply to the last message"
+    not-target: "You don't have a message to reply to!"
+    target-not-online: "Player %s is not online!"
+  spawn:
+    usage: "Usage: /spawn"
+    description: "Teleport to spawn location"
+    not-initialized: "Spawn location is not initialized! Please set a warp named 'spawn'!"
+  heal:
+    usage: "Usage: /heal"
+    description: "Heal and feed yourself"
+    healed: "You have been healed!"
+  enchant:
+    usage: "Usage: /enchant"
+    description: "Enchant an item"
+  potion:
+    usage: "Usage: /potion"
+    description: "Get a potion"
+  tpa:
+    usage: "Usage: /tpa <player>"
+    description: "Request to teleport to the specified player"
+  tpahere:
+    usage: "Usage: /tpahere <player>"
+    description: "Request the specified player to teleport to you"
+  tpacancel:
+    usage: "Usage: /tpacancel"
+    description: "Cancel a teleport request sent by you"
+  tpaccept:
+    usage: "Usage: /tpaccept"
+    description: "Accept a teleport request"
+  tpdeny:
+    usage: "Usage: /tpdeny"
+    description: "Deny a teleport request"
+  give:
+    usage: "Usage: /give <item> [amount]"
+    description: "Give you the item(s)"
+    invalid-amount: "Invalid item amount! Please enter an integer value!"
+    blacklisted: "This item is blacklisted!"
+  filter:
+    usage: "Usage: /filter"
+    description: "Bukkit Event/ProtocolLib Packet Filter system"
+  kill:
+    usage: "Usage: /kill [player]"
+    description: "Kill self or another player"
+    self: "Goodbye cruel world..."
+    success: "Killed %s"
+  clear:
+    usage: "Usage: /clear"
+    description: "Clear all items in your inventory"
+  fly:
+    usage: "Usage: /fly"
+    description: "Fly you to the moon"
+    flymode: "Fly mode: "
+  tp:
+    usage: "Usage: /tp <player> [player]"
+    description: "Teleport to a specified player"
+  gamemode:
+    usage: "Usage: /gamemode <mode>"
+    description: "Change your gamemode"
+    invalid-mode: "Invalid gamemode: %s"
+    success: "Your gamemode has been changed to %s!"
+  gameprotocol:
+    usage: "Usage: /gameprotocol"
+    description: "Get your game protocol"
+    player: "Your Protocol is %s"
+  damagetick:
+    usage: "Usage: /damagetick <amount>"
+    description: "Change your damage tick value"
+    updated: "Your damage tick is now %s!"
+    invalid-value: "Invalid damage tick value! Please enter a integer value!"
+    error-value: "The value must be between 0 and 20!"
+    current: "Your current damage tick is %s"
+  back:
+    usage: "Usage: /back"
+    description: "Teleport to your last death location"
+    no-location: "You don't have a last death location!"
+    teleported: "Teleported to your last death location!"
+    on-death: "Use /back to teleport to your last death location!"
+  exploit:
+    usage: "Usage: /exploit <exec|list> [exploit]"
+    description: "Test if your client is affected by exploits"
+    crash: "WARNING: This exploit may crash your client!"
+    non-crash: "WARNING: This exploit may be harmful to your client!"
+    confirm: "If you know the risks and agree to execute the exploit, please type /exploit confirm"
+    not-found: "Exploit %s not found!"
+    available: "Available exploits: %s"
+    executed: "Exploit %s executed!"
+    no-exploit: "You don't have any exploit to execute!"
+    resourcepack:
+      alert: "This vulnerability can only detect if the file exists, we will try to access servers.dat in your \".minecraft\" directory."
+      vulnerable: "Oops, you client seems to be vulnerable."
+      notvulnerable: "Congratulations, your client is not vulnerable!"
+  client:
+    usage: "Usage: /client"
+    description: "Show your client information"
+  menu:
+    usage: "Usage: /menu"
+    description: "Open the menu"
