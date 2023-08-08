@@ -22,7 +22,7 @@ skullItem:
 
 scoreboard:
   title: "Loyisovo Testserver"
-  blocking: "Blockování: "
+  blocking: "Blokování: "
   sneaking: "Krčení: "
   sprinting: "Behání: "
 
