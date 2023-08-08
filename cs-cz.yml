@@ -1,0 +1,364 @@
+name: "cs-cz"
+languageName: Čeština
+
+contributors:
+  - "TabioXt"
+
+aliases:
+  - "cz"
+  - "cs"
+  - "cestina"
+  - "czech"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/48152b7334d7ecf335e47a4f35defbd2eb6957fc7bfe94212642d62f46e61e"
+  lore:
+    - "&7Změnte si jazyk na češtinu!"
+    - ""
+    - "&7Přispěvatelé:"
+    - "%contributors%"
+    - ""
+    - "&6Klikněte pro změnu jazyka!"
+
+scoreboard:
+  title: "Loyisovo Testserver"
+  blocking: "Blockování: "
+  sneaking: "Krčení: "
+  sprinting: "Behání: "
+
+gui:
+  language:
+    title: "Jazyky"
+  anticheat:
+    title: "AntiCheaty"
+    disabled: "Vypnutý"
+    version: "Verze"
+    author: "Autor/ři"
+    description: "Popis"
+  settings:
+    title: "Nastavení"
+    status: "Status"
+    mode: "Mód"
+    description: "Popis"
+    flag:
+      name: "Flag"
+      description:
+        - "&fUkázat AntiCheat flagy"
+    kick:
+      name: "Kick"
+      description:
+        - "&fZapnout/vypnout kicky"
+    damage:
+      name: ""
+      description:
+        - "&fZapnout/vypnout poškození"
+    hunger:
+      name: "Hlad"
+      description:
+        - "&fZapnout/vypnout hlad"
+    allowat:
+      name: "Povolit@"
+      description:
+        - "&fPovolit ostatním hráču vás označit v chatu"
+  warp:
+    title: "Teleportace"
+    world: "World"
+  enchant:
+    title: "Enchant"
+    no-enchant: "Nejsou žádné enchanty pro tento Item"
+    put-item: "Dejte Item do prázdného slotu na levo"
+    level: "Level"
+    left-click: "Levý klik"
+    right-click: "Pravý klik"
+    add-enchant: "Přidat enchant"
+    remove-enchant: "Odebrat enchant"
+    upgrade-enchant: "Zvýšit enchant úrovni"
+    downgrade-enchant: "Zmenšit enchant úrovni"
+    incompatible: "Nekompatibilní enchant"
+    fix-item: "Opravit item"
+    remove-all-enchant: "Odebrat všechny enchanty"
+    unbreakable: "Nerozbitelný"
+  potion:
+    title: "Potiony"
+  filter:
+    title: "Filter systém"
+    empty: "Prázdný"
+    reset: "Resetovat filter systém"
+    next-page: "Další strana"
+    previous-page: "Předchozí strana"
+    page: "Strana: "
+    search: "Hledat"
+    cancel-search: "Zrušit hledání"
+    back: "Zpátky"
+    type: "Typ"
+  search:
+    title: "Hledání"
+    item: "Hledat"
+  client:
+    title: "Client information"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Menu"
+    click-to-view: "Click to view"
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Byl jste umlčen!"
+    unmute: "Byl jste odmlčen!"
+    no-permission-at: "Nemáte povolení označit hráče!"
+    no-permission-at-everyone: "Nemáte povolení označit všechny hráče!"
+  teleport:
+    success: "Teleport hotový!"
+    expired: "Vaše žádost o teleport vypršela!"
+    ignored: "Nemůžete požádat tohohle hráče o teleport!"
+    no-request:
+      to-accept: "Nemáte žádne žádosti o teleport na příjmutí!"
+      to-deny: "Nemáte žádne žádosti o teleport na odmítnutí!"
+      to-cancel: "Nemáte žádne žádosti o teleport na zrušení!"
+    request:
+      requester: "Žádost o teleport byla poslána %s."
+      receiver:
+        normal: "%s poslal žádost se k vám teleportovat."
+        here: "%s poslal žádost aby jste se k němu teleportal."
+    timeout:
+      requester: "Vaše žádost o teleportovat se k %s vypršela!"
+      receiver: "%s-ova žádost o teleport k vám vypršela!"
+    cancelled:
+      requester: "Vaše žádost teleportovat se k %s byla zrušena!"
+      receiver: "%s-ova žádost o teleport k vám byla zrušeba!"
+    denied:
+      requester: "%s zamítnul vaší žádost o teleport!"
+      receiver: "Zámitnul jste %s-ovu žádost o teleport!"
+    accepted:
+      requester: "%s přijmul vaší žádost o teleport! Teleportování..."
+      receiver: "Příjmul jste %s-ovu žádost o teleport! Teleportování..."
+    type:
+      cancel: "Pro zrušení žádosti o teleport, napište /tpacancel"
+      accept: "Pro teleport, napište /tpaccept"
+      deny: "Pro zamítnuti žádosti o teleport, napište /tpdeny"
+    already-requested: "Už jste poslal %s-ovi žádost o teleport! napište /tpacancel pro zrušení."
+    not-online: "Hráč %s není online!"
+    self: "Nemůžete poslat žádost o teleport sám sobě!"
+  command-cooldown: "Používáte tenhle příkaz moc ryhle! Uklidněte se!"
+  no-permission: "Nemáte povolení tohle udělat!"
+  player-not-found: "Hráč %s nebyl nalezen nebo není online!"
+  welcome:
+    new-player:
+      - "Ahoj! Víteje na Loyisovo Testserver!"
+      - "Na tomto serveru můžete testovat a AntiCheaty a měnit je ve hře!"
+      - "Použíjte ./ac na změnení anticheatu"
+      - "Použíjte ./lang na změnení jazyka"
+      - "Pro ostatní příkazy použíje ./help!"
+      - "Bavte se!"
+    old-player:
+      - "Hi! it has been %s days since your last login!"
+      - "Welcome back!"
+
+  anticheat:
+    disabled: "Anticheat %s byl vypnutý!"
+    dev-only: "Anticheat %s je povolen pouze pro developery!"
+    cant-use-with-others: "Anticheat %s nemůže být použitý s ostatnímy AntiCheaty!"
+    must-use-with-others: "Anticheat %s musí být použitý s ostatnímy AntiCheaty!"
+    amount-limit: "Nemůžete použít více než %s AntiCheatů najednou!"
+    selected: "Vybral jste: %s"
+    not-found: "Anticheat %s nebyl nalezen!"
+
+  itemcleaner:
+    countdown: "Všechny Itemy na zemi budou vymazány za %s sekund!"
+    cleaned: "%s bylo vymazáno!"
+
+  scaffoldcleaner:
+    countdown: "Všechny scaffold prostory budou vymazány za %s sekund!"
+
+  breaktest:
+    broken: "Rozbil jste %s!"
+
+  damagetest:
+    damage: "Očekáváné poškození: %s  Skutečné poškození: %s"
+
+  speedtest:
+    timeout: "Váš SpeedTest vypršel!"
+    not-found: "SpeedTest Prostor %s nebyl nalezen!"
+    already-in-use: "Tento SpeedTest Prosot je používaný!"
+    terminated: "Váš SpeedTest byl zrušen!"
+    already-in-speedtest: "Už jste ve SpeedTest prostoru!"
+    result: "Vaše rychlost je %s/s"
+    faster: "Jste %s rychlejší než Vanilla Sprint-Jumpování!"
+    slower: "Jste %s pomalejší než Vanilla Sprint-Jumpování!"
+
+  client:
+    brand:
+      message: "Vaše Client Brand je %s"
+    forge-mod-list:
+      message: "*najeďte sem aby jste viděli váš list Forge módů*"
+      by-client: "Tento list módů nahlašuje váš client"
+    lunarclient:
+      message: "Používáte LunarClient!(API Detekované)"
+
+commands:
+  anticheat:
+    usage: "Použití: /ac [anticheat|ac ac ...]"
+    description: "Změnit AntiCheaty"
+  health:
+    usage: "Použití: /health <hodonota>"
+    description: "Změnte hodnotu zdraví"
+    updated: "Vaše zdraví bylo změněno!"
+    invalid-value: "Neplatná hodonta zdraví! Prosím vložte hodnotu typu Integer!"
+    error-value: "Hodonta musí být mezi 0 a %s!"
+  hunger:
+    usage: "Použití: /hunger <hodonota>"
+    description: "Změnte hodnotu hladu"
+    updated: "Váš hlad byl změněn!"
+    invalid-value: "Neplatná hodonta hladu! Prosím vložte hodnotu typu Integer!"
+    error-value: "Hodonta musí být mezi 0 a 20!"
+  ip:
+    usage: "Použití: /ip"
+    description: "Zjískejte svojí IP Adresu"
+    player: "Vaše IP Adresa je %s"
+  language:
+    usage: "Použití: /language [jazyk]"
+    description: "Změnte jazyk"
+    changed: "Váš jazyk byl změnen na %s !"
+    not-found: "Jazyk %s nebyl nalezen!"
+  settings:
+    usage: "Použití: /settings [nastavení]"
+    description: "Změnit nastavení"
+  warp:
+    usage: "Použití: /warp <jméno warpu>"
+    description: "Teleportovat se na warp point"
+    not-found: "Warp %s nebyl nalezen!"
+  discord:
+    usage: "Použití: /discord"
+    description: "Zjískat Discord link"
+    message: "Discord link: %s"
+  help:
+    usage: "Použití: /help [strana]"
+    description: "Ukázat pomocnou zprávu"
+    help-page: "Pomocná stránka:"
+    command: "Přikaz: "
+    description-cmd: "Popis: "
+    invalid-number: "Neplatné číslo stránky!"
+    previous-page: "Předchozí strana"
+    next-page: "Přístí strana"
+  ping:
+    usage: "Použití: /ping"
+    description: "Zjískete svůj ping a opravte ho (Pokud je abnormální)"
+    message: "Váš ping je %sms"
+    abnormal: "Váš ping je abnormální! Opravování..."
+  message:
+    usage: "Použití: /msg <hráč> <zprává>"
+    description: "Poslat zprávu hráči"
+    self-message: "Nemůžete poslat zprávu sám sobě!"
+    ignored: "Nemůžete poslat zprávu tomuto hráči!"
+  reply:
+    usage: "Použití: /reply <zpráváa>"
+    description: "Odpovědět na poslední zprávu co jste dostal"
+    not-target: "Nemáte zprávu na kterou odpovědět!"
+    target-not-online: "Hráč %s není online!"
+  spawn:
+    usage: "Použití: /spawn"
+    description: "Teleportovat se na spawn pozici"
+    not-initialized: "Spawn pozice nebyla nalezena! Prosím nastave warp jménem 'spawn'!"
+  heal:
+    usage: "Použití: /heal"
+    description: "Uzdravte a najezte se"
+    healed: "Byl jste uzdraven!"
+  enchant:
+    usage: "Použití: /enchant"
+    description: "Enchantovat izem"
+  potion:
+    usage: "Použití: /potion"
+    description: "Zjístkat potion"
+  tpa:
+    usage: "Použití: /tpa <player>"
+    description: "Požádat o teleport hráči"
+  tpahere:
+    usage: "Použití: /tpahere <player>"
+    description: "Požádat hráče aby se teleportoval k vám"
+  tpacancel:
+    usage: "Použití: /tpacancel"
+    description: "Zrušte žádost o teleport poslanou vámi"
+  tpaccept:
+    usage: "Použití: /tpaccept"
+    description: "Přijměte žádost o teleport"
+  tpdeny:
+    usage: "Použití: /tpdeny"
+    description: "Zámítněte žádost o teleport"
+  give:
+    usage: "Použití: /give <item> [počet]"
+    description: "Dá vám item(y)"
+    invalid-amount: "Neplatný počet itemů! Please enter an integer value!"
+    blacklisted: "This item is blacklisted!"
+  filter:
+    usage: "Použití: /filter"
+    description: "Bukkit Event/ProtocolLib Packet Filter systém"
+  kill:
+    usage: "Použití: /kill [hráč]"
+    description: "Zabít sebe nebo jiného hráče"
+    self: "Zbohem zlý světe..."
+    success: "Zabit %s"
+  clear:
+    usage: "Použití: /clear"
+    description: "Vymazat všechny Itemy v inventáři"
+  fly:
+    usage: "Použití: /fly"
+    description: "Letět až na měsíc"
+    flymode: "Fly mód: "
+  tp:
+    usage: "Použití: /tp <hráč> [hráč]"
+    description: "Teleportovat k specifickému hráči"
+  gamemode:
+    usage: "Použití: /gamemode <mód>"
+    description: "Změnit svůj gamemode"
+    invalid-mode: "Neplatný gamemode: %s"
+    success: "Váš gamemode byl změnen na %s!"
+  gameprotocol:
+    usage: "Použití: /gameprotocol"
+    description: "Zjískat svůj gameprotocol"
+    player: "Váš Protokol je %s"
+  damagetick:
+    usage: "Použití: /damagetick <počet>"
+    description: "Změnit svoji damagetick hodnotu"
+    updated: "Vaše damagetick hodnota nyní je %s!"
+    invalid-value: "Neplatná damagetick hodnota! Prosím vložte hodnotu typu Integer!"
+    error-value: "Hodnota musí být mezi 0 a 20!"
+    current: "Váš monmentální damagetick je %s"
+  back:
+    usage: "Použití: /back"
+    description: "Teleportovat se na minulou pozici smrti"
+    no-location: "Nemáte minulou pozici smrit!"
+    teleported: "Teleportován na minulou pozici smrti!"
+    on-death: "Použíjte /back pro teleportovaní se na vaši minulou pozici!"
+  exploit:
+    usage: "Použití: /exploit <exec|list> [exploit]"
+    description: "Otestovat jestli je váš client postižený exploity"
+    crash: "WARNING: Tenhle exploit může crashnout váš client!"
+    non-crash: "WARNING: Tenhle exploit může poškodit váš client!"
+    confirm: "Pokud jste si vědom risků, napište /exploit confirm"
+    not-found: "Exploit %s nebyl nalezen!"
+    available: "Dostupné exploity: %s"
+    executed: "Exploit %s spuštěn!"
+    no-exploit: "Nemáte exploit na spuštění!"
+    resourcepack:
+      alert: "Tato slabina může byt detekovaná použe pokud existuje soubor, pokusíme se přečíst servers.dat soubor ve vaší \".minecraft\" složce."
+      vulnerable: "Úps, vypadá to že váš client je postižený."
+      notvulnerable: "Gratulujeme, váš client není postižený!"
+  client:
+    usage: "Použití: /client"
+    description: "Ukáže informace o vašem clientovi"
+  menu:
+    usage: "Použití: /menu"
+    description: "Otevřít menu"
