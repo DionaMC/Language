@@ -1,8 +1,9 @@
 name: "pt-br"
-languageName: Brazilian Portuguese
+languageName: "Brazilian Portuguese"
 
 contributors:
   - "ericcck"
+  - "TheMato26"
 
 aliases:
   - "pt"
@@ -22,20 +23,20 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
-  blocking: "Blocking: "
-  sneaking: "Sneaking: "
+  blocking: "Bloqueando: "
+  sneaking: "Agachando: "
 
 gui:
   language:
-    title: "Menu de línguas"
+    title: "Menu de Línguas"
   anticheat:
-    title: "Anticheats menu"
+    title: "Menu de Anticheats"
     disabled: "Desativado"
     version: "Versão"
     author: "Autor(es)"
     description: "Descrição"
   settings:
-    title: "Menu de configurações"
+    title: "Menu de Configurações"
     status: "Status"
     mode: "Modo"
     description: "Descrição"
@@ -46,41 +47,41 @@ gui:
     kick:
       name: "Kick"
       description:
-        - "&fAtive/desative o kick"
+        - "&fAtivar/desativar o kick"
     damage:
       name: "Dano"
       description:
-        - "&fAtive/desative o dano"
+        - "&fAtivar/desativar o dano"
     hunger:
       name: "Fome"
       description:
-        - "&fAtive/desative a fome"
+        - "&fAtivar/desativar a fome"
     allowat:
       name: "AllowAT"
       description:
-        - "&fPermite outros players te mencionar no chat"
+        - "&fPermitir que outros jogadores mencionem você no chat"
   warp:
-    title: "Warp menu"
-    world: "World"
+    title: "Menu de Warps"
+    world: "Mundo"
   enchant:
-    title: "Menu de encantamento"
+    title: "Menu de Encantamentos"
     no-enchant: "Nenhum encantamento para este item"
     put-item: "Coloque o item no espaço vazio à esquerda"
-    level: "Level"
+    level: "Nível"
     left-click: "Clique esquerdo"
     right-click: "Clique direito"
-    add-enchant: "adicionar encantamento"
-    remove-enchant: "remover encantamento"
-    upgrade-enchant: "upgrade no encantamento"
-    downgrade-enchant: "downgrade no encantamento"
+    add-enchant: "Adicionar encantamento"
+    remove-enchant: "Remover encantamento"
+    upgrade-enchant: "Melhorar encantamento"
+    downgrade-enchant: "Reduzir encantamento"
     incompatible: "Encantamento incompatível"
     fix-item: "Reparar item"
-    remove-all-enchant: "Remova todos os encantamentos"
+    remove-all-enchant: "Remover todos os encantamentos"
     unbreakable: "Inquebrável"
   potion:
-    title: "Menu de poções"
+    title: "Menu de Poções"
   filter:
-    title: "Sistema de filtro"
+    title: "Sistema de Filtros"
     empty: "Vazio"
     reset: "Redefinir sistema de filtro"
     next-page: "Próxima página"
@@ -91,20 +92,20 @@ gui:
     back: "Voltar"
     type: "Escreva"
   search:
-    title: "Menu de buscas"
+    title: "Menu de Buscas"
     item: "Busca"
 
 messages:
   message:
-    sender: "&7[&fme &b-> &f%s&7] &f%s"
-    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+    sender: "&7[&feu &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &feu&7] &f%s"
   chat:
     mute: "Você está mutado!"
     unmute: "Você não está mais mutado!"
-    no-permission-at: "Você não tem permissão para @ o player!"
-    no-permission-at-everyone: "Você não tem permissão de @everyone!"
+    no-permission-at: "Você não tem permissão para mencionar @ o jogador!"
+    no-permission-at-everyone: "Você não tem permissão para mencionar @everyone!"
   teleport:
-    success: "Teletransporte completo!"
+    success: "Teletransporte concluído!"
     expired: "Seu pedido de teletransporte expirou!"
     ignored: "Você não pode solicitar um teletransporte para este jogador!"
     no-request:
@@ -118,16 +119,16 @@ messages:
         here: "%s solicitou que você se teletransportasse para eles."
     timeout:
       requester: "Seu pedido de teletransporte para %s expirou!"
-      receiver: "%s's a solicitação de teletransporte para você expirou!"
+      receiver: "O pedido de teletransporte de %s para você expirou!"
     cancelled:
       requester: "Seu pedido de teletransporte para %s foi cancelado!"
-      receiver: "%s's a solicitação de teletransporte para você foi cancelada!"
+      receiver: "O pedido de teletransporte de %s para você foi cancelado!"
     denied:
       requester: "%s recusou seu pedido de teletransporte!"
-      receiver: "Você recusou %s's pedido de teletransporte!"
+      receiver: "Você recusou o pedido de teletransporte de %s!"
     accepted:
       requester: "%s aceitou seu pedido de teletransporte! Teletransportando..."
-      receiver: "Você aceitou %s's pedido de teletransporte! Teletransportando..."
+      receiver: "Você aceitou o pedido de teletransporte de %s! Teletransportando..."
     type:
       cancel: "Para cancelar o pedido de teletransporte, use /tpacancel"
       accept: "Para aceitar, use /tpaccept"
@@ -135,19 +136,19 @@ messages:
     already-requested: "Você já enviou uma solicitação de teletransporte para %s! Use /tpacancel para cancelar."
     not-online: "%s não está online!"
     self: "Você não pode enviar um pedido para si mesmo!"
-  command-cooldown: "Você está usando esse comando muito rápido! Por favor, tenha calma!"
+  command-cooldown: "Você está usando esse comando muito rapidamente! Por favor, tenha calma!"
   no-permission: "Você não tem permissão para fazer isso!"
-  player-not-found: "O player %s não foi encontrado ou não está online!"
+  player-not-found: "O jogador %s não foi encontrado ou não está online!"
   welcome:
     new-player:
-      - "Olá! Bem-vindo a Loyisa's servidor de testes!"
-      - "Nesse servidor, você pode testar anticheats e os trocar in-game!"
+      - "Olá! Bem-vindo ao servidor de testes Loyisa!"
+      - "Neste servidor, você pode testar anticheats e trocar configurações in-game!"
       - "Você pode usar /ac para trocar o anticheat"
       - "Você pode usar /lang para trocar a língua"
-      - "Para outros comandos, por favor use /help para ver todos os comandos!"
-      - "Se divirta!"
+      - "Para ver todos os comandos, use /help"
+      - "Divirta-se!"
     old-player:
-      - "Oi! já se passaram %s dias desde o seu último login!"
+      - "Oi! Já se passaram %s dias desde o seu último login!"
       - "Bem-vindo de volta!"
 
   anticheat:
@@ -160,8 +161,8 @@ messages:
     not-found: "O anticheat %s não foi encontrado!"
 
   itemcleaner:
-    countdown: "Todos os items que estão no chão serão limpos em %s segundos!"
-    cleaned: "%s items foram limpos!"
+    countdown: "Todos os itens no chão serão limpos em %s segundos!"
+    cleaned: "%s itens foram limpos!"
 
   scaffoldcleaner:
     countdown: "Todas as áreas de Scaffold serão limpas em %s segundos!"
@@ -179,163 +180,163 @@ messages:
     terminated: "Seu SpeedTest foi encerrado!"
     already-in-speedtest: "Você já está em uma sala SpeedTest!"
     result: "Sua velocidade é %s/s"
-    faster: "Você é %s mais rápido que sprint-jumping vanilla!"
-    slower: "Você é %s mais lento que sprint-jumping vanilla!"
+    faster: "Você é %s mais rápido que o sprint-jump padrão!"
+    slower: "Você é %s mais lento que o sprint-jump padrão!"
 
   client:
     brand:
-      message: "A marca do seu client é %s"
+      message: "A marca do seu cliente é %s"
     forge-mod-list:
       message: "*Passe o mouse aqui para ver sua lista de mods do Forge*"
-      by-client: "Esta lista de mods foi reportada pelo seu client"
+      by-client: "Esta lista de mods foi relatada pelo seu cliente"
     lunarclient:
-      message: "Você está usando LunarClient!(API Detectada)"
+      message: "Você está usando o LunarClient! (API Detectada)"
 
 commands:
   anticheat:
     usage: "Uso: /ac [anticheat|ac ac ...]"
     description: "Troca os anticheats"
   health:
-    usage: "Uso: /health <amount>"
-    description: "Mude seu valor de vida"
+    usage: "Uso: /health <valor>"
+    description: "Altera seu valor de vida"
     updated: "Sua vida foi atualizada!"
-    invalid-value: "Valor inválido para vida! Por favor, Insira um valor inteiro!"
-    error-value: "O valor deve ser entre 0 e %s!"
+    invalid-value: "Valor inválido para a vida! Insira um valor inteiro!"
+    error-value: "O valor deve estar entre 0 e %s!"
   hunger:
-    usage: "Uso: /hunger <amount>"
-    description: "Mude o valor da sua fome"
+    usage: "Uso: /hunger <valor>"
+    description: "Altera o valor da sua fome"
     updated: "Sua fome foi atualizada!"
-    invalid-value: "Valor para fome inválido! Por favor, Insira um valor inteiro!"
-    error-value: "O valor deve ser entre 0 e 20!"
+    invalid-value: "Valor inválido para a fome! Insira um valor inteiro!"
+    error-value: "O valor deve estar entre 0 e 20!"
   ip:
     usage: "Uso: /ip"
-    description: "Obtenha seu endereço IP"
+    description: "Obtém seu endereço IP"
     player: "Seu IP é %s"
   language:
-    usage: "Uso: /language [language]"
-    description: "Troque sua linguagem"
-    changed: "Sua linguagem foi tracada para %s !"
+    usage: "Uso: /language [língua]"
+    description: "Troca sua língua"
+    changed: "Sua língua foi alterada para %s!"
     not-found: "A língua %s não foi encontrada!"
   settings:
     usage: "Uso: /settings"
-    description: "Mude suas configurações"
+    description: "Muda suas configurações"
   warp:
-    usage: "Uso: /warp <warp name>"
-    description: "Se teleporte para uma warp"
+    usage: "Uso: /warp <nome da warp>"
+    description: "Teleporta para uma warp"
     not-found: "A warp %s não foi encontrada!"
   discord:
     usage: "Uso: /discord"
-    description: "Obtenha o link do discord do servidor"
-    message: "Link do discord: %s"
+    description: "Obtém o link do Discord do servidor"
+    message: "Link do Discord: %s"
   help:
-    usage: "Uso: /help [page]"
-    description: "Mostre ajuda"
+    usage: "Uso: /help [página]"
+    description: "Mostra ajuda"
     help-page: "Página de ajuda:"
     command: "Comando: "
     description-cmd: "Descrição: "
-    invalid-number: "Número da página inválido!"
+    invalid-number: "Número de página inválido!"
     previous-page: "Página anterior"
     next-page: "Próxima página"
   ping:
     usage: "Uso: /ping"
-    description: "Obtenha o número do seu ping e conserte-o (se o seu ping é anormal)"
+    description: "Obtém seu ping e ajusta-o (se anormal)"
     message: "Seu ping é %sms"
-    abnormal: "Seu ping é anormal! Consertando..."
+    abnormal: "Seu ping está anormal! Corrigindo..."
   message:
-    usage: "Uso: /msg <player> <message>"
-    description: "Enviar uma mensagem para um player"
-    self-message: "Você não pode mandar uma mensagem para si mesmo!"
-    ignored: "Você não pode enviar uma mensagem para esse player!"
+    usage: "Uso: /msg <jogador> <mensagem>"
+    description: "Envia uma mensagem para um jogador"
+    self-message: "Você não pode enviar uma mensagem para si mesmo!"
+    ignored: "Você não pode enviar uma mensagem para esse jogador!"
   reply:
-    usage: "Uso: /reply <message>"
-    description: "Responda a última mensagem"
+    usage: "Uso: /reply <mensagem>"
+    description: "Responde à última mensagem"
     not-target: "Você não tem mensagem para responder!"
-    target-not-online: "O player %s não está online!"
+    target-not-online: "O jogador %s não está online!"
   spawn:
     usage: "Uso: /spawn"
-    description: "Se teletransporte para o spawn"
-    not-initialized: "A localização do spawn não foi inicializada! Por favor, sete uma warp com o nome 'spawn'!"
+    description: "Teleporta para o spawn"
+    not-initialized: "A localização do spawn não foi definida! Por favor, configure uma warp com o nome 'spawn'!"
   heal:
     usage: "Uso: /heal"
-    description: "Cure-se e alimente-se"
+    description: "Cura e alimenta você"
     healed: "Você foi curado!"
   enchant:
     usage: "Uso: /enchant"
-    description: "Encante um item"
+    description: "Encanta um item"
   potion:
     usage: "Uso: /potion"
-    description: "Pegue uma poção"
+    description: "Obtém uma poção"
   tpa:
-    usage: "Uso: /tpa <player>"
-    description: "Envia uma solicitação de teletransporte para o player especificado"
+    usage: "Uso: /tpa <jogador>"
+    description: "Envia um pedido de teletransporte para o jogador especificado"
   tpahere:
-    usage: "Uso: /tpahere <player>"
-    description: "Peça ao player especificado para se teletransportar para você"
+    usage: "Uso: /tpahere <jogador>"
+    description: "Solicita que o jogador especificado se teletransporte para você"
   tpacancel:
     usage: "Uso: /tpacancel"
     description: "Cancela um pedido de teletransporte enviado por você"
   tpaccept:
     usage: "Uso: /tpaccept"
-    description: "Aceita o pedido de teletransporte de um player"
+    description: "Aceita um pedido de teletransporte de um jogador"
   tpdeny:
     usage: "Uso: /tpdeny"
-    description: "Recusa o pedido de teletransporte de um player"
+    description: "Recusa um pedido de teletransporte de um jogador"
   give:
-    usage: "Uso: /give <item> [amount]"
-    description: "Ganhe item(ns)"
-    invalid-amount: "Quantia de item inválido! Por favor, use um valor íntegro!"
-    blacklisted: "Esse item é proibido!"
+    usage: "Uso: /give <item> [quantidade]"
+    description: "Obtém item(s)"
+    invalid-amount: "Quantidade de item inválida! Use um valor inteiro!"
+    blacklisted: "Este item está proibido!"
   filter:
     usage: "Uso: /filter"
-    description: "Bukkit Event/ProtocolLib Packet Filter system"
+    description: "Sistema de filtro de Eventos Bukkit/ProtocolLib"
   kill:
-    usage: "Uso: /kill [player]"
-    description: "Matar a si mesmo ou outro player"
+    usage: "Uso: /kill [jogador]"
+    description: "Mata a si mesmo ou outro jogador"
     self: "Adeus, mundo cruel..."
     success: "Matou %s"
   clear:
     usage: "Uso: /clear"
-    description: "Limpa todos os items do seu inventário"
+    description: "Limpa todos os itens do seu inventário"
   fly:
     usage: "Uso: /fly"
-    description: "Permite que você voe"
+    description: "Ativa/desativa o modo de voo"
     flymode: "Modo de voo: "
   tp:
-    usage: "Uso: /tp <player> [player]"
-    description: "Se teletransporte para um player específico"
+    usage: "Uso: /tp <jogador> [jogador]"
+    description: "Teleporta para um jogador específico"
   gamemode:
-    usage: "Uso: /gamemode <mode>"
-    description: "Troca seu modo de jogo"
+    usage: "Uso: /gamemode <modo>"
+    description: "Muda o modo de jogo"
     invalid-mode: "Modo de jogo inválido: %s"
     success: "Seu modo de jogo foi alterado para %s!"
   gameprotocol:
     usage: "Uso: /gameprotocol"
-    description: "Obtenha seu protocolo de jogo"
+    description: "Obtém o protocolo de jogo"
     player: "Seu protocolo é %s"
   damagetick:
-    usage: "Uso: /damagetick <amount>"
-    description: "Altere o valor do seu tick de dano"
+    usage: "Uso: /damagetick <valor>"
+    description: "Altera o valor do seu tick de dano"
     updated: "Seu tick de dano agora é %s!"
     invalid-value: "Valor inválido para o tick de dano! Insira um valor inteiro!"
-    error-value: "O valor deve ser entre 0 e 20!"
+    error-value: "O valor deve estar entre 0 e 20!"
     current: "Seu tick atual de dano é %s"
   back:
     usage: "Uso: /back"
-    description: "Teleporte para o local da sua última morte"
-    no-location: "Você não tem um local de última morte!"
-    teletransported: "Teletransportado para o local da sua última morte!"
-    on-death: "Use /back para se teletransportar para o local da sua última morte!"
+    description: "Teleporta para a última localização de morte"
+    no-location: "Você não tem uma localização de morte anterior!"
+    teletransported: "Teleportado para a última localização de morte!"
+    on-death: "Use /back para se teleportar para a última localização de morte!"
   exploit:
     usage: "Uso: /exploit <exec|list> [exploit]"
-    description: "Teste se seu client é afetado por exploits"
-    crash: "AVISO: Esse exploit pode travar seu client!"
-    non-crash: "AVISO: Esse exploit pode ser prejudicial ao seu client!"
-    confirm: "Se você conhece os riscos e concorda em executar o exploit, por favor, digite /exploit confirm"
+    description: "Testa se seu cliente é afetado por exploits"
+    crash: "AVISO: Este exploit pode travar seu cliente!"
+    non-crash: "AVISO: Este exploit pode prejudicar seu cliente!"
+    confirm: "Se você conhece os riscos e concorda em executar o exploit, digite /exploit confirm"
     not-found: "O exploit %s não foi encontrado!"
     available: "Exploits disponíveis: %s"
     executed: "O exploit %s foi executado!"
     no-exploit: "Você não tem nenhum exploit para executar!"
     resourcepack:
-      alert: "Esta vulnerabilidade só pode ser detectada se o arquivo existir, tentaremos acessar o arquivo servers.dat em seu \".minecraft\" directory."
-      vulnerable: "Ops, seu client parece ser vulnerável."
-      notvulnerable: "Parabéns, seu client não é vulnerável!"
+      alert: "Esta vulnerabilidade só pode ser detectada se o arquivo existir, tentaremos acessar o arquivo servers.dat em seu diretório \".minecraft\"."
+      vulnerable: "Ops, seu cliente parece ser vulnerável."
+      notvulnerable: "Parabéns, seu cliente não é vulnerável!"
