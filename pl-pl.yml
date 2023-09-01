@@ -282,7 +282,7 @@ commands:
     description: "Weź potionke"
   tpa:
     usage: "Użycie: /tpa <player>"
-    description: "Prośba o teleportację do określonego gracza""
+    description: "Prośba o teleportację do określonego gracza"
   tpahere:
     usage: "Użycie: /tpahere <player>"
     description: "Poproś wskazanego gracza o teleportację do ciebie"
