@@ -21,8 +21,9 @@ skullItem:
 
 scoreboard:
   title: "Server thử nghiệm của Loyisa"
-  blocking: "Chặn: "
-  sneaking: "Ngồi: "
+  blocking: "Đang chặn: "
+  sneaking: "Đang ngồi: "
+  sprinting: "Đang chạy: "
 
 gui:
   language:
@@ -88,11 +89,27 @@ gui:
     search: "Tìm kiếm"
     cancel-search: "Hủy tìm kiếm"
     back: "Quay về"
-    type: "Kiểu"
+    type: "Loại"
   search:
     title: "Bảng tìm kiếm"
     item: "Tìm kiếm"
-
+  client:
+    title: "Thông tin client"
+    # you don't have to translate this
+    profile: "Hồ sơ"
+    name: "Tên: "
+    network: "Mạng"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Phiên bản: "
+    protocol-version: "Phiên bản giao thức: "
+    forge-mod-list: "danh sách mod Forge"
+    mod: "(Những) Mod: "
+    none: "Không có"
+  menu:
+    title: "Menu"
+    click-to-view: "Bấm để xem"
 messages:
   message:
     sender: "&7[&fme &b-> &f%s&7] &f%s"
@@ -116,10 +133,10 @@ messages:
         normal: "%s đã yêu cầu dịch chuyển tới bạn."
         here: "%s đã yêu cầu dịch chuyển bạn tới họ."
     timeout:
-      requester: "Yêu cầu dịch chuyển tới %s của đã hết hạn!"
+      requester: "Yêu cầu dịch chuyển tới %s của bạn đã hết hạn!"
       receiver: "Yêu cầu dịch chuyển của %s tới bạn đã hết hạn!"
     cancelled:
-      requester: "Yêu cầu dịch chuyển tới %s của đã bị hủy!"
+      requester: "Yêu cầu dịch chuyển tới %s của bạn đã bị hủy!"
       receiver: "Yêu cầu dịch chuyển của %s tới bạn đã bị hủy!"
     denied:
       requester: "%s đã từ chối yêu cầu dịch chuyển!"
@@ -134,7 +151,7 @@ messages:
     already-requested: "Bạn đã gừi yêu cầu dịch chuyển tới %s! Ghi /tpacancel để hủy."
     not-online: "Người chơi %s đang không hoạt động!"
     self: "Bạn không thể gửi yêu cầu dịch chuyển tới chính bạn!"
-  command-cooldown: "Bạn đang sử dụng lênh này quá nhanh! Xin hãy từ từ!"
+  command-cooldown: "Bạn đang sử dụng lệnh này quá nhanh! Xin hãy từ từ!"
   no-permission: "Bạn không thể làm điều này!"
   player-not-found: "Người chơi %s không thể tìm thấy hoặc không hoạt động!"
   welcome:
@@ -151,7 +168,7 @@ messages:
 
   anticheat:
     disabled: "Anticheat %s đã tắt!"
-    dev-only: "Anticheat %s chỉ có sẵn cho các nhà phát triển!"
+    dev-only: "Chỉ có các nhà phát triển mới sử dụng được Anticheat %s!"
     cant-use-with-others: "Anticheat %s không thể dùng với các Anticheat khác!"
     must-use-with-others: "Anticheat %s phải được sử dụng với Anticheat khác!"
     amount-limit: "Bạn không thể sử dụng nhiều hơn %s Anticheat cùng một lúc!"
@@ -169,13 +186,13 @@ messages:
     broken: "Bạn đã phá được %s!"
 
   damagetest:
-    damage: "Sát thương dự kiến: %s  Sát thương thật sự: %s"
+    damage: "Sát thương dự kiến: %s  Sát thương thật tế: %s"
 
   speedtest:
-    timeout: "kiểm tra tốc độ của bạn đã hết hạn!"
-    not-found: "phòng kiểm tra tốc độ %s không tìm thấy!"
-    already-in-use: "Phòng kiểm tra tốc độ này đã được sử dụng!"
-    terminated: "kiểm tra tốc độ của bạn đã bị hủy bỏ!"
+    timeout: "Phiên kiểm tra tốc độ của bạn đã hết hạn!"
+    not-found: "Không tìm thấy phòng kiểm tra tốc độ %s!"
+    already-in-use: "Phòng kiểm tra tốc độ này đang được sử dụng!"
+    terminated: "Phiên kiểm tra tốc độ của bạn đã bị hủy bỏ!"
     already-in-speedtest: "Bạn đã ở trong phòng kiểm tra tốc độ!"
     result: "Tốc độ của bạn là %s/s"
     faster: "Bạn nhanh hơn chạy-nhảy bình thường %s lần!"
@@ -196,15 +213,15 @@ commands:
   health:
     usage: "Cách sử dụng: /health <số lượng>"
     description: "Đổi giá trị máu của bạn"
-    updated: "Máu của bạn đã được cập nhật!"
+    updated: "Giá trị máu của bạn đã được cập nhật!"
     invalid-value: "Giá trị máu không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
     error-value: "Giá trị phải giữa 0 và %s!"
   hunger:
     usage: "Cách sử dụng: /hunger <số lượng>"
     description: "Đổi giá trị đói của bạn"
-    updated: "Độ đói của bạn đã được cập nhật!"
+    updated: "Giá trị đói của bạn đã được cập nhật!"
     invalid-value: "Giá trị đói không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
-    error-value: "Giá trị phải giữa 0 and 20!"
+    error-value: "Giá trị phải giữa 0 và 20!"
   ip:
     usage: "Cách sử dụng: /ip"
     description: "Lấy địa chỉ IP của bạn"
@@ -303,8 +320,8 @@ commands:
     description: "Dịch chuyển đến một người chơi cụ thể"
   gamemode:
     usage: "Cách sử dụng: /gamemode <chế độ>"
-    description: "thay đổi chế độ chơi"
-    invalid-mode: "chế độ chơi không hợp lệ: %s"
+    description: "Thay đổi chế độ chơi"
+    invalid-mode: "Chế độ chơi không hợp lệ: %s"
     success: "Chế độ chơi của bạn đã chuyển qua %s!"
   gameprotocol:
     usage: "Cách sử dụng dụng: /gameprotocol"
@@ -337,3 +354,9 @@ commands:
       alert: "Lỗ hổng này chỉ có thể phát hiện nếu tệp tồn tại, chúng tôi sẽ cố gắng truy cập server.dat trong thư mục \".minecraft\" của bạn."
       vulnerable: "Rất tiếc, client của bạn có vẻ có lỗ hổng."
       notvulnerable: "Xin chúc mừng, client của bạn không có lỗ hổng"
+  client:
+    usage: "Cách sử dụng: /client"
+    description: "Hiển thị thông tin client của bạn"
+  menu:
+    usage: "Cách sử dụng: /menu"
+    description: "Mở menu"
