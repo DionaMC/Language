@@ -10,13 +10,14 @@ The merged pr will be automatically deployed to the server within 1~2 minutes
 * Fork this repo
 * Create a new file in the language to translate
 * translate the "en-us.yml" file to your language
-* if you want the translator rank in the server, please leave your minecraft username in the pull request
+* Create a pull request to this repo
+* (Optional) if you want the translator rank in the server, please leave your minecraft username in the pull request
 
 ## Pull Requests requirements
 
 * Don't use machine translation
 * Don't use racist, sexist, homophobic, transphobic, ableist, political, etc. language
-* Please use i18n code as filename
+* Please use i18n code as filename, you can find the code [here](https://www.andiamo.co.uk/resources/iso-language-codes/)
 * Please check typo and grammar before pull request
 * for Skull textureUrl, you can to go [here](https://minecraft-heads.com/)
 
