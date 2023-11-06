@@ -1,0 +1,365 @@
+name: "es-es"
+languageName: Spanish
+
+contributors:
+  - "ImFoxerARG"
+
+aliases:
+  - "es"
+  - "esp"
+  - "spanish"
+  - "espanol"
+  - "español"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/32bd4521983309e0ad76c1ee29874287957ec3d96f8d889324da8c887e485ea8"
+  lore:
+    - "&7Cambiar tu idioma a Español."
+    - ""
+    - "&7Contributores:"
+    - "%contributors%"
+    - ""
+    - "&6¡Clic para cambiar tu idioma!"
+
+scoreboard:
+  title: "Servidor de prueba de Loyisa"
+  blocking: "Bloqueando: "
+  sneaking: "Agachandose: "
+  sprinting: "Corriendo: "
+
+gui:
+  language:
+    title: "Menú de idiomas"
+  anticheat:
+    title: "Menú de Anticheats"
+    disabled: "Desactivado"
+    version: "Versión"
+    author: "Autor(es)"
+    description: "Descripción"
+  settings:
+    title: "Menú de configuración"
+    status: "Estado"
+    mode: "Modo"
+    description: "Descripción"
+    flag:
+      name: "Flags"
+      description:
+        - "&fMostrar las alertas del anticheat."
+    kick:
+      name: "Expulsar"
+      description:
+        - "&fActivar/desactivar las expulsiones."
+    damage:
+      name: "Daño"
+      description:
+        - "&fActivar/desactivar el daño."
+    hunger:
+      name: "Hambre"
+      description:
+        - "&fActivar/desactivar el hambre."
+    allowat:
+      name: "Menciones"
+      description:
+        - "&fPermitir a otros usuarios mencionarte en el chat."
+  warp:
+    title: "Menú de warps"
+    world: "Mundo"
+  enchant:
+    title: "Menú de encantamientos"
+    no-enchant: "No existen encantamientos para este item."
+    put-item: "Establece el item en el espacio vacío a la izquierda."
+    level: "Nível"
+    left-click: "Clic izquierdo"
+    right-click: "Clic derecho"
+    add-enchant: "añadir encantamiento"
+    remove-enchant: "remover encantamiento"
+    upgrade-enchant: "mejorar encantamiento"
+    downgrade-enchant: "degradar encantamiento"
+    incompatible: "Encantamiento incompatible"
+    fix-item: "Solucionar item"
+    remove-all-enchant: "Remover todos los encantamientos"
+    unbreakable: "Irrompible"
+  potion:
+    title: "Menú de pociones"
+  filter:
+    title: "Sistema de filtro"
+    empty: "Vacío"
+    reset: "Reiniciar sistema de filtro"
+    next-page: "Siguiente página"
+    previous-page: "Anterior página"
+    page: "Página: "
+    search: "Buscar"
+    cancel-search: "Cancelar busqueda"
+    back: "Atrás"
+    type: "Escribe"
+  search:
+    title: "Menú de busqueda"
+    item: "Buscar"
+  client:
+    title: "Client information"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Menú"
+    click-to-view: "Clic para ver"
+messages:
+  message:
+    sender: "&7[&fyo &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fyo&7] &f%s"
+  chat:
+    mute: "¡Estás silenciado!"
+    unmute: "¡No estás silenciado!"
+    no-permission-at: "¡No tienes permitido usar @ jugador!"
+    no-permission-at-everyone: "¡No tienes permitido usar @everyone!"
+  teleport:
+    success: "¡Teletransporte completo!"
+    expired: "¡Tu solicitud de teletransporte ha expirado!"
+    ignored: "¡No puedes enviar solicitud de teletransporte a este jugador!"
+    no-request:
+      to-accept: "¡No hay solicitud de teletransporte para aceptar!"
+      to-deny: "¡No hay solicitud de teletransporte para declinar!"
+      to-cancel: "¡No hay solicitud de teletransporte para cancelar!"
+    request:
+      requester: "Solicitud de teletransporte enviado para %s."
+      receiver:
+        normal: "%s envío solicitud para teletransportarse a tí."
+        here: "%s ha envíado solicitud para que vayas con él."
+    timeout:
+      requester: "¡Tu solicitud de teletransporte con %s ha expirado!"
+      receiver: "¡La solicitud de teletransporte de %s ha expirado!"
+    cancelled:
+      requester: "¡Tu solicitud de teletransporte a %s ha sido cancelada!"
+      receiver: "¡La solicitud de teletransporte de %s ha sido cancelada!"
+    denied:
+      requester: "¡%s denegó tu solicitud de teletransporte!"
+      receiver: "¡Has denegado la solicitud de teletransporte de %s!"
+    accepted:
+      requester: "¡%s aceptó tu solicitud de teletransporte! Teletransportando..."
+      receiver: "¡Has aceptado la solicitud de teletransporte de %s! Teletransportando..."
+    type:
+      cancel: "Para cancelar la solicitud de teletransporte, usa /tpacancel"
+      accept: "Para teletransportar, usa /tpaccept"
+      deny: "Para denegar la solicitud de teletransporte, usa /tpdeny"
+    already-requested: "¡Ya has enviado solicitud de teletransporte a %s! Usa /tpacancel para cancelar."
+    not-online: "¡El jugador %s no está conectado!"
+    self: "¡No puedes enviar teletransporte a tí mismo!"
+  command-cooldown: "¡Estás usando este comando de forma rápida! ¡Cálmate!"
+  no-permission: "¡No tienes permisos para hacer esto!"
+  player-not-found: "¡El jugador %s no fue encontrado o no está conectado!"
+  welcome:
+    new-player:
+      - "¡Hola! Bienvenido al servidor de prueba de Loyisa."
+      - "En este servidor, puedes probar anticheats y cambiarlos en juego"
+      - "Puedes usar /ac para cambiar de anticheat"
+      - "Puedes usar /lang para cambiar de idioma"
+      - "Por otros comandos, ¡Porfavor usa /help para ver todos los comandos!"
+      - "¡Que te diviertas!"
+    old-player:
+      - "¡Hola! Han pasado %s días desde tu última vez aquí."
+      - "¡Bienvenido de vuelta!"
+
+  anticheat:
+    disabled: "¡El Anticheat %s ha sido desactivado!"
+    dev-only: "¡El Anticheat %s está solo para desarrolladores!"
+    cant-use-with-others: "¡El Anticheat %s no puede ser usado con otro anticheats!"
+    must-use-with-others: "¡El Anticheat %s debe ser usado con otros anticheats!"
+    amount-limit: "¡No puedes usar más de %s anticheats al mismo tiempo!"
+    selected: "Has seleccionado: %s"
+    not-found: "¡El Anticheat %s no ha sido encontrado!"
+
+  itemcleaner:
+    countdown: "¡Todos los items del suelo serán eliminados en %s segundos!"
+    cleaned: "¡%s items han sido limpiados!"
+
+  scaffoldcleaner:
+    countdown: "¡Todas la area de Scaffold serán limpiadas en %s segundos!"
+
+  breaktest:
+    broken: "¡Has roto el %s!"
+
+  damagetest:
+    damage: "Daño estimado: %s  Daño actual: %s"
+
+  speedtest:
+    timeout: "¡Tu SpeedTest ha caducado!"
+    not-found: "¡El SpeedTest Room %s no ha sido encontrado!"
+    already-in-use: "¡El SpeedTest Room ya está en uso!"
+    terminated: "¡Tu SpeedTest ha sido terminado!"
+    already-in-speedtest: "¡Ya estás en un SpeedTest Room!"
+    result: "Tu velocidad es %s/s"
+    faster: "¡Eres %s mas rápido que vanilla sprint-jumping!"
+    slower: "¡Eres %s mas lento que vanilla sprint-jumping!"
+
+  client:
+    brand:
+      message: "El brand de tu cliente es: %s"
+    forge-mod-list:
+      message: "*Pon el cursos aquí para ver la lista de mods en Forge*"
+      by-client: "Esta lista de mods ha sido reportada por tu cliente"
+    lunarclient:
+      message: "¡Estás usando LunarClient!(API detectada)"
+
+commands:
+  anticheat:
+    usage: "Uso: /ac [anticheat|ac ac ...]"
+    description: "Cambiar entre anticheats"
+  health:
+    usage: "Uso: /health <cantidad>"
+    description: "Cambiar el valor de tu barra de vida"
+    updated: "¡Tu barra de vida ha sido actualizada!"
+    invalid-value: "¡El valor es inválido! Por favor, establezca un valor númeral."
+    error-value: "¡El valor debe ser entre 0 y %s!"
+  hunger:
+    usage: "Uso: /hunger <cantidad>"
+    description: "Cambiar el valor de tu barra de hambre"
+    updated: "¡Tu barra de hambre ha sido actualizada!"
+    invalid-value: "¡El valor es inválido! Por favor, establezca un valor númeral."
+    error-value: "¡El valor debe ser entre 0 y 20!"
+  ip:
+    usage: "Uso: /ip"
+    description: "Obtén tu dirección IP"
+    player: "Tu IP es %s"
+  language:
+    usage: "Uso: /language [language]"
+    description: "Cambia tu idioma"
+    changed: "¡Tu idioma ha sido cambiado para %s!"
+    not-found: "¡El idioma %s no fue encontrado!"
+  settings:
+    usage: "Uso: /settings"
+    description: "Cambia configuraciones"
+  warp:
+    usage: "Uso: /warp <nombre de warp>"
+    description: "Teletransportar a un punto"
+    not-found: "¡El warp %s no ha sido encontrado!"
+  discord:
+    usage: "Uso: /discord"
+    description: "Obten el enlace del discord"
+    message: "Enlace de discord: %s"
+  help:
+    usage: "Uso: /help [página]"
+    description: "Mostrar la lista de comandos"
+    help-page: "Página de ayuda:"
+    command: "Comando: "
+    description-cmd: "Descripción: "
+    invalid-number: "¡Número de página inválido!"
+    previous-page: "Anterior página"
+    next-page: "Siguiente página"
+  ping:
+    usage: "Uso: /ping"
+    description: "Obtén tu ping y solucionalo (solo si tu ping no es normal)"
+    message: "Tú ping es %sms"
+    abnormal: "¡Tu ping no es normal! Solucionando..."
+  message:
+    usage: "Uso: /msg <jugador> <mensaje>"
+    description: "Envía mensaje privado a un jugador"
+    self-message: "¡No puedes enviarte mensaje a tí mismo!"
+    ignored: "¡No puedes enviar mensaje a este jugador!"
+  reply:
+    usage: "Uso: /reply <mensaje>"
+    description: "Replicar al último  mensaje"
+    not-target: "¡No tienes mensaje a replicar!"
+    target-not-online: "¡El jugador %s no está conectado!"
+  spawn:
+    usage: "Uso: /spawn"
+    description: "Teletransportarse al punto de localización"
+    not-initialized: "¡El punto de localización no ha sido inicializada! Por favor, establezca un warp llamado 'spawn'."
+  heal:
+    usage: "Uso: /heal"
+    description: "Curate y quita el hambre en tí"
+    healed: "¡Has sido sanado!"
+  enchant:
+    usage: "Uso: /enchant"
+    description: "Encanta un item"
+  potion:
+    usage: "Uso: /potion"
+    description: "Obten una poción"
+  tpa:
+    usage: "Uso: /tpa <jugador>"
+    description: "Solicitar teletransporte a un jugador en específico"
+  tpahere:
+    usage: "Uso: /tpahere <jugador>"
+    description: "Solicitar teletransporte hacia tí a un jugador en específico"
+  tpacancel:
+    usage: "Uso: /tpacancel"
+    description: "Cancelar solicitud de transporte actual"
+  tpaccept:
+    usage: "Uso: /tpaccept"
+    description: "Aceptar solicitud de transporte"
+  tpdeny:
+    usage: "Uso: /tpdeny"
+    description: "Denegar solicitud de transporte"
+  give:
+    usage: "Uso: /give <item> [cantidad]"
+    description: "Dar a tí item(s)"
+    invalid-amount: "¡Cantidad de item inválida! Establezca un valor númeral."
+    blacklisted: "¡Este item está en la lista negra!!"
+  filter:
+    usage: "Uso: /filter"
+    description: "Bukkit Event/ProtocolLib Packet sistema de filtro"
+  kill:
+    usage: "Uso: /kill [jugador]"
+    description: "Matar a tí mismo o a otro jugador"
+    self: "Adíos mundo cruel..."
+    success: "Se ha matado a %s"
+  clear:
+    usage: "Uso: /clear"
+    description: "Clear all items in your inventory"
+  fly:
+    usage: "Uso: /fly"
+    description: "Volar a tí hasta la luna"
+    flymode: "Modo de vuelo: "
+  tp:
+    usage: "Uso: /tp <jugador> [jugaador]"
+    description: "Teletransportar a un jugador en específico"
+  gamemode:
+    usage: "Uso: /gamemode <modo>"
+    description: "Cambia tu modo de juego"
+    invalid-mode: "Modo de juego inválido: %s"
+    success: "¡Tu modo de juego ha sido cambiado a %s!"
+  gameprotocol:
+    usage: "Uso: /gameprotocol"
+    description: "Obten el protocolo de juego"
+    player: "Tu protocolo es %s"
+  damagetick:
+    usage: "Uso: /damagetick <cantidad>"
+    description: "Cambia el valor de daño tick"
+    updated: "¡Tu daño de tick es ahora %s!"
+    invalid-value: "¡Daño de tick inválido! Establezca un valor númeral."
+    error-value: "¡El valor debe ser entre 0 y 20!"
+    current: "Tu daño de tick actual es de %s"
+  back:
+    usage: "Uso: /back"
+    description: "Teletransportate a tu antiguo lugar de muerte"
+    no-location: "¡No tienes un punto de muerte anterior!"
+    teleported: "¡Teletransportado a tí al antiguo lugar de muerte!"
+    on-death: "¡Usa /back para teletransportarte a tu antiguo lugar de muerte!"
+  exploit:
+    usage: "Uso: /exploit <exec|list> [exploit]"
+    description: "Comprueba si tu cliente es vulnerable a exploits"
+    crash: "ADVERTENCIA: ¡Este exploit puede crashear tu cliente!"
+    non-crash: "ADVERTENCIA: ¡Este exploit puede ser perjudicial para su cliente!"
+    confirm: "Si conoces los riesgos y acepta ejecutar el exploit, escriba /exploit confirm"
+    not-found: "¡El exploit %s no fue encontrado!"
+    available: "Available exploits: %s"
+    executed: "¡El exploit %s ha sido ejecutado!"
+    no-exploit: "¡No tienes un exploit por ejecutar!"
+    resourcepack:
+      alert: "Esta vulnerabilidad solo puede detectar si el archivo existe, intentaremos acceder a servers.dat en su directorio \".minecraft\"."
+      vulnerable: "Vaya, su cliente parece ser vulnerable."
+      notvulnerable: "¡Felicidades! Tu cliente parece no ser vulnerable."
+  client:
+    usage: "Uso: /client"
+    description: "Mostrar información de tu cliente"
+  menu:
+    usage: "Uso: /menu"
+    description: "Abrir el menú"
