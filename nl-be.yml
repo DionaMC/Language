@@ -20,6 +20,9 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
+  blocking: "Blocken: "
+  sneaking: "Sluipen: "
+  sprinting: "Rennen: "
 
 gui:
   language:
@@ -27,8 +30,8 @@ gui:
   anticheat:
     title: "Anticheat menu"
     disabled: "Gedeactiveerd"
-    version: "Version"
-    author: "Author(s)"
+    version: "Versie"
+    author: "Auteur(s)"
     description: "Beschrijving"
   settings:
     title: "Instellingen menu"
@@ -89,6 +92,24 @@ gui:
   search:
     title: "Zoek menu"
     item: "Zoek"
+    
+  client:
+    title: "Client information"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Menu"
+    click-to-view: "Klik om te zien"
 
 messages:
   message:
@@ -172,11 +193,20 @@ messages:
     timeout: "Your SpeedTest has timed out!"
     not-found: "SnelheidsTest kamer %s is niet gevonden!"
     already-in-use: "Deze SnelheidsTest kamer is al in gebruik!"
-    terminated: "Deze SnelheidsTest zla worden geannuleerd!"
+    terminated: "Deze SnelheidsTest zal worden geannuleerd!"
     already-in-speedtest: "Je bent al in een SnelheidsTest kamer!"
     result: "Jouw snelheid is %s/s"
     faster: "Jij bent %s sneller dan normaal sprinten en springen!"
     slower: "Jij bent %s slomer dan normaal sprinten en springen!"
+
+  client:
+    brand:
+      message: "Jouw client merk is %s"
+    forge-mod-list:
+      message: "*Met je muis hier hangen om je Forge mod lijst te zien*"
+      by-client: "Deze mod lijst heeft jouw client gerapporteerd"
+    lunarclient:
+      message: "Je bent LunarClient aan het gebruiken!(API Gedetecteerd)"
 
 commands:
   anticheat:
@@ -297,3 +327,36 @@ commands:
     usage: "Gebruikswijze: /gameprotocol"
     description: "Krijg jouw game protocol"
     player: "Jouw Protocol is %s"
+  damagetick:
+    usage: "Gebruikswijze: /damagetick <aantal>"
+    description: "Verander jouw schade per tick aantal"
+    updated: "Jouw schade per tick is nu %s!"
+    invalid-value: "Ongeldig schade per tick aantal! Geef alstublieft een heel aantal!"
+    error-value: "Het aantal moet tussen 0 en 20 zijn!"
+    current: "Op dit moment is jouw schade per tick %s"
+  back:
+    usage: "Gebrijkswijze: /back"
+    description: "Teleporteer naar de locatie van je laatste dood"
+    no-location: "Je hebt geen laatste dood locatie!"
+    teleported: "Geteleporteerd naar je laatste dood locatie!"
+    on-death: "Gebruik /back om te teleporteren naar je laatste dood locatie!"
+  exploit:
+    usage: "Gebruikswijze: /exploit <exec|list> [exploit]"
+    description: "Test of je client is beïnvloed bij exploits"
+    crash: "WAARSCHUWING: Deze exploit canjouw client crashen!"
+    non-crash: "WAARSCHUWING: Deze exploit can schadelijk zijn voor jouw client!"
+    confirm: "Als je de risico's weet van het executeren van de exploit, tik alstublieft /exploit confirm"
+    not-found: "Exploit %s niet gevonden!"
+    available: "Beschikbare exploits: %s"
+    executed: "Exploit %s executeerd!"
+    no-exploit: "Je hebt geen exploits om te executeren!"
+    resourcepack:
+      alert: "Deze kwetsbaarheid kan alleen worden gedetedteerd als het bestand bestaat, we zullen proberen om toegang tot servers.dat in jouw \".minecraft\" map te verlenen."
+      vulnerable: "Oeps, het ziet er naar uit dat jouw client kwetsbaar is."
+      notvulnerable: "Proficiat, jouw client is niet kwetsbaar!"
+  client:
+    usage: "Gebruikswijze: /client"
+    description: "Laat jouw client informatie zien"
+  menu:
+    usage: "Gebruikswijze: /menu"
+    description: "Open het menu"
