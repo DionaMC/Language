@@ -208,7 +208,7 @@ messages:
       message: "You are using LunarClient!(API Detected)"
 
   chest-stealer:
-    total: "Total Time: %dms, Total Count: %dms, Avg Time: %dms, Miss: %dms"
+    total: "Total Time: %dms, Total Count: %d, Avg Time: %dms, Miss: %d"
     array: "Click Time Array [ms]: %s"
 
 commands:
