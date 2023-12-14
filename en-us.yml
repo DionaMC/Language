@@ -208,8 +208,8 @@ messages:
       message: "You are using LunarClient!(API Detected)"
 
   chest-stealer:
-    total: "Total Time: %dms, Total Count: %d, Avg Time: %dms, Miss: %d"
-    array: "Click Time Array [ms]: %s"
+    total: "§eChest closed. §bTotal Time: §a%dms§b, Avg Time: §a%dms §b| Items Taken: §a%d §b| Misses: §c%d§r"
+    array: "Click Intervals (ms): §a%s§r"
 
 commands:
   anticheat:
