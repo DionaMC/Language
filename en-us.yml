@@ -207,6 +207,10 @@ messages:
     lunarclient:
       message: "You are using LunarClient!(API Detected)"
 
+  chest-stealer:
+    total: "Total Time: %dms, Total Count: %dms, Avg Time: %dms, Miss: %dms"
+    array: "Click Time Array [ms]: %s"
+
 commands:
   anticheat:
     usage: "Usage: /ac [anticheat|ac ac ...]"
