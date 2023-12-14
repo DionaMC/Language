@@ -200,7 +200,7 @@ messages:
 
   client:
     brand:
-      message: "你的客户端标识为: §o§a%s"
+      message: "你的客户端标识为: §a§o%s"
     forge-mod-list:
       message: "*将鼠标悬浮到这里以查看Forge mod列表*"
       by-client: "该mod列表由你的客户端生成"
