@@ -206,6 +206,10 @@ messages:
       by-client: "该mod列表由你的客户端生成"
     lunarclient:
       message: "您正在使用LunarClient！（检测到API）"
+  
+  chest-stealer:
+    total: "§e箱子已关闭! §b总计时间: §a%dms§b, 平均时间: §a%dms §b| 拿取: §a%d §b| 未点中: §c%d§r"
+    array: "点击间隔 (毫秒): §a%s§r"
 
 commands:
   anticheat:
