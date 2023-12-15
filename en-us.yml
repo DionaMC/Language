@@ -211,6 +211,9 @@ messages:
     total: "§eChest closed! §bTotal Time: §a%dms§b, Avg Time: §a%dms §b| Items Taken: §a%d §b| Misses: §c%d§r"
     array: "Click Intervals (ms): §a%s§r"
 
+  action-bar:
+    position-alert: "§bServer Position (S08) Receiving | Elapsed Time: §a%.2fs"
+
 commands:
   anticheat:
     usage: "Usage: /ac [anticheat|ac ac ...]"

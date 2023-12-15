@@ -210,6 +210,9 @@ messages:
   chest-stealer:
     total: "§e箱子已关闭! §b总计时间: §a%dms§b, 平均时间: §a%dms §b| 拿取: §a%d §b| 未点中: §c%d§r"
     array: "点击间隔 (毫秒): §a%s§r"
+  
+  action-bar:
+    position-alert: "§b接收到 Server Position (S08) 包 | 时间差: §a%.2fs"
 
 commands:
   anticheat:
