@@ -59,6 +59,10 @@ gui:
       name: "AllowAT"
       description:
         - "&fAllow other players to mention you in chat"
+    allow-flight:
+      name: "Allow Flight"
+      description:
+        - "&fChange the value for server.properties under the allow-flight setting."
   warp:
     title: "Warp menu"
     world: "World"

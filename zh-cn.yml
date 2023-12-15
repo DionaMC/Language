@@ -59,6 +59,10 @@ gui:
       name: "允许AT"
       description:
         - "&f允许其他玩家AT你"
+    allow-flight:
+      name: "允许原版飞行"
+      description:
+        - "&f改变`server.properties`中`allow-flight`的值"
   warp:
     title: "传送菜单"
     world: "世界"
