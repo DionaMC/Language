@@ -123,6 +123,7 @@ messages:
     unmute: "You are unmuted!"
     no-permission-at: "You don't have permission to @ player!"
     no-permission-at-everyone: "You don't have permission to @everyone!"
+    muteTime: "Remaining time: %d minutes."
   teleport:
     success: "Teleport complete!"
     expired: "Your teleport request has expired!"

@@ -123,6 +123,7 @@ messages:
     unmute: "你已被解除禁言!"
     no-permission-at: "你没有权限来 @ 玩家!"
     no-permission-at-everyone: "你没有权限来 @everyone!"
+    muteTime: "剩余时间: %d 分钟."
   teleport:
     success: "传送完成!"
     expired: "你的传送请求已过期!"
