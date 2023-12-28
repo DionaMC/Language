@@ -1,0 +1,374 @@
+languageName: "Russian"
+
+contributors:
+  - "kittyneverdies"
+
+aliases:
+  - "ru"
+  - "russian"
+  - "русский"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/16eafef980d6117dabe8982ac4b4509887e2c4621f6a8fe5c9b735a83d775ad"
+  lore:
+    - "&7Измени свой язык на русский"
+    - ""
+    - "&7Авторы:"
+    - "%contributors%"
+    - ""
+    - "&6Нажми, чтобы поменять язык!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  blocking: "Blocking: "
+  sneaking: "Sneaking: "
+  sprinting: "Sprinting: "
+
+gui:
+  language:
+    title: "Меню языков"
+  anticheat:
+    title: "Меню анти-читов"
+    disabled: "Выключено"
+    version: "Версия"
+    author: "Автор(ы)"
+    description: "Описание"
+  settings:
+    title: "Меню настроек"
+    status: "Статус"
+    mode: "Режим"
+    description: "Описание"
+    flag:
+      name: "Флаг"
+      description:
+        - "&fПоказывает срабатывание анти-чита"
+    kick:
+      name: "Кик"
+      description:
+        - "&fВключает/Отключает кик"
+    damage:
+      name: "Урон"
+      description:
+        - "&fВключает/отключает урон"
+    hunger:
+      name: "Голод"
+      description:
+        - "&fВключает/отключает голод"
+    allowat:
+      name: "Разрешить AT"
+      description:
+        - "&fРазрешает другим игрокам упоминать вас в чате"
+    allow-flight:
+      name: "Разрешить полёт"
+      description:
+        - "&fИзменяет значение для server.properties для настройки allow-flight"
+  warp:
+    title: "Меню варпов"
+    world: "Мир"
+  enchant:
+    title: "Меню зачарования"
+    no-enchant: "Нет зачарований для данного предмета"
+    put-item: "Положите предмет в пустой слов на лево"
+    level: "Уровень"
+    left-click: "Левый клик"
+    right-click: "Правый клик"
+    add-enchant: "добавить зачарование"
+    remove-enchant: "удалить зачарование"
+    upgrade-enchant: "повысить уровень зачарования"
+    downgrade-enchant: "понизить уровень зачарования"
+    incompatible: "Неподдерживаемое зачарование"
+    fix-item: "Починить предмет"
+    remove-all-enchant: "Удалить все зачарования"
+    unbreakable: "Неразрушимое"
+  potion:
+    title: "Меню зелий"
+  filter:
+    title: "Система фильтров"
+    empty: "Пусто"
+    reset: "Ресетнуть фильтры"
+    next-page: "Следующая страница"
+    previous-page: "Предыдущая страница"
+    page: "Страница: "
+    search: "Поиск"
+    cancel-search: "Отменить поиск"
+    back: "Назад"
+    type: "Тип"
+  search:
+    title: "Меню поиска"
+    item: "Поиск"
+  client:
+    title: "Информация о клиенте"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Меню"
+    click-to-view: "Нажмите для просмотра"
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Вы были замучены!"
+    unmute: "Вы были размучены!"
+    no-permission-at: "У вас нет прав на @ player!"
+    no-permission-at-everyone: "У вас нет прав на @everyone!"
+    muteTime: "Время осталось: %d минут."
+  teleport:
+    success: "Вы были телепортированы!"
+    expired: "Ваш запрос на телепортацию истёк!"
+    ignored: "Вы не можете совершать запрос на телепортацию к данному пользователю!"
+    no-request:
+      to-accept: "Нет запросов на телепортацию, чтобы принять!"
+      to-deny: "Нет запросов на телепортацию, чтобы отказать!"
+      to-cancel: "Нет запросов на телепортацию, чтобы отменить!"
+    request:
+      requester: "Запрос на телепортацию был отправлен к %s."
+      receiver:
+        normal: "%s сделал запрос на телепортацию к вам."
+        here: "Вы сделали запрос на телепортацию к игроку %s" 
+    timeout:
+      requester: "Ваш запрос на телепортацию к %s истёк!"
+      receiver: "Запрос игрока %s на телепортацию истёк!"
+    cancelled:
+      requester: "Ваш запрос на телепортацию к %s был отменён!"
+      receiver: "Запрос на телепортацию игрока %s к вам был отменён'"
+    denied:
+      requester: "%s отказал в запросе на телепортацию!"
+      receiver: "Вы отказали в запросе на телепортацию игроку %s к вам!"
+    accepted:
+      requester: "Игрок %s принял запрос на телепортацию! Телепортируем..."
+      receiver: "Вы приняли запрос на телепортацию игрока %s! Телепортируем..."
+    type:
+      cancel: "Чтобы отменить запрос на телепортацию, напишите /tpacancel"
+      accept: "Чтобы принять запрос на телепортацию, напишите /tpaccept"
+      deny: "Чтобы отказаться от запроса на телепортацию, напишите /tpdeny"
+    already-requested: "Вы уже отправили запрос на телепортацию игроку %s! Напишите /tpacancel для отмены ."
+    not-online: "Игрок %s не в сети!"
+    self: "Вы не можете телепортироваться к самому себе!"
+  command-cooldown: "Вы используете эту команду очень быстро! Успокойтесь!"
+  no-permission: "У вас нет прав на это!"
+  player-not-found: "Игрок %s не найден или не в сети!"
+  welcome:
+    new-player:
+      - "Привет! Добро пожаловать на тест сервер Loyisa's"
+      - "На это сервере вы можете тестировать анти-читы и менять их в игре!"
+      - "Вы можете использовать /ac чтобы поменять анти-чит"
+      - "Вы можете использовать /lang чтобы поменять язык"
+      - "Для других команд, пожалуйста используйте /help чтобы увидеть остальные команду!"
+      - "Наслаждайтесь!"
+    old-player:
+      - "Привет! Прошло %s дней с вашего последнего захода!"
+      - "Добро пожаловать снова!"
+
+  anticheat:
+    disabled: "Анти-чит %s был выключен!"
+    dev-only: "Анти-чит %s доступен только для разработчиков!"
+    cant-use-with-others: "Анти-чит %s не может быть использован с другими анти-читами!"
+    must-use-with-others: "Анти-чит %s обязан использоваться с другими анти-читами!"
+    amount-limit: "Вы не можете использовать %s анти-читов одновременно!"
+    selected: "Вы выбрали: %s"
+    not-found: "Анти-чит %s не найден!"
+
+  itemcleaner:
+    countdown: "Все предметы будут уничтожены через %s секунд!"
+    cleaned: "%s вещей было уничтожено!"
+
+  scaffoldcleaner:
+    countdown: "Все зоны для scaffold будут отчищены через %s секунд!"
+
+  breaktest:
+    broken: "Вы сломали %s!"
+
+  damagetest:
+    damage: "Ожидаемый урон: %s  Нанесенный урон: %s"
+
+  speedtest:
+    timeout: "Время SpeedTest вышло!"
+    not-found: "SpeedTest комната %s была не найдена!"
+    already-in-use: "Эта SpeedTest комната готова к использованию!"
+    terminated: "Ваш SpeedTest был прекращён!"
+    already-in-speedtest: "Вы уже в SpeedTest комнате!"
+    result: "Ваша скорость: %s/секунда"
+    faster: "Вы быстрее на %s чем обычный бег-прыжок!!"
+    slower: "Вы медленее на %s чем обычный бег-прыжок!"
+
+  client:
+    brand:
+      message: "Вы испольщуете клиент %s"
+    forge-mod-list:
+      message: "*Наведи на меня курсор, чтобы увидеть весь список ваших Forge модов*"
+      by-client: "Этот список модов нам сообщил ваш клиент"
+    lunarclient:
+      message: "Вы используете LunarClient!(API Обнаружен)"
+
+  chest-stealer:
+    total: "§eСундук зактрыт! §bВсего времени: §a%dms§b, Среднее время: §a%dms §b| Взято предметов: §a%d §b| Пропущено: §c%d§r"
+    array: "Интервалы кликов (ms): §a%s§r"
+
+  action-bar:
+    position-alert: "§bПозиция сервера (S08) Принято | Прошедшее время: §a%.2fs"
+
+commands:
+  anticheat:
+    usage: "Использования: /ac [анти-чит|ач ач ...]"
+    description: "Переключает анти-читы"
+  health:
+    usage: "Использование: /health <значение>"
+    description: "Меняет ваше значение здоровья"
+    updated: "Ваше здоровье было обновлено!"
+    invalid-value: "Неверное значение здоровья! Пожалуйста введите целочисленное значение!"
+    error-value: "Значение должно быть между 0 и %s!"
+  hunger:
+    usage: "Использование: /hunger <значение>"
+    description: "Изменяет значение насыщенности"
+    updated: "Ваша насыщенность была обновлена!"
+    invalid-value: "Неверное значение насыщенности! Пожалуйста введите целочисленное значение!"
+    error-value: "Значение должно быть между 0 и 20!"
+  ip:
+    usage: "Использование: /ip"
+    description: "Получает ваш IP адрес"
+    player: "Ваш IP является %s"
+  language:
+    usage: "Использование: /language [язык]"
+    description: "Меняет язык"
+    changed: "Ваш язык был изменён на %s !"
+    not-found: "Язык %s не найден!"
+  settings:
+    usage: "Использование: /settings"
+    description: "Изменяет настройки"
+  warp:
+    usage: "Использование: /warp <название варпа>"
+    description: "Телепортирует на варп пойнт"
+    not-found: "Варп %s не найден!"
+  discord:
+    usage: "Использование: /discord"
+    description: "Получает ссылку-приглашение в дискорд сервер"
+    message: "Ссылка на сервер в дискорде: %s"
+  help:
+    usage: "Использование: /help [страница]"
+    description: "Показывает помощь по странице"
+    help-page: "Страница помощи:"
+    command: "Команда: "
+    description-cmd: "Описание: "
+    invalid-number: "Неправильный номер страницы!"
+    previous-page: "Предыдущая страница"
+    next-page: "Следующая страница"
+  ping:
+    usage: "Использование: /ping"
+    description: "Получает ваш пинг и исправляет его (если ваш пинг не нормальный)"
+    message: "Ваш пинг %sms"
+    abnormal: "Ваш пинг не нормальный, исправляем..."
+  message:
+    usage: "Использование: /msg <игрок> <сообщение>"
+    description: "Отправить сообщение лично игроку"
+    self-message: "Вы не можете писать сообщения самому себе!"
+    ignored: "Вы не можете писать этому игроку!"
+  reply:
+    usage: "Использование: /reply <message>"
+    description: "Отвечает на последнее сообщение"
+    not-target: "У вас нет сообщения на которое можно ответить"
+    target-not-online: "Игрок %s не в сети"
+  spawn:
+    usage: "Использование: /spawn"
+    description: "Телепортирует на спавн"
+    not-initialized: "Место спавна не создано! Создайте варп с названием 'spawn'!"
+  heal:
+    usage: "Использование: /heal"
+    description: "Накорми и исцели себя"
+    healed: "Вы вылечили себя"
+  enchant:
+    usage: "Использование: /enchant"
+    description: "Зачаровать предмет"
+  potion:
+    usage: "Использование: /potion"
+    description: "Получить зелье"
+  tpa:
+    usage: "Использование: /tpa <игрок>"
+    description: "Запрос на телепортацию к определённому игроку"
+  tpahere:
+    usage: "Использование: /tpahere <игрок>"
+    description: "Запрос на телепортацию определенного игрока к себе"
+  tpacancel:
+    usage: "Использование: /tpacancel"
+    description: "Отменить запрос на телепортацию"
+  tpaccept:
+    usage: "Использование: /tpaccept"
+    description: "Принять чужой запрос на телепортацию"
+  tpdeny:
+    usage: "Использование: /tpdeny"
+    description: "Отклонить чужой запрос на телепортацию"
+  give:
+    usage: "Использование: /give <предмет> [количество]"
+    description: "Дает вам предмет(ы)"
+    invalid-amount: "Неверное количество предметов! Пожалуста напишите целочисленное значение!"
+    blacklisted: "Этот предмет в черном списке!"
+  filter:
+    usage: "Использование: /filter"
+    description: "Bukkit Event/ProtocolLib Packet система фильтрации"
+  kill:
+    usage: "Использование: /kill [игрок]"
+    description: "Убей себя или другого игрока"
+    self: "Прощай мир..."
+    success: "Убит %s"
+  clear:
+    usage: "Использование: /clear"
+    description: "Очищает инвентарь и все предметы"
+  fly:
+    usage: "Использование: /fly"
+    description: "Разрешает вам летать (на луну например)"
+    flymode: "Режим полета: "
+  tp:
+    usage: "Использование: /tp <игрок> [игрок]"
+    description: "Телепорт к определенному игроку"
+  gamemode:
+    usage: "Использование: /gamemode <режим>"
+    description: "Меняет ваш режим игры"
+    invalid-mode: "Неправильный режим игры: %s"
+    success: "Вы поменяли ваш режим игры на %s!"
+  gameprotocol:
+    usage: "Использование: /gameprotocol"
+    description: "Получает ваш protocol"
+    player: "Ваш протокол это %s"
+  damagetick:
+    usage: "Использование: /damagetick <значение>"
+    description: "Изменяет ваше damage tick значение"
+    updated: "Ваш damage tick теперь %s!"
+    invalid-value: "Неправильно значение damage tick! Пожалуйста, введите целочисленное значение!"
+    error-value: "Значение должно быть между 0 и 20!"
+    current: "Ваш текущий damage tick это %s"
+  back:
+    usage: "Использование: /back"
+    description: "Телепортирует обратно на последнее место смерти"
+    no-location: "У вас нет места последней смерти!"
+    teleported: "Вы телепортированы на место вашей последней смерти!"
+    on-death: "Используйте /back что бы вернуться на ваше последнее место смерти!"
+  exploit:
+    usage: "Использование: /exploit <exec|list> [эксплойт]"
+    description: "Тест на подверженность вашего клиента к эксплойтам"
+    crash: "ВНИМАНИЕ: Это может крашнуть ваш клиент!"
+    non-crash: "ВНИМАНИЕ: Это может нанести вред вашему клиенту!"
+    confirm: "Если вы принимаете риски и хотите запустить эксплойт, пожалуйста напишите /exploit confirm"
+    not-found: "Эксплойт %s не найден!"
+    available: "Доступные эксплойты: %s"
+    executed: "Эксплойт %s был запущен!"
+    no-exploit: "У вас нет никаких эксплойтов для запуска!"
+    resourcepack:
+      alert: "Уязвимость может только обнаружить наличие файла, мы попытаемся получить доступ к servers.dat в вашей \".minecraft\" директории."
+      vulnerable: "Упс, ваш клиент видимо находится под уязвимостью."
+      notvulnerable: "Поздравляет, ваш клиент не находится под этой уязвимостью"
+  client:
+    usage: "Использование: /client"
+    description: "Показывает вашу информацию о клиенте"
+  menu:
+    usage: "Использование: /menu"
+    description: "Открывает меню"
