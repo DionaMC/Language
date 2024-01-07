@@ -21,6 +21,7 @@ scoreboard:
   title: "Loyisa's Testserver"
   blocking: "กำลังบล็อก: "
   sneaking: "กำลังย่อ: "
+  sprinting: "กำลังวิ่ง: "
 
 gui:
   language:
@@ -56,6 +57,10 @@ gui:
       name: "AllowAT"
       description:
         - "&fอนุญาตให้ผู้เล่นคนอื่นพูดถึงคนได้ในแชท"
+    allow-flight:
+      name: "อนุญาตให้บิน"
+      description:
+        - "&fเปลี่ยนการตั้งค่าของเซิร์ฟเวอร์ให้อนุญาตบินได้."
   warp:
     title: "เมนูวาร์ป"
     world: "โลก"
@@ -90,14 +95,31 @@ gui:
   search:
     title: "เมนูค้นหา"
     item: "ค้นหา"
+  client:
+    title: "เมนูไคลเอนต์ของคุณ"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "เมนู"
+    click-to-view: "คลิกเพื่อดู"
 
 messages:
   message:
     sender: "&7[&fคุณ &b-> &f%s&7] &f%s"
     receiver: "&7[&f%s &b-> &fคุณ&7] &f%s"
   chat:
-    mute: "You are muted!"
-    unmute: "You are unmuted!"
+    mute: "คุณได้ถูก muted!"
+    unmute: "คุณได้ถูก unmuted!"
     no-permission-at: "คุณไม่ได้รับอนุญาตให้ @ ผู้เล่น!"
     no-permission-at-everyone: "คุณไม่ได้รับอนุญาตให้ @ทุกคน!"
   teleport:
@@ -149,7 +171,7 @@ messages:
 
   anticheat:
     disabled: "Anticheat %s ถูกปิดใช้งาน!"
-    dev-only: "Anticheat %s มีให้สำหรับ dev เท่านั้น!"
+    dev-only: "Anticheat %s มีให้สำหรับนักพัฒนาเท่านั้น!"
     cant-use-with-others: "Anticheat %s ไม่สามารถใช้กับ anticheats อื่น ๆ ได้!"
     must-use-with-others: "Anticheat %s ต้องใช้ร่วมกับ anticheats อื่น ๆ!"
     amount-limit: "คุณไม่สามารถใช้ anticheats ได้มากกว่า %s ในเวลาเดียวกัน!"
@@ -161,7 +183,7 @@ messages:
     cleaned: "%s ไอเทมได้รับการทำความสะอาด!"
 
   scaffoldcleaner:
-    countdown: "All scaffold areas will be cleaned in %s seconds!"
+    countdown: "บริเวณ scaffold จะถูกเคลียร์ในอีก %s วินาที!"
 
   breaktest:
     broken: "คุณได้ทำลาย %s!"
@@ -181,10 +203,10 @@ messages:
 
   client:
     brand:
-      message: "Your client brand is %s"
+      message: "ไคลเอนต์แบรนด์ของคุณคือ %s"
     forge-mod-list:
       message: "*วางเมาส์เหนือที่นี่เพื่อดู Forge ม็อดทั้งหมดของคุณ*"
-      by-client: "รายการม็อดนี้ได้มาจากการรายงาน client ของคุณ"
+      by-client: "รายการม็อดนี้ได้มาจากการรายงานไคลเอนต์ของคุณ"
     lunarclient:
       message: "คุณกำลังใช้ Lunar Client! (API Detected)"
 
@@ -206,7 +228,7 @@ commands:
     error-value: "ค่าต้องอยู่ระหว่าง 0 ถึง 20!"
   ip:
     usage: "คำสั่ง: /ip"
-    description: "รับที่อยู่ไอพีของคุณ"
+    description: "แสดงที่อยู่ไอพีของคุณ"
     player: "ไอพีของคุณคือ: %s"
   language:
     usage: "คำสั่ง: /language [ภาษา]"
@@ -222,7 +244,7 @@ commands:
     not-found: "หาวาร์ป %s ไม่เจอ!"
   discord:
     usage: "คำสั่ง: /discord"
-    description: "รับลิงก์ดิสคอร์ด"
+    description: "แสดงลิงก์ดิสคอร์ด"
     message: "ดิสคอร์ด: %s"
   help:
     usage: "คำสั่ง: /help [หน้าที่]"
@@ -235,7 +257,7 @@ commands:
     next-page: "หน้าต่อไป"
   ping:
     usage: "คำสั่ง: /ping"
-    description: "รับ ping ของคุณและแก้ไข ping ของคุณ (หาก ping ของคุณผิดปกติ)"
+    description: "แสดง ping ของคุณและแก้ไขปิงของคุณ (หาก ping ของคุณผิดปกติ)"
     message: "ping ของคุณคือ %sms"
     abnormal: "ping ของคุณผิดปกติ! กำลังแก้ไข..."
   message:
@@ -336,3 +358,9 @@ commands:
       alert: "exploit นี้ตรวจจับได้ก็ต่อเมื่อมีไฟล์อยู่ เราจะพยายามเข้าถึง servers.dat ในโฟลเดอร์ \".minecraft\" ของคุณ."
       vulnerable: "Oops, client ของคุณดูเหมือนจะมีช่องโหว่."
       notvulnerable: "ขอแสดงความยินดี! client ของคุณไม่เสี่ยง!”!"
+  client:
+    usage: "คำสั่ง: /client"
+    description: "แสดงข้อมูลเกี่ยวกับไคลเอนต์ของคุณ"
+  menu:
+    usage: "คำสั่ง: /menu"
+    description: "เปิดเมนู"
