@@ -212,7 +212,7 @@ messages:
       message: "Вы используете LunarClient!(API Обнаружен)"
 
   chest-stealer:
-    total: "§eСундук зактрыт! §bВсего времени: §a%dms§b, Среднее время: §a%dms §b| Взято предметов: §a%d §b| Пропущено: §c%d§r"
+    total: "§eСундук#%d зактрыт! §bВсего времени: §a%dms§b, Среднее время: §a%dms §b| Взято предметов: §a%d §b| Пропущено: §c%d§r"
     array: "Интервалы кликов (ms): §a%s§r"
 
   action-bar:

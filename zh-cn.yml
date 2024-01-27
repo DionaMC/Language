@@ -212,7 +212,7 @@ messages:
       message: "您正在使用§aLunarClient§b！§o（检测到API）"
   
   chest-stealer:
-    total: "§e箱子已关闭! §b总计时间: §a%dms§b, 平均时间: §a%dms §b| 拿取: §a%d §b| 未点中: §c%d§r"
+    total: "§e箱子#%d已关闭! §b总计时间: §a%dms§b, 平均时间: §a%dms §b| 拿取: §a%d §b| 未点中: §c%d§r"
     array: "点击间隔 (毫秒): §a%s§r"
   
   action-bar:
