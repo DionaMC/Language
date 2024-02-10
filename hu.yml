@@ -1,0 +1,373 @@
+languageName: Magyar
+
+contributors:
+  - "TheAdamYT"
+
+aliases:
+  - "hu"
+  - "hungarian"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/4cac9774da1217248532ce147f7831f67a12fdcca1cf0cb4b3848de6bc94b4"
+  lore:
+    - "&7Változtasd Meg A Nyelved Magyarra"
+    - ""
+    - "&7Közreműködők:"
+    - "%contributors%"
+    - ""
+    - "&6Kattints Ide Hogy Meg Változtasd A Nyelvet!"
+
+scoreboard:
+  title: "Loyisa Tesztszerver"
+  blocking: "Blokkolás: "
+  sneaking: "Gugolás: "
+  sprinting: "Futás: "
+
+gui:
+  language:
+    title: "Nyelv Menü"
+  anticheat:
+    title: "AntiCheat Választó Menü"
+    disabled: "Kikapcsolva"
+    version: "Verzió"
+    author: "Készítők"
+    description: "Leírás"
+  settings:
+    title: "Beállitások"
+    status: "Státusz"
+    mode: "Mód"
+    description: "Leírás"
+    flag:
+      name: "Flag"
+      description:
+        - "&fMutatja Az AntiCheat Flageket"
+    kick:
+      name: "Kick"
+      description:
+        - "&fAntiCheat Kick Ki/Be kapcsolása"
+    damage:
+      name: "Sebződés"
+      description:
+        - "&fSebződés Ki/Be kapcsolása"
+    hunger:
+      name: "Éhezés"
+      description:
+        - "&fÉhezés Ki/Be kapcsolása"
+    allowat:
+      name: "Említés"
+      description:
+        - "&fEngedélyezd Hogy Emberek Meg Említsenek Chaten"
+    allow-flight:
+      name: "Repülés"
+      description:
+        - "&fMódosítsa a server.properties értékét az allow-flight beállítás alatt."
+  warp:
+    title: "Warp menü"
+    world: "Világ"
+  enchant:
+    title: "Enchant menü"
+    no-enchant: "Nincsenek Elérhető Enchantok Erre Az Itemre"
+    put-item: "Rakd Be Az Itemet Az Üres Helyre"
+    level: "Szint"
+    left-click: "Bal klikk"
+    right-click: "Jobb klikk"
+    add-enchant: "enchant hozzáadása"
+    remove-enchant: "enchaant törlése"
+    upgrade-enchant: "enchant fejlesztése"
+    downgrade-enchant: "enchant lejjebb vevése"
+    incompatible: "Inkompatibilís enchant"
+    fix-item: "Item megjavítása"
+    remove-all-enchant: "Minden enchant törlése"
+    unbreakable: "Törhetetlen"
+  potion:
+    title: "Poti menü"
+  filter:
+    title: "Szűrőrendszer"
+    empty: "Üres"
+    reset: "Állítsa vissza a szűrőrendszert"
+    next-page: "Következő oldal"
+    previous-page: "Előző oldal"
+    page: "Oldal: "
+    search: "Keresés"
+    cancel-search: "Keresés Leállitása"
+    back: "Vissza"
+    type: "Típus"
+  search:
+    title: "Kereső Menü"
+    item: "Keresés"
+  client:
+    title: "Kliens Információ"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "none"
+  menu:
+    title: "Menü"
+    click-to-view: "Kattints Ide Hogy Megnézd"
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Le vagy némítva!"
+    unmute: "A Némításod El lett távolítva!"
+    no-permission-at: "Nincs jogod hogy meg említsd %s -t!"
+    no-permission-at-everyone: "Nincs jogod hogy meg említsd @everyone-t!"
+    muteTime: "Hátralevő idő: %d perc."
+  teleport:
+    success: "Teleportálás Sikeres!"
+    expired: "A Teleport Kérelmed Lejárt!"
+    ignored: "Nem Küldhetsz Teleport Kérelmet Ennek A Játékosnak!"
+    no-request:
+      to-accept: "Nincs semmi teleport kérelem amit elfogadhatnál!"
+      to-deny: "Nincs semmi teleport kérelem amit elutasíthatnál!"
+      to-cancel: "Nincs semmi teleport kérelem amit megszüntethetnél!"
+    request:
+      requester: "Teleportálás kérelem elküldve %s - nek."
+      receiver:
+        normal: "%s rád szeretne teleportálni."
+        here: "%s magára szeretne teleportálni téged."
+    timeout:
+      requester: "Teleport kérése %s felé lejárt!"
+      receiver: "%s teleportálási kérése lejárt!"
+    cancelled:
+      requester: "Teleport kérését %s felé megszüntették!"
+      receiver: "%s's teleport kérése meg lett szüntetve!"
+    denied:
+      requester: "%s elutasította a teleport kérelmed!"
+      receiver: "Elutasítottad %s teleport kérelmét!"
+    accepted:
+      requester: "%s elfogadta a teleport kérelmedet! Teleportálás..."
+      receiver: "Elfogadtad %s' teleport kérelmét! Teleportálás..."
+    type:
+      cancel: "Hogy megszüntess egy teleport kérelmet, írd be /tpacancel"
+      accept: "hogy elfogadd a tpt, írd be /tpaccept"
+      deny: "Hogy elutasítsd a kérelmet, írd be /tpdeny"
+    already-requested: "Már küldtél %s egy teleport kérelmet! írd be /tpacancel hogy megszüntesd."
+    not-online: "%s nem elérhető!"
+    self: "Nem teleportálhatsz magadra!"
+  command-cooldown: "Túl gyorsan használod a parancsot! Kérlek várj egy kicsit!"
+  no-permission: "Nincs Jogod Ehhez!"
+  player-not-found: "%s nem található / nem elérhető!"
+  welcome:
+    new-player:
+      - "Helló! Üdvözöllek A Loyisa teszt szerveren!"
+      - "Ezen a szerveren, tesztelhetsz anticheateket és változgathatod őket játékban!"
+      - "Használd a /ac parancsot hogy anticheatet válts"
+      - "Használd a /lang parancsot hogy nyelvet válts"
+      - "Más parancsokért, kérlek használd a /help parancsot hogy lásd az összes parancsot!"
+      - "Érezd jól magad!"
+    old-player:
+      - "Helló! %s napja léptél fel legutoljára!"
+      - "Üdvözöllek újra!"
+
+  anticheat:
+    disabled: "Ez az anticheat %s jelenleg nem elérhető!"
+    dev-only: "Ez az anticheat %s csak a fejlesztők használhatják!"
+    cant-use-with-others: "Ez az anticheat %s nem használható egy másikkal!"
+    must-use-with-others: "Ez az anticheat %s csak egy másik anticheattel müködik!"
+    amount-limit: "Nem használhatsz több anticheatet %s egyszerre!"
+    selected: "Kiválasztottad a: %s et"
+    not-found: "Anticheat %s nem található!"
+
+  itemcleaner:
+    countdown: "Minden item a földről ki lesz törölve %s másodperc múlva!"
+    cleaned: "%s item ki lett törölve!"
+
+  scaffoldcleaner:
+    countdown: "Az összes scaffold aréna törölve lesz %s másodperc múlva!"
+
+  breaktest:
+    broken: "ki ütötted a %s!"
+
+  damagetest:
+    damage: "Várható sebzés: %s  Tényleges sebzés: %s"
+
+  speedtest:
+    timeout: "A SpeedTest időtúllépése lejárt!"
+    not-found: "SpeedTest Szoba %s nem található!"
+    already-in-use: "Ezt a speedtest szobát már valaki használja!"
+    terminated: "A SpeedTested Terminálva Lett!"
+    already-in-speedtest: "Te már egy SpeedTest Szobában vagy"
+    result: "A Te Gyorsaságod %s/s"
+    faster: "Te ennyivel vagy gyorsabb a vanilla sprint jumpingnál!  %s"
+    slower: "Te ennyivel vagy lassabb a vanilla sprint jumpingnál!  %s"
+
+  client:
+    brand:
+      message: "A Te kliens Márkád %s"
+    forge-mod-list:
+      message: "*Húzd ide az egered hogy lásd a mod listád*"
+      by-client: "Ezt a modlistát az kliensed jelentette"
+    lunarclient:
+      message: "Lunar Clientet Használsz! (API Detectálva)"
+
+  chest-stealer:
+    total: "§eLáda bezárva! §bTeljes odő: §a%dms§b, Átlagos Idő: §a%dms §b| Itemek Kiszedve: §a%d §b| Rontások: §c%d§r"
+    array: "Kattintson az Intervallumok elemre (ms): §a%s§r"
+
+  action-bar:
+    position-alert: "§bSzerver pozíció (S08) Lekérés | Eltelt idő: §a%.2fs"
+
+commands:
+  anticheat:
+    usage: "Használat: /ac [anticheat|ac ac ...]"
+    description: "Anticheat Váltás"
+  health:
+    usage: "Használat: /health <Mennyiség>"
+    description: "Változtasd Meg A HPD / Healeld fel magad"
+    updated: "Az életed frissítve lett!"
+    invalid-value: "Érvénytelen Élet szám! Kérlek használj egész értéket!"
+    error-value: "A Szám 0 és %s között kell legyen!"
+  hunger:
+    usage: "Használat: /hunger <Mennyiség>"
+    description: "Változtasd Meg Az Éhesség Mennyiséged"
+    updated: "Az Éhességed frissítve lett!"
+    invalid-value: "Érvénytelen Hunger szám! Kérlek használj egész értéket!"
+    error-value: "A Szám 0 És 20 között kell legyen!"
+  ip:
+    usage: "Használat: /ip"
+    description: "Lásd meg az ip címed"
+    player: "Az IP Címed %s"
+  language:
+    usage: "Használat: /language [nyelv]"
+    description: "Nyelvváltás"
+    changed: "Az Ön nyelve %s-re változott !"
+    not-found: "%s nyelv nem található!"
+  settings:
+    usage: "Használat: /settings"
+    description: "Beállítások módosítása"
+  warp:
+    usage: "Használat: /warp <warp neve>"
+    description: "Teleportálás egy warp pontra"
+    not-found: "Warp %s nem található!"
+  discord:
+    usage: "Használat: /discord"
+    description: "Szerezd meg a discord linket"
+    message: "Discord link: %s"
+  help:
+    usage: "Használat: /help [oldal]"
+    description: "Segítség megjelenítése"
+    help-page: "Segítség lap:"
+    command: "Parancs: "
+    description-cmd: "Leírás: "
+    invalid-number: "Érvénytelen oldalszám!"
+    previous-page: "Előző oldal"
+    next-page: "Következő oldal"
+  ping:
+    usage: "Használat: /ping"
+    description: "Megkapja a pinget és javítja a pinget (ha a ping rendellenes)"
+    message: "A pingje %sms"
+    abnormal: "A pinged abnormális! Javítás..."
+  message:
+    usage: "Használat: /msg <játékos> <üzenet>"
+    description: "Üzenet küldése egy játékosnak"
+    self-message: "Nem küldhetsz üzenetet magadnak!"
+    ignored: "Nem tudsz üzenetet küldeni ennek a játékosnak!"
+  reply:
+    usage: "Használat: /reply <message>"
+    description: "Válasz az utolsó üzenetre"
+    not-target: "Nincs üzenet, amire válaszolhatnál!"
+    target-not-online: "A játékos %s nincs online!"
+  spawn:
+    usage: "Használat: /spawn"
+    description: "Teleportálás az spawn helyre"
+    not-initialized: "A spawn hely nincs inicializálva! Kérjük, állítson be egy 'spawn' nevű warpot.!"
+  heal:
+    usage: "Használat: /heal"
+    description: "Gyógyítsd és tápláld magad"
+    healed: "Healelve Lettél!"
+  enchant:
+    usage: "Használat: /enchant"
+    description: "Egy tárgy elvarázsolása"
+  potion:
+    usage: "Használat: /potion"
+    description: "Szerezz egy bájitalt"
+  tpa:
+    usage: "Használat: /tpa <játékos>"
+    description: "A megadott játékoshoz való teleportálás kérése"
+  tpahere:
+    usage: "Használat: /tpahere <játékos>"
+    description: "Kérje a megadott játékost, hogy teleportáljon Önhöz"
+  tpacancel:
+    usage: "Használat: /tpcancel"
+    description: "Az Ön által küldött teleportkérés törlése"
+  tpaccept:
+    usage: "Használat: /tpaccept"
+    description: "Fogadj El egy teleport kérelmet"
+  tpdeny:
+    usage: "Használat: /tpdeny"
+    description: "Utasíts el egy teleport kérelmet"
+  give:
+    usage: "Usage: /give <item> [mennyiség]"
+    description: "Odaadom a tárgy(ak)at"
+    invalid-amount: "Érvénytelen tételösszeg! Kérjük, adjon meg egy egész számot!"
+    blacklisted: "Ez az elem feketelistán van!"
+  filter:
+    usage: "Használat: /filter"
+    description: "Bukkit Event/ProtocolLib csomagszűrő rendszer"
+  kill:
+    usage: "Használat: /kill [név]"
+    description: "Ölj meg valakit vagy magad"
+    self: "Viszlát kegyetlen világ..."
+    success: "megölted %s"
+  clear:
+    usage: "Használat: /clear"
+    description: "Törölje az összes tárgyat a leltárból"
+  fly:
+    usage: "Használt: /fly"
+    description: "Repülj a Holdra"
+    flymode: "Fly mód: "
+  tp:
+    usage: "Használat: /tp <játékos> [játékos]"
+    description: "Teleportálás egy megadott játékoshoz"
+  gamemode:
+    usage: "Használat: /gamemode <mode>"
+    description: "Változtasd meg a játékmódodat"
+    invalid-mode: "Érvénytelen játékmód: %s"
+    success: "A játékmódod %s-re változott!"
+  gameprotocol:
+    usage: "Használat: /gameprotocol"
+    description: "Szerezd meg a játék protokollját"
+    player: "Az Ön protokollja %s"
+  damagetick:
+    usage: "Használat: /damagetick <összeg>"
+    description: "A sebzés tick értékének módosítása"
+    updated: "A sebzési ticked most %s!"
+    invalid-value: "Kérjük, adjon meg egy egész értéket!"
+    error-value: "Az értéknek 0 és 20 között kell lennie!"
+    current: "Az aktuális sebzés ticked %s"
+  back:
+    usage: "Használat: /back"
+    description: "Teleportálj az utolsó halálod helyszínére"
+    no-location: "Nincs utolsó halálozási helyed.!"
+    teleported: "Teleportálva az utolsó halálod helyszínére!"
+    on-death: "A /back használatával teleportálj az utolsó halálod helyszínére!"
+  exploit:
+    usage: "Használat: /exploit <exec|list> [exploit]"
+    description: "Tesztelje, hogy az kliensét érintik-e kihasználások"
+    crash: "FIGYELMEZTETÉS: Ez a kihasználás összeomolhatja a klienst"
+    non-crash: "FIGYELMEZTETÉS: Ez a kihasználás ártalmas lehet az kliense számára!"
+    confirm: "Ha ismeri a kockázatokat, és beleegyezik a kihasználás végrehajtásába, kérjük, írja be az /exploit megerősítést"
+    not-found: "Exploit %s nem található!"
+    available: "Elérhető Exploitok: %s"
+    executed: "Exploit %s végrehajtva!"
+    no-exploit: "Nincs semmiféle kihasználása, amit végrehajthatna!"
+    resourcepack:
+      alert: "Ez a sebezhetőség csak akkor érzékeli, ha a fájl létezik, megpróbáljuk elérni a servers.dat fájlt a \".minecraft\" könyvtárban."
+      vulnerable: "Hoppá, az Kliensed sebezhetőnek tűnik."
+      notvulnerable: "Gratulálok, az kliensed nem sebezhető!"
+  client:
+    usage: "Használat: /client"
+    description: "Nézd meg a kliens információidat"
+  menu:
+    usage: "Használat: /menu"
+    description: "Nyisd meg a menüt"
