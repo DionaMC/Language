@@ -1,0 +1,301 @@
+languageName: Swedish
+
+contributors:
+  - "LaxrFar"
+  - "gzeht"
+  - "BodyFemboy"
+
+aliases:
+  - "sv"
+  - "swedish"
+  - "svensk"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/7d86242b0d97ece9994660f3974d72df7b887f630a4530dadc5b1ab7c2134aec"
+  lore:
+    - "&7ändra ditt språk till tyska"
+    - ""
+    - "&7Medverkande:"
+    - "%contributors%"
+    - ""
+    - "&6Klicka för att ändra språk!"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+
+gui:
+  language:
+    title: "Meny Språk"
+  anticheat:
+    title: "Anticheat meny"
+    disabled: "Avaktiverad"
+    version: "Version"
+    author: "Författare"
+    description: "Beskrivning av"
+  settings:
+    title: "Meny Inställningar"
+    status: "Status"
+    mode: "Mode"
+    description: "Beskrivning av"
+    flag:
+      name: "Flagga"
+      description:
+        - "&fVisa anticheat flaggor"
+    kick:
+      name: "Kick"
+      description:
+        - Aktivera/deaktivera Kick"
+    damage:
+      name: "Skada"
+      description:
+        - "&fAktivera/deaktivera Skada"
+    hunger:
+      name: "Svält"
+      description:
+        - "&fAktivera/deaktivera Svält"
+    allowat:
+      name: "Omnämnanden"
+      description:
+        - "&fTillåt andra spelare att nämna dig i chatten"
+  warp:
+    title: "Warp Meny"
+    world: "Världen"
+  enchant:
+    title: "Meny för förtrollning"
+    no-enchant: "Det finns inga förtrollningar för detta objekt"
+    put-item: "Placera föremålet i det tomma facket på vänster sida"
+    level: "Nivån"
+    left-click: "Klicka på länkar"
+    right-click: "Högerklicka på"
+    add-enchant: "Lägg till förtrollning"
+    remove-enchant: "Ta bort förtrollning"
+    upgrade-enchant: "Uppgradera förtrollning"
+    downgrade-enchant: "Nedgradera förtrollning"
+    incompatible: "NIcke-kompatibel förtrollning"
+    fix-item: "Reparation av objekt"
+    remove-all-enchant: "Ta bort alla förtrollningar"
+    unbreakable: "Oförstörbar"
+  potion:
+    title: "Potions meny"
+  filter:
+    title: "Filteranläggning"
+    empty: "Tom"
+    reset: "Återställ filtersystemn"
+    next-page: "Nästa sida"
+    previous-page: "Föregående sida"
+    page: "Sida: "
+    search: "Sök"
+    cancel-search: "Avbryt sökning"
+    back: "Tillbaka"
+    type: "Typ"
+  search:
+    title: "Sök i menyn"
+    item: "Sök"
+
+messages:
+  message:
+    sender: "&7[&fI &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fI&7] &f%s"
+  chat:
+    mute: "Du är avstängd!"
+    unmute: "Du är avstängd!"
+    no-permission-at: "Du har inte de nödvändiga befogenheterna för att markera detta!"
+    no-permission-at-everyone: "Du har inte de nödvändiga behörigheterna för att märka alla!"
+  teleport:
+    success: "Teleport slutförd!"
+    expired: "Din teleporteringsbegäran har gått ut!"
+    ignored: "Du kan inte skicka en teleporteringsbegäran till den här spelaren!"
+    no-request:
+      to-accept: "Inga teleporteringsförfrågningar att acceptera!"
+      to-deny: "Inga teleporteringsförfrågningar att avvisa!"
+      to-cancel: "Inga teleporteringsförfrågningar att avbryta!"
+    request:
+      requester: "Teleportförfrågningar skickade till %s."
+      receiver:
+        normal: "%s har begärt att teleporteras till dig."
+        here: "%s har begärt att du teleporterar dig till honom."
+    timeout:
+      requester: "Din teleporteringsbegäran till %s har löpt ut!"
+      receiver: "%s teleporteringsbegäran till dig har gått ut!"
+    cancelled:
+      requester: "Din teleporteringsbegäran till %s har avbrutits!"
+      receiver: "%s teleporteringsbegäran till dig har gått ut!"
+    denied:
+      requester: "%s har avvisat din begäran om teleportering!"
+      receiver: "Du avvisade %s begäran om teleportering!"
+    accepted:
+      requester: "%s har accepterat din teleporteringsbegäran! Teleportera..."
+      receiver: "Du har accepterat %s teleporteringsförfrågningar! Teleportera..."
+    type:
+      cancel: "För att avbryta teleporteringen, ange /tpacancel"
+      accept: "För att acceptera teleportförfrågningarna, ange /tpaccept"
+      deny: "För att avvisa teleportförfrågningar, ange /tpdeny"
+    already-requested: "Du har redan skickat en teleporteringsbegäran till %s! Ange /tpacancel för att avbryta den."
+    not-online: "Spelaren %s är inte online!"
+    self: "Du kan inte skicka teleporteringsförfrågningar till dig själv!"
+  command-cooldown: "Du använder detta kommando för snabbt!"
+  no-permission: "Du har inte de nödvändiga rättigheterna för att ange detta kommando!"
+  player-not-found: "Spelaren %s hittades inte!"
+  welcome:
+    new-player:
+      - "Välkommen till Loyisas testserver!"
+      - "På denna server kan du testa AntiCheats och växla i mitten!"
+      - "Använd /ac för att ändra AntiCheat"
+      - "Använd /lang för att ändra ditt språk"
+      - "Skriv /help för ytterligare en lista över kommandon!"
+      - "Ha det så kul!"
+    old-player:
+      - "Hej! Det har gått %s dagar sedan din senaste inloggning!"
+      - "Välkommen tillbaka!"
+
+  anticheat:
+    disabled: "Anticheat %s har avaktiverats!"
+    dev-only: "Anticheat %s ist nur fuer Developer freigegeben!"
+    cant-use-with-others: "Anticheat %s kan inte användas tillsammans med andra anticheats!"
+    must-use-with-others: "Anticheat %s måste kombineras med andra anticheats!"
+    amount-limit: "Du kannst nicht mehr als %s Anticheats zur selben Zeit benutzen!"
+    selected: "Du har valt %s"
+    not-found: "Anticheat %s hittades inte!"
+
+  itemcleaner:
+    countdown: "Alla föremål på golvet raderas inom %s sekunder!"
+    cleaned: "%s föremål har rengjorts!"
+
+  scaffoldcleaner:
+    countdown: "Ställningsområdena töms på %s sekunder!"
+
+  breaktest:
+    broken: "Du har förstört %s!"
+
+  damagetest:
+    damage: "Förväntad skada: %s Faktisk skada: %s"
+
+  speedtest:
+    timeout: "Ditt hastighetstest har löpt ut!"
+    not-found: "Geschwindigkeitstest %s wurde nicht gefunden!"
+    already-in-use: "Detta hastighetstest används redan!"
+    terminated: "Ditt hastighetstest har tagits bort!"
+    already-in-speedtest: "Du befinner dig redan i ett hastighetstest!"
+    result: "Din hastighet är %s/s"
+    faster: "Du är %s snabbare än vanilla sprint-jumping!"
+    slower: "Du är %s långsammare än vanilla sprint-jumping!"
+
+commands:
+  anticheat:
+    usage: "Användning: /ac [anticheat|ac ac ...]"
+    description: "Växla anticheats"
+  health:
+    usage: "Användning: /health <nummer>"
+    description: "Ändra ditt hälsobelopp"
+    updated: "Din hälsa har förändrats!"
+    invalid-value: "Ogiltigt belopp för hälsa! Vänligen ange ett heltal!"
+    error-value: "Beloppet måste vara mellan 0 och %s!"
+  hunger:
+    usage: "Användning: /hunger <nummer>"
+    description: "Ändra ditt hungerbelopp"
+    updated: "Ditt hungerbelopp har ändrats!"
+    invalid-value: "Ogiltigt hungerbelopp! Vänligen ange ett heltal!"
+    error-value: "Beloppet måste vara mellan 0 och %s!"
+  ip:
+    usage: "Användning: /ip"
+    description: "Visar din IP-adress"
+    player: "Din IP-adress är %s"
+  language:
+    usage: "Användning: /language [språk]"
+    description: "Ändra ditt språk"
+    changed: "Ditt språk har ändrats till %s!"
+    not-found: "Språket %s hittades inte!"
+  settings:
+    usage: "Användning: /settings"
+    description: "Du kan ändra dina inställningar här"
+  warp:
+    usage: "Användning: /warp <warpnamn>"
+    description: "Teleportera till en warppunkt"
+    not-found: "Warp %s hittades inte!"
+  discord:
+    usage: "Användning: /discord"
+    description: "Visar länken till Discord"
+    message: "Länk till Discord: %s"
+  help:
+    usage: "Användning: /help [sida]"
+    description: "Visar hjälp"
+    help-page: "Hjälp sida:"
+    command: "Kommando: "
+    description-cmd: "Beskrivning: "
+    invalid-number: "Ogiltigt sidnummer!"
+  ping:
+    usage: "Användning: /ping"
+    description: "Visar din ping och åtgärdar den (om den inte är normal)"
+    message: "Din ping är %sms"
+    abnormal: "Din ping är inte normal! Åtgärd..."
+  message:
+    usage: "Användning: /msg <spelare> <meddelande>"
+    description: "Sänder ett meddelande till en spelare"
+    self-message: "Du kan inte skriva till dig själv!"
+    ignored: "Du kan inte skriva till den här spelaren!"
+  reply:
+    usage: "Användning: /reply <meddelande>"
+    description: "Svara den sista personen"
+    not-target: "Du har ingen att stå till svars inför!"
+    target-not-online: "Spelaren %s är inte online!"
+  spawn:
+    usage: "Användning: /spawn"
+    description: "Teleporterar dig till spawn"
+    not-initialized: "Det finns ingen spawn-punkt! Vänligen skapa en warp med namnet 'spawn'!"
+  heal:
+    usage: "Användning: /heal"
+    description: "Läker och ger dig näring"
+    healed: "Du har blivit helad!"
+  enchant:
+    usage: "Användning: /enchant"
+    description: "Förtrollar ett föremål"
+  potion:
+    usage: "Användning: /potion"
+    description: "Få en trolldryck"
+  tpa:
+    usage: "Användning: /tpa <spelare>"
+    description: "Skicka en teleporteringsbegäran till en spelare"
+  tpahere:
+    usage: "Användning: /tpahere <spelare>"
+    description: "Skicka en teleporteringsbegäran till en spelare för att teleportera dem till dig"
+  tpacancel:
+    usage: "Användning: /tpacancel"
+    description: "Avbryter en teleporteringsbegäran"
+  tpaccept:
+    usage: "Användning: /tpaccept"
+    description: "Accepterar en teleporteringsbegäran"
+  tpdeny:
+    usage: "Användning: /tpdeny"
+    description: "Avvisar en begäran om teleportering"
+  give:
+    usage: "Användning: /give <artikel> [nummer]"
+    description: "Ger dig det valda objektet"
+    invalid-amount: "Ogiltigt artikelnummer! Vänligen ange ett heltal!"
+    blacklisted: "Du kan inte ge dig själv detta föremål!"
+  filter:
+    usage: "Användning: /filter"
+    description: "Bukkit Event/ProtocolLib Paketfiltersystem"
+  kill:
+    usage: "Användning: /kill [spelare]"
+    description: "Dödar dig eller andra spelare"
+    self: "Farväl grymma värld :(..."
+    success: "Dödade %s"
+  clear:
+    usage: "Användning: /clear"
+    description: "Tar bort alla objekt från ditt lager"
+  fly:
+    usage: "Användning: /fly"
+    description: "Var lika flyktig som en presenning och lika hög som en kran"
+    flymode: "Flygläge: "
+  tp:
+    usage: "Användning: /tp <spelare> [spelare]"
+    description: "Teleporterar dig till en viss spelare"
+  gamemode:
+    usage: "Användning: /gamemode <mode>"
+    description: "Ändrar din gamemode"
+    invalid-mode: "Ogiltigt spelläge: %s"
+    success: "Din gamemode har ändrats till %s!"
+  gameprotocol:
+    usage: "Användning: /gameprotocol"
+    description: "Visar din spellogg"
+    player: "Dein Protokoll ist %s"
