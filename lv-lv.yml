@@ -1,0 +1,374 @@
+languageName: Latvian
+
+contributors:
+  - "ClientSiders"
+
+aliases:
+  - "lv"
+  - "lat"
+  - "latvian"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/f62a4938b59447f996b5ed94101df07429d1ad34776d591ffc6fd75b79473c"
+  lore:
+    - "&7Maini savu valodu uz latviešu"
+    - ""
+    - "&7Autori:"
+    - "%contributors%"
+    - ""
+    - "&6Klikšķini lai mainītu savu valodu!"
+
+scoreboard:
+  title: "Lojisas testa serveris"
+  blocking: "Bloķēšana: "
+  sneaking: "Ložņāšana: "
+  sprinting: "Skriešana: "
+
+gui:
+  language:
+    title: "Valodas izvelne"
+  anticheat:
+    title: "Antičīta izvelne"
+    disabled: "Izslēkts"
+    version: "Versija"
+    author: "Autori"
+    description: "Apraksts"
+  settings:
+    title: "Iestātijumi"
+    status: "Statuss"
+    mode: "Režīms"
+    description: "Apraksts"
+    flag:
+      name: "Karogs"
+      description:
+        - "&fParādīt antičīta karogus"
+    kick:
+      name: "Izmest"
+      description:
+        - "&fIeslēgt/izslēgt izmešanu"
+    damage:
+      name: "Bojājums"
+      description:
+        - "&fIeslēgt/izslēgt bojājumu"
+    hunger:
+      name: "Bads"
+      description:
+        - "&fIeslēgt/izslēgt badu"
+    allowat:
+      name: "AllowAT"
+      description:
+        - "&fAtļaut citiem spēlētājiem pieminēt jūs čatā"
+    allow-flight:
+      name: "Atļaut Lidošanu"
+      description:
+        - "&fMaini vertību priekš server.properties zem allow-flight iestātijuma."
+  warp:
+    title: "Warp izvelne"
+    world: "Pasaule"
+  enchant:
+    title: "Apburšanas izvelne"
+    no-enchant: "Šim priekšmetam nav burvestību"
+    put-item: "Ievietojiet priekšmetu tukšajā sadaļā kreisajā pusē"
+    level: "Līmenis"
+    left-click: "Kreisais klikšķis"
+    right-click: "Labais klikšķis"
+    add-enchant: "pievienot burvestību"
+    remove-enchant: "noņemt burvestību"
+    upgrade-enchant: "uzlabot burvestību"
+    downgrade-enchant: "pazemināt burvestību"
+    incompatible: "Nesaderīga burvestība"
+    fix-item: "Labot priekšmetu"
+    remove-all-enchant: "Noņemt visas burvestības"
+    unbreakable: "Neiznīcināms"
+  potion:
+    title: "Dziras izvelne"
+  filter:
+    title: "Filtru sistēma"
+    empty: "Tukšs"
+    reset: "Atiestatīt filtra sistēmu"
+    next-page: "Nākamā lappuse"
+    previous-page: "Iepriekšējā lappuse"
+    page: "Lappuse: "
+    search: "Meklē"
+    cancel-search: "Atcelt meklēšanu"
+    back: "Atpakaļ"
+    type: "Tips"
+  search:
+    title: "Meklēšanas izvelne"
+    item: "Meklē"
+  client:
+    title: "Klienta informācija"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Izvelne"
+    click-to-view: "Klikšķiniet lai redzētu"
+messages:
+  message:
+    sender: "&7[&fme &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fme&7] &f%s"
+  chat:
+    mute: "Tu tiki pieklusināts!"
+    unmute: "Tu tiki neapklusināts"
+    no-permission-at: "Tev nav atļaujas lai @ spēlētāju!"
+    no-permission-at-everyone: "Tev nav atļaujas lai @everyone!"
+    muteTime: "Atlikušais laiks: %d minūtes."
+  teleport:
+    success: "Teleportēšana izpildīta!"
+    expired: "Jūsu teleportēšanās pieprasījums ir beidzies!"
+    ignored: "Jūs nevarat pieprasīt teleportēties pie šī spēlētāja!"
+    no-request:
+      to-accept: "Nav pieņemami teleportēšanās pieprasījumi!"
+      to-deny: "Nav jānoraida teleportēšanas pieprasijumi!"
+      to-cancel: "Nav jāatceļ teleportēšanas pieprasījumi!"
+    request:
+      requester: "Teleportēšanas pieprasījums tika nosūtīts %s."
+      receiver:
+        normal: "%s ir pieprasījis teleportēties pie jums."
+        here: "%s ir pieprasījis, lai jūs teleportējaties pie viņiem."
+    timeout:
+      requester: "Jūsu teleportēšanās pieprasījums līdz %s ir beidzies!"
+      receiver: "%s teleportēšanās pieprasījums līdz jums ir beidzies!"
+    cancelled:
+      requester: "Jūsu teleportēšanās pieprasījums līdz %s tika atcelts!"
+      receiver: "%s teleportēšanās pieprasījums līdz jums tika atcelts!"
+    denied:
+      requester: "%s noraidīja jūsu teleportēšanās pieprasījumu!"
+      receiver: "Jūs noraidījāt %s teleportēšanās pieprasījumu!"
+    accepted:
+      requester: "%s pieņēma jūsu teleportēšanās pieprasījumu! Teleportēšanās process..."
+      receiver: "Jūs pieņēmāt %s teleportēšanās pieprasījumu! Teleportēšanās process..."
+    type:
+      cancel: "Lai atceltu teleportēšanās pieprasījumu, ievadiet /tpacancel"
+      accept: "Lai teleportētos, ievadiet /tpaccept"
+      deny: "Lai noraidītu teleportēšanās pieprasījumu, ievadiet /tpdeny"
+    already-requested: "Jūs jau esat nosūtījis %s teleportēšanās pieprasījumu! Ierakstiet /tpacancel, lai to atceltu."
+    not-online: "Spēlētājs %s nav tiešsaistē!"
+    self: "Jūs nevarat pieprasīt teleportēšanu uz sevi!"
+  command-cooldown: "Jūs izmantojat šo komandu pārāk ātri! Lūdzu, nomierinieties!"
+  no-permission: "Jums nav atļaujas to darīt!"
+  player-not-found: "Spēlētājs %s nav atrasts vai nav tiešsaistē!"
+  welcome:
+    new-player:
+      - "Sveiki! Laipni lūgti Lojisas testa serverī!"
+      - "Šitā serverī, tu vari parbaudīt antičītus un mainīt spēlē!"
+      - "Tu vari izmantot /ac lai mainītu antičītus"
+      - "Tu vari izmantot /lang lai mainītu valodu"
+      - "Attiecībā uz citām komandām, lūdzu, izmantojiet /help, lai redzētu visas pārējās komandas!"
+      - "Have fun!"
+    old-player:
+      - "Čau! bija pagājušas %s dienas kopš jūsu pēdējās pievienošanās!"
+      - "Lapini lūgts atpakaļ!"
+
+  anticheat:
+    disabled: "Antičīts %s tika izslēgts!"
+    dev-only: "Antičīts %s ir pieejams tikai izstrādātājiem!"
+    cant-use-with-others: "Antičīts %s nevar tikt izmantots ar citiem antičītiem"
+    must-use-with-others: "Antičīts %s jālieto kopā ar citiem antičītiem!"
+    amount-limit: "Tu nevari lietot vairāk nekā %s antičītus tajā pašā laikā!"
+    selected: "Tu izvēlējies: %s"
+    not-found: "Antičīts %s netika atrasts!"
+
+  itemcleaner:
+    countdown: "Visi uz zemes esošie priekšmeti tiks notīrīti %s sekundēs!"
+    cleaned: "%s priekšmeti ir iztīrīti!"
+
+  scaffoldcleaner:
+    countdown: "Visi scaffold laukumi tiks notīrīti %s sekundēs!"
+
+  breaktest:
+    broken: "Tu iznīcināji %s!"
+
+  damagetest:
+    damage: "Paradzētais bojājums: %s  Īstenais bojājums: %s"
+
+  speedtest:
+    timeout: "Jūsu SpeedTest ir beidzies!"
+    not-found: "SpeedTest telpa %s netika atrasta!"
+    already-in-use: "Šī SpeedTest telpa jau tiek izmantota!"
+    terminated: "Your SpeedTest has been terminated!"
+    already-in-speedtest: "Jūsu SpeedTest ir pārtraukts!"
+    result: "Tavs ātrums ir %s/s"
+    faster: "Tu esi %s ātrāks nekā vanilla skrēj-lēkāšanu!"
+    slower: "Tu esi %s lēnāks nekā vanilla skrēj-lēkāšanu!"
+
+  client:
+    brand:
+      message: "Jūsu klienta zīmols ir %s"
+    forge-mod-list:
+      message: "*Parvietojiet pelīti šeit, lai skatītu savu Forge modu sarakstu*"
+      by-client: "Par šo modifikāciju sarakstu ziņoja jūsu klients"
+    lunarclient:
+      message: "Tu izmanto LunarClient!(Atklāts API)"
+
+  chest-stealer:
+    total: "§eLāde#%d aizverta! §bKopējais laiks: §a%dms§b, Vidējais laiks: §a%dms §b| Priekšmetus paņēma: §a%d §b| Pārtrūka: §c%d§r"
+    array: "Klikšu Intervals (ms): §a%s§r"
+
+  action-bar:
+    position-alert: "§bServeru Pozīcija (S08) Saņemšana | Pagājušais laiks: §a%.2fs"
+
+commands:
+  anticheat:
+    usage: "Izmantošana: /ac [antičīts|ac ac ...]"
+    description: "Mainīt antičītus"
+  health:
+    usage: "Izmantošana: /health <daudzums>"
+    description: "Mainīt veselības vertību"
+    updated: "Jūsu veselības vertība tika atjaunināta"
+    invalid-value: "Nederīga veselības vērtība! Lūdzu, ievadiet veselo (Intedžera) skaitli!"
+    error-value: "Vērtībai jābūt starp 0 un %s!"
+  hunger:
+    usage: "Izmantošana: /hunger <daudzums>"
+    description: "Mainīt badu līmeņu vertību"
+    updated: "Jūsu bada līmeņā vērtība tika atjaunināta"
+    invalid-value: "Nederīga bada līmeņa vertība! Lūdzu, ievadiet veselo (Intedžera) skaitli!"
+    error-value: "Vērtībai jābūt starp 0 un 20!"
+  ip:
+    usage: "Izmantošana: /ip"
+    description: "Dabūt savu IP adresi"
+    player: "Tava IP adrese ir: %s"
+  language:
+    usage: "Izmantošana: /language [valoda]"
+    description: "Mainīt savu valodu"
+    changed: "Jūsu valoda tika mainīta uz %s valodu!"
+    not-found: "Valoda %s netika atrasta!"
+  settings:
+    usage: "Izmantošana: /settings"
+    description: "Maini iestātijumus"
+  warp:
+    usage: "Izmantošana: /warp <warpu vārds>"
+    description: "Teleportēšanās uz warp punktu"
+    not-found: "Warp %s netika atrasts!"
+  discord:
+    usage: "Izmantošana: /discord"
+    description: "Dabūt discord servera linku"
+    message: "Discorda links: %s"
+  help:
+    usage: "Izmantošana: /help [lapaspuse]"
+    description: "Parāda palīdzību"
+    help-page: "Palīdzības lappuse:"
+    command: "Komands: "
+    description-cmd: "Apraksts: "
+    invalid-number: "Nederīgs lappuses numurs!"
+    previous-page: "Iepriekšējā lappuse"
+    next-page: "Nākamā lappuse"
+  ping:
+    usage: "Izmantošana: /ping"
+    description: "Iegūst jūsu ping un salabo jūsu ping (ja jūsu ping ir neparasts)."
+    message: "Tavs ping ir %sms"
+    abnormal: "Jūsu ping ir neparasts! Labošana..."
+  message:
+    usage: "Izmantošana: /msg <spēlētājam> <ziņa>"
+    description: "Sūti ziņu spēlētājam"
+    self-message: "Jūs nevarat sūtīt ziņu sev!"
+    ignored: "Jūs nevarat nosūtīt ziņu šim spēlētājam!"
+  reply:
+    usage: "Izmantošana: /reply <ziņa>"
+    description: "Atbildēt uz pēdējo ziņu"
+    not-target: "Jums nav ziņojuma, uz kuru atbildēt!"
+    target-not-online: "Spēlētājs %s nav tiešsaistē!"
+  spawn:
+    usage: "Izmantošana: /spawn"
+    description: "Teleportēšanās uz spawna vietu"
+    not-initialized: "Spawna vieta nav inicializēta! Lūdzu, iestatiet warp ar nosaukumu 'spawn'!"
+  heal:
+    usage: "Izmantošana: /heal"
+    description: "Dziediniet un barojiet sevi"
+    healed: "Jūs esat dziedināts!"
+  enchant:
+    usage: "Izmantošana: /enchant"
+    description: "Burvjot priekšmetu"
+  potion:
+    usage: "Izmantošana: /potion"
+    description: "Dabūt dziru"
+  tpa:
+    usage: "Izmantošana: /tpa <spēlētāju>"
+    description: "Pieprasījums teleportēties pie norādītā spēlētāja"
+  tpahere:
+    usage: "Izmantošana: /tpahere <spēlētāju>"
+    description: "Pieprasīt norādītajam spēlētājam teleportēties pie jums"
+  tpacancel:
+    usage: "Izmantošana: /tpacancel"
+    description: "Atcelt jūsu sūtītu teleportēšanās pieprasījumu"
+  tpaccept:
+    usage: "Izmantošana: /tpaccept"
+    description: "Pieņemt teleportēšanās pieprasījumu"
+  tpdeny:
+    usage: "Izmantošana: /tpdeny"
+    description: "Teleportēšanās pieprasījuma noraidīšana"
+  give:
+    usage: "Izmantošana: /give <priekšmets> [daudzums]"
+    description: "Dod tev priekšmetus"
+    invalid-amount: "Nederīga priekšmeta daudzveidība! Lūdzu, ievadiet veselo (Intedžera) skaitli!"
+    blacklisted: "Šī prece ir melnajā sarakstā!"
+  filter:
+    usage: "Izmantošana: /filter"
+    description: "Bukkit Event/ProtocolLib pakešu filtru sistēma"
+  kill:
+    usage: "Izmantošana: /kill [spēlētāju]"
+    description: "Nogalināt sevi vai citu spēlētāju"
+    self: "Atā, nežēlīgā pausaule..."
+    success: "Nogalināju %s"
+  clear:
+    usage: "Izmantošana: /clear"
+    description: "Izdzēst visus inventārā esošos priekšmetus"
+  fly:
+    usage: "Izmantošana: /fly"
+    description: "Aizlidinās tevi līdz mēnesim"
+    flymode: "Lidošanas režīms: "
+  tp:
+    usage: "Izmantošana: /tp <spēlētāju> [spēlētāju]"
+    description: "Teleportēšanās uz norādīto spēlētāju"
+  gamemode:
+    usage: "Izmantošana: /gamemode <rezīms>"
+    description: "Mainīt gamemode"
+    invalid-mode: "Nederošais gamemode: %s"
+    success: "Jūsu gamemode tika mainīts uz %s!"
+  gameprotocol:
+    usage: "Izmantošana: /gameprotocol"
+    description: "dabūt savu spēles protokolu"
+    player: "Tavs protokols ir %s"
+  damagetick:
+    usage: "Izmantošana: /damagetick <daudzums>"
+    description: "Mainīt jūsējo bojājumu tiku vērtību"
+    updated: "Jūsu bojājumu tiks ir tagad %s!"
+    invalid-value: "Nederīga bojajuma tika vērtība! Lūdzu, ievadiet veselo (Intedžera) skaitli!"
+    error-value: "Vērtībai jābūt starp 0 un 20!"
+    current: "Tavs tagadējais bojājumu tiks ir %s"
+  back:
+    usage: "Izmantošana: /back"
+    description: "Teleportējieties uz savu pēdējo nāves vietu"
+    no-location: "Jums nav pēdējās nāves vietas!"
+    teleported: "Teleportēju jūs uz pēdējo nāves vietu!"
+    on-death: "Izmantojiet /back, lai teleportētos uz savu pēdējo nāves vietu!"
+  exploit:
+    usage: "Izmantošana: /exploit <exec|list> [exploit]"
+    description: "Pārbaudiet, vai jūsu klients ir pakļauts eksploitiem"
+    crash: "BRĪDINĀJUMS: Šis eksploits var sabojāt jūsu klientu!"
+    non-crash: "BRĪDINĀJUMS: Šis eksploits var kaitēt jūsu klientam!"
+    confirm: "Ja apzināties riskus un piekrītat izpildīt eksploitu, lūdzu, ievadiet /exploit confirm."
+    not-found: "Exploit %s netika atrasts!"
+    available: "Pieejamie eksploiti: %s"
+    executed: "Eksploiti %s palaisti!"
+    no-exploit: "Tev nav nekādu eksploitu ko palaist"
+    resourcepack:
+      alert: "Šo ievainojamību var noteikt tikai tad, ja fails pastāv, mēs mēģināsim piekļūt servers.dat jūsu \.minecraft\ direktorijā."
+      vulnerable: "Ak, šķiet, ka jūsu klients ir neaizsargāts."
+      notvulnerable: "Apsveicam, jūsu klients nav neaizsargāts!"
+  client:
+    usage: "Izmantošana: /client"
+    description: "Parādīt klienta informāciju"
+  menu:
+    usage: "Izmantošana: /menu"
+    description: "Atvert izvelni"
