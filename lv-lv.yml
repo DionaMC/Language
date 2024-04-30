@@ -363,7 +363,7 @@ commands:
     executed: "Eksploiti %s palaisti!"
     no-exploit: "Tev nav nekādu eksploitu ko palaist"
     resourcepack:
-      alert: "Šo ievainojamību var noteikt tikai tad, ja fails pastāv, mēs mēģināsim piekļūt servers.dat jūsu \.minecraft\ direktorijā."
+      alert: "Šo ievainojamību var noteikt tikai tad, ja fails pastāv, mēs mēģināsim piekļūt servers.dat jūsu \".minecraft\" direktorijā."
       vulnerable: "Ak, šķiet, ka jūsu klients ir neaizsargāts."
       notvulnerable: "Apsveicam, jūsu klients nav neaizsargāts!"
   client:
