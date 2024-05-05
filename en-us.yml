@@ -41,27 +41,27 @@ gui:
     flag:
       name: "Flag"
       description:
-        - "&fShow anticheat flags"
+        - "Show anticheat flags"
     kick:
       name: "Kick"
       description:
-        - "&fEnable/disable kick"
+        - "Enable/disable kick"
     damage:
       name: "Damage"
       description:
-        - "&fEnable/disable damage"
+        - "Enable/disable damage"
     hunger:
       name: "Hunger"
       description:
-        - "&fEnable/disable hunger"
+        - "Enable/disable hunger"
     allowat:
       name: "AllowAT"
       description:
-        - "&fAllow other players to mention you in chat"
+        - "Allow other players to mention you in chat"
     allow-flight:
       name: "Allow Flight"
       description:
-        - "&fChange the value for server.properties under the allow-flight setting."
+        - "Change the value for server.properties under the allow-flight setting."
   warp:
     title: "Warp menu"
     world: "World"

@@ -41,27 +41,27 @@ gui:
     flag:
       name: "Karogs"
       description:
-        - "&fParādīt antičīta karogus"
+        - "Parādīt antičīta karogus"
     kick:
       name: "Izmest"
       description:
-        - "&fIeslēgt/izslēgt izmešanu"
+        - "Ieslēgt/izslēgt izmešanu"
     damage:
       name: "Bojājums"
       description:
-        - "&fIeslēgt/izslēgt bojājumu"
+        - "Ieslēgt/izslēgt bojājumu"
     hunger:
       name: "Bads"
       description:
-        - "&fIeslēgt/izslēgt badu"
+        - "Ieslēgt/izslēgt badu"
     allowat:
       name: "AllowAT"
       description:
-        - "&fAtļaut citiem spēlētājiem pieminēt jūs čatā"
+        - "Atļaut citiem spēlētājiem pieminēt jūs čatā"
     allow-flight:
       name: "Atļaut Lidošanu"
       description:
-        - "&fMaini vertību priekš server.properties zem allow-flight iestātijuma."
+        - "Maini vertību priekš server.properties zem allow-flight iestātijuma."
   warp:
     title: "Warp izvelne"
     world: "Pasaule"

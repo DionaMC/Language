@@ -40,27 +40,27 @@ gui:
     flag:
       name: "Flag"
       description:
-        - "&fMutatja Az AntiCheat Flageket"
+        - "Mutatja Az AntiCheat Flageket"
     kick:
       name: "Kick"
       description:
-        - "&fAntiCheat Kick Ki/Be kapcsolása"
+        - "AntiCheat Kick Ki/Be kapcsolása"
     damage:
       name: "Sebződés"
       description:
-        - "&fSebződés Ki/Be kapcsolása"
+        - "Sebződés Ki/Be kapcsolása"
     hunger:
       name: "Éhezés"
       description:
-        - "&fÉhezés Ki/Be kapcsolása"
+        - "Éhezés Ki/Be kapcsolása"
     allowat:
       name: "Említés"
       description:
-        - "&fEngedélyezd Hogy Emberek Meg Említsenek Chaten"
+        - "Engedélyezd Hogy Emberek Meg Említsenek Chaten"
     allow-flight:
       name: "Repülés"
       description:
-        - "&fMódosítsa a server.properties értékét az allow-flight beállítás alatt."
+        - "Módosítsa a server.properties értékét az allow-flight beállítás alatt."
   warp:
     title: "Warp menü"
     world: "Világ"
