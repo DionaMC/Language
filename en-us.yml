@@ -113,6 +113,8 @@ gui:
   menu:
     title: "Menu"
     click-to-view: "Click to view"
+  items:
+    title: "Items menu"
 messages:
   message:
     sender: "&7[&fme &b-> &f%s&7] &f%s"
@@ -372,3 +374,6 @@ commands:
   menu:
     usage: "Usage: /menu"
     description: "Open the menu"
+  items:
+    usage: "Usage: /items"
+    description: "Get items"

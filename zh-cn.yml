@@ -113,6 +113,8 @@ gui:
   menu:
     title: "菜单"
     click-to-view: "点击查看"
+  items:
+    title: "物品菜单"
 messages:
   message:
     sender: "&7[&f我 &b-> &f%s&7] &f%s"
@@ -372,3 +374,6 @@ commands:
   menu:
     usage: "用法: /menu"
     description: "打开菜单"
+  items:
+    usage: "用法: /items"
+    description: "获取物品"
