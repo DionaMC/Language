@@ -20,6 +20,10 @@ skullItem:
 
 scoreboard:
   title: "Loyisa's Testserver"
+  blocking: "Blockieren: "
+  sneaking: "Schleichen: "
+  sprinting: "Sprinten: "
+  onGround: "Am boden: "
 
 gui:
   language:

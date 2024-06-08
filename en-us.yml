@@ -23,6 +23,7 @@ scoreboard:
   blocking: "Blocking: "
   sneaking: "Sneaking: "
   sprinting: "Sprinting: "
+  onGround: "On ground: "
 
 gui:
   language:
