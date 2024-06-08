@@ -115,6 +115,8 @@ gui:
     click-to-view: "Click to view"
   items:
     title: "Items menu"
+  exploit:
+    title: "Exploits menu"
 messages:
   message:
     sender: "&7[&fme &b-> &f%s&7] &f%s"
