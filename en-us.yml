@@ -28,6 +28,7 @@ scoreboard:
 gui:
   language:
     title: "Languages menu"
+    last-update: "Last update: %s"
   anticheat:
     title: "Anticheats menu"
     disabled: "Disabled"

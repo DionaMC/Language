@@ -27,6 +27,7 @@ scoreboard:
 gui:
   language:
     title: "语言菜单"
+    last-update: "最后更新: %s"
   anticheat:
     title: "反作弊菜单"
     disabled: "已禁用"
