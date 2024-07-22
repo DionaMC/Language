@@ -23,6 +23,7 @@ scoreboard:
   blocking: "格挡中: "
   sprinting: "疾跑中: "
   sneaking: "潜行中: "
+  onGround: "在地面: "
 
 gui:
   language:
