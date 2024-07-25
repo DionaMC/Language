@@ -182,6 +182,7 @@ messages:
     amount-limit: "你不能同时使用超过 %s 个反作弊!"
     selected: "已启用: %s"
     not-found: "未找到反作弊: %s"
+    rejoin: "为了确保 %s 反作弊正常工作，请重新加入服务器"
 
   itemcleaner:
     countdown: "地面上的所有物品将在 %s 秒后被清除!"

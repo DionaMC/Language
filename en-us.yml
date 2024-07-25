@@ -184,6 +184,7 @@ messages:
     amount-limit: "You can't use more than %s anticheats at the same time!"
     selected: "You selected: %s"
     not-found: "Anticheat %s not found!"
+    rejoin: "To ensure that anticheat %s works properly, please rejoin the server!"
 
   itemcleaner:
     countdown: "All items on the ground will be cleaned in %s seconds!"
