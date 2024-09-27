@@ -1,0 +1,383 @@
+languageName: Schwiizerdütsch
+
+contributors:
+  - "vadage"
+
+aliases:
+  - "schwiizerdütsch"
+  - "swissgerman"
+
+skullItem:
+  textureUrl: "https://textures.minecraft.net/texture/572ffabc40a3a82a9dbb081038f9834707b8a7a595e47d63e4c7a7e24a6c8829"
+  lore:
+    - "&7Änder dini sprach zu schwiizerdütsch"
+    - ""
+    - "&7Mitwürkendi:"
+    - "%contributors%"
+    - ""
+    - "&6Klick zum dini sprach z ändere"
+
+scoreboard:
+  title: "Loyisa's Testserver"
+  blocking: "Am blocke: "
+  sneaking: "Am schliiche: "
+  sprinting: "Am renne: "
+  onGround: "Ufem bode: "
+
+gui:
+  language:
+    title: "Sprachmenü"
+    last-update: "Letzti änderig: %s"
+  anticheat:
+    title: "Menü ah Anticheats"
+    disabled: "Deaktiviert"
+    version: "Version"
+    author: "Author(e)"
+    description: "Beschriibig"
+  settings:
+    title: "Ihstelligsmenü"
+    status: "Status"
+    mode: "Mode"
+    description: "Beschriibig"
+    flag:
+      name: "Flag"
+      description:
+        - "Flags vom Anticheat ahzeige"
+    kick:
+      name: "Kick"
+      description:
+        - "Kicks aktiviere/deaktiviere"
+    damage:
+      name: "Schade"
+      description:
+        - "Schade aktiviere/deaktiviere"
+    hunger:
+      name: "Hunger"
+      description:
+        - "Hunger aktiviere/deaktiviere"
+    allowat:
+      name: "Erwähnige"
+      description:
+        - "Anderne spieler erlaube, dich im chat z erwähne"
+    allow-flight:
+      name: "Flüüge erlaube"
+      description:
+        - "Änder de wert für server.properties under de allow-flight ihstellige."
+  warp:
+    title: "Warp menü"
+    world: "Welt"
+  enchant:
+    title: "Verzauberigsmenü"
+    no-enchant: "Es git kei verzauberige für das item"
+    put-item: "Leg s item in leere slot uf de linke siite"
+    level: "Level"
+    left-click: "Links klick"
+    right-click: "Rechts klick"
+    add-enchant: "Verzauberig hinzuefüege"
+    remove-enchant: "Verzauberig entferne"
+    upgrade-enchant: "Verzauberig verbessere"
+    downgrade-enchant: "Verzauberig verschlechtere"
+    incompatible: "Inkompatibli verzauberig"
+    fix-item: "Item repariere"
+    remove-all-enchant: "Alli verzauberige entferne"
+    unbreakable: "Unzerstörbar"
+  potion:
+    title: "Menü ah tränk"
+  filter:
+    title: "Filtersystem"
+    empty: "Leer"
+    reset: "Filtersystem zruggsetze"
+    next-page: "Nögscht siite"
+    previous-page: "Vorherigi siite"
+    page: "Siite: "
+    search: "Sueche"
+    cancel-search: "Suechi abbreche"
+    back: "Zrugg"
+    type: "Typ"
+  search:
+    title: "Suechmenü"
+    item: "Sueche"
+  client:
+    title: "Informatione über din client"
+    # you don't have to translate this
+    profile: "Profile"
+    name: "Name: "
+    network: "Network"
+    ping: "Ping: "
+    client: "Client"
+    brand: "Brand: "
+    version: "Version: "
+    protocol-version: "Protocol version: "
+    forge-mod-list: "Forge mod list"
+    mod: "Mod(s): "
+    none: "None"
+  menu:
+    title: "Menü"
+    click-to-view: "Klicke zum ahzeige"
+  items:
+    title: "Menü ah items"
+  exploit:
+    title: "Menü ah exploits"
+messages:
+  message:
+    sender: "&7[&fich &b-> &f%s&7] &f%s"
+    receiver: "&7[&f%s &b-> &fich&7] &f%s"
+  chat:
+    mute: "Du bisch gstummt!"
+    unmute: "Du bisch nümm gstummt!"
+    no-permission-at: "Dir fehled d berechtigunge zum de spieler z erwähne!"
+    no-permission-at-everyone: "Dir fehled d berechtigunge zum alli spieler z erwähne!"
+    muteTime: "Verbliibendi ziit: %d minute."
+  teleport:
+    success: "Teleport abgschlosse!"
+    expired: "Dini teleportationsahfrag isch abgloffe!"
+    ignored: "Du chasch dem spieler kei teleportationsahfrag schicke!"
+    no-request:
+      to-accept: "Kei teleportationsahfrage zum akzeptiere!"
+      to-deny: "Kei teleportationsahfrage zum ablehne!"
+      to-cancel: "Kei teleportationsahfrage zum abbreche!"
+    request:
+      requester: "Teleportationsahfrag ah %s gschickt."
+      receiver:
+        normal: "%s möcht sich zu dir teleportiere."
+        here: "%s möcht dich zu sich teleportiere."
+    timeout:
+      requester: "Dini teleportationsahfrag ah %s isch abgloffe!"
+      receiver: "Teleportationsahfrag vo %s isch abgloffe!"
+    cancelled:
+      requester: "Dini teleportationsahfrag ah %s isch abbroche worde!"
+      receiver: "Teleportationsahfrag vo %s isch abbroche worde!"
+    denied:
+      requester: "%s het dini teleportationsahfrag abglehnt!"
+      receiver: "Du hesch d teleportationsahfrag vo %s abglehnt!"
+    accepted:
+      requester: "%s het dini teleportationsahfrag ahgnoh! Teleportation wird ihgleitet..."
+      receiver: "Du hesch d teleportationsahfrag vo %s ahgnoh! Teleportation wird ihgleitet..."
+    type:
+      cancel: "Zum d teleportationsahfrag abbreche, gib /tpacancel ih"
+      accept: "Zum d teleportationsahfrag ahzneh, gib /tpaccept ih"
+      deny: "Zum d teleportationsahfrag abzlehne, gib /tpdeny ih"
+    already-requested: "Du hesch scho eh teleportationsahfrag ah %s gschickt! Gib /tpacancel ih zum abbreche."
+    not-online: "De spieler %s isch ned online!"
+    self: "Du chasch dich ned zu dir selber teleportiere!"
+  command-cooldown: "Du verwendisch de befehl zu schnell! Bitte fahr chli abe!"
+  no-permission: "Dir fehled für die aktion d berechtigunge!"
+  player-not-found: "De spieler %s het ned chönne gfunde werde oder isch ned online!"
+  welcome:
+    new-player:
+      - "Hoi! Willkomme ufem Loyisa's test server!"
+      - "Uf dem server chasch du anticheats teste und sie zmitzdrinn wächsle!"
+      - "Mit /ac chasch dis anticheat wächsle"
+      - "Mit /lang chasch dini sprach ändere"
+      - "Gib /help ih für alli wiitere befehl!"
+      - "Vill spass!"
+    old-player:
+      - "Hi! Es sind %s täg vergange sit dim letzte login!"
+      - "Willkomme zrugg!"
+
+  anticheat:
+    disabled: "S anticheat %s isch deaktiviert worde!"
+    dev-only: "S anticheat %s isch nur für entwickler verfüegbar!"
+    cant-use-with-others: "S anticheat %s chan ned mit andere anticheats verwendet werde!"
+    must-use-with-others: "S anticheat %s chan numme mit andere anticheats verwendet werde!"
+    amount-limit: "Du chasch ned meh als %s anticheats gliichziitig verwende!"
+    selected: "Du hesch %s usgwählt"
+    not-found: "S anticheat %s het ned chönne gfunde werde!"
+    rejoin: "Zum sicherzstelle, dass s anticheat %s richtig funktioniert, muesch de server rejoine!"
+
+  itemcleaner:
+    countdown: "Alli items ufem bode werdet ih %s sekunde entfernt!"
+    cleaned: "%s items sind entfernt worde!"
+
+  scaffoldcleaner:
+    countdown: "Alli scaffold beriich werded ih %s sekunde gleert!"
+
+  breaktest:
+    broken: "Du hesch %s kabutt gmacht!"
+
+  damagetest:
+    damage: "Erwartete schade: %s  Effektive schade: %s"
+
+  speedtest:
+    timeout: "Din SpeedTest isch abgloffe!"
+    not-found: "SpeedTest %s het ned chönne gfunde werde!"
+    already-in-use: "De SpeedTest isch bereits in verwendig!"
+    terminated: "Din SpeedTest isch glöscht worde!"
+    already-in-speedtest: "Du bisch scho imne SpeedTest!"
+    result: "Din speed isch %s/s"
+    faster: "Du bisch %s schneller als vanilla sprint-jumping!"
+    slower: "Du bisch %s langsamer als vanilla sprint-jumping!"
+
+  client:
+    brand:
+      message: "Din client isch %s"
+    forge-mod-list:
+      message: "*Hovere zum dini forge mod liste ahzeige*"
+      by-client: "Din client het folgendi mods ahgeh"
+    lunarclient:
+      message: "Du verwendisch LunarClient! (API erkennt)"
+
+  chest-stealer:
+    total: "§eChiste#%d gschlosse! §bZiit insgesamt: §a%dms§b, Durchschnittlichi ziit: §a%dms §b| Items usegnoh: §a%d §b| Fehlklick: §c%d§r"
+    array: "Klickintervall (ms): §a%s§r"
+
+  action-bar:
+    position-alert: "§bServer position (S08) empfange | Vergangeni ziit: §a%.2fs"
+
+commands:
+  anticheat:
+    usage: "Verwendig: /ac [anticheat|ac ac ...]"
+    description: "Switch anticheats"
+  health:
+    usage: "Verwendig: /health <ahzahl>"
+    description: "Änder din gsundheitslevel"
+    updated: "Din gsundheitslevel isch gändered worde!"
+    invalid-value: "Ungültige wert! Gib eh ganzi zahl ih!"
+    error-value: "De wert muess zwüsche 0 und %s ligge!"
+  hunger:
+    usage: "Verwendig: /hunger <ahzahl>"
+    description: "Änder din hungerlevel"
+    updated: "Din hungerlevel isch gändered worde!"
+    invalid-value: "Ungültige wert! Gib eh ganzi zahl ih!"
+    error-value: "De wert muess zwüsche 0 und 20 ligge!"
+  ip:
+    usage: "Verwendig: /ip"
+    description: "Zeigt dir dini IP ah"
+    player: "Dini IP isch %s"
+  language:
+    usage: "Verwendig: /language [sprach]"
+    description: "Änder dini sprach"
+    changed: "Dini sprach isch zu %s gändered worde!"
+    not-found: "D sprach %s het ned chönne gfunde werde!"
+  settings:
+    usage: "Verwendig: /settings"
+    description: "Änder dini ihstellige"
+  warp:
+    usage: "Verwendig: /warp <warp name>"
+    description: "Teleportier dich zumne warp punkt"
+    not-found: "Warp %s het ned chönne gfunde werde!"
+  discord:
+    usage: "Verwendig: /discord"
+    description: "Erhalt de link zu discord"
+    message: "Discord link: %s"
+  help:
+    usage: "Verwendig: /help [siite]"
+    description: "Hilf ahzeige"
+    help-page: "Hilfe siite:"
+    command: "Befehl: "
+    description-cmd: "Beschriibig: "
+    invalid-number: "Ungültigi siitenummere!"
+    previous-page: "Vorherigi siite"
+    next-page: "Nögscht siite"
+  ping:
+    usage: "Verwendig: /ping"
+    description: "Git ding ping us und fixt ihn, falls er ned normal isch"
+    message: "Din ping isch %sms"
+    abnormal: "Din ping isch ned normal! Wird behobe..."
+  message:
+    usage: "Verwendig: /msg <spieler> <nachricht>"
+    description: "Schick amne spieler eh nachricht"
+    self-message: "Du chasch dir selber kei nachrichte schicke!"
+    ignored: "Du chasch dem spieler kei nachrichte schicke!"
+  reply:
+    usage: "Verwendig: /reply <nachricht>"
+    description: "Antworte uf die letzt nachricht"
+    not-target: "Du hesch kei nachrichte zum antworte!"
+    target-not-online: "De spieler %s isch ned online!"
+  spawn:
+    usage: "Verwendig: /spawn"
+    description: "Teleportier dich zum spawn"
+    not-initialized: "Es git kein spawnpunkt! Bitte erstell en warp mitem name 'spawn'!"
+  heal:
+    usage: "Verwendig: /heal"
+    description: "Heil und füetere dich"
+    healed: "Du bisch gheilt worde!"
+  enchant:
+    usage: "Verwendig: /enchant"
+    description: "Verzaubere es item"
+  potion:
+    usage: "Verwendig: /potion"
+    description: "Bechum en trank"
+  tpa:
+    usage: "Verwendig: /tpa <player>"
+    description: "Schick eh teleportationsahfrag amne spieler"
+  tpahere:
+    usage: "Verwendig: /tpahere <player>"
+    description: "Schick eh teleportationsahfrag amne spieler zum sich zu dir z teleportiere"
+  tpacancel:
+    usage: "Verwendig: /tpacancel"
+    description: "Brich eh teleportationsahfrag ab"
+  tpaccept:
+    usage: "Verwendig: /tpaccept"
+    description: "Nimm eh teleportationsahfrag ah"
+  tpdeny:
+    usage: "Verwendig: /tpdeny"
+    description: "Lehn eh teleportationsahfrag ab"
+  give:
+    usage: "Verwendig: /give <item> [ahzahl]"
+    description: "Gib dir d item(s)"
+    invalid-value: "Ungültige wert! Gib eh ganzi zahl ih!"
+    blacklisted: "Das item dörfsch du dir ned geh!"
+  filter:
+    usage: "Verwendig: /filter"
+    description: "Bukkit Event/ProtocolLib Packet Filter system"
+  kill:
+    usage: "Verwendig: /kill [spieler]"
+    description: "Töte dich selber oder en andere spieler"
+    self: "Tschüss du grausami welt..."
+    success: "%s isch töted worde"
+  clear:
+    usage: "Verwendig: /clear"
+    description: "Leer dis inventar"
+  fly:
+    usage: "Verwendig: /fly"
+    description: "Fly wie ein Pelikan!"
+    flymode: "Modus: "
+  tp:
+    usage: "Verwendig: /tp <spieler> [spieler]"
+    description: "Teleportier zumne spieler"
+  gamemode:
+    usage: "Verwendig: /gamemode <modus>"
+    description: "Änder din spielmodus"
+    invalid-mode: "Ungültige spielmodus: %s"
+    success: "Din spielmodus isch zu %s gändered worde!"
+  gameprotocol:
+    usage: "Verwendig: /gameprotocol"
+    description: "Gseh dis spielprotokoll"
+    player: "Dis protokoll isch %s"
+  damagetick:
+    usage: "Verwendig: /damagetick <ahzahl>"
+    description: "Änder din schadens tick"
+    updated: "Din schadens tick isch jetzt %s!"
+    invalid-value: "Ungültige wert! Gib eh ganzi zahl ah!"
+    error-value: "De wert muess zwüsche 0 und 20 ligge!"
+    current: "Din aktuelle schadens tick isch %s"
+  back:
+    usage: "Verwendig: /back"
+    description: "Teleportier dich zrugg an ort vo dim letzte tod"
+    no-location: "Du hesch no kein todesort!"
+    teleported: "Du bisch an ort vo dim letzte tod teleportiert worde!"
+    on-death: "Verwend /back zum dich an ort vo vor dim tod z teleportiere!"
+  exploit:
+    usage: "Verwendig: /exploit <exec|list> [exploit]"
+    description: "Lueg, ob din client vo exploits betroffe isch"
+    crash: "ACHTUNG: De exploit cha din client zum absturz bringe!"
+    non-crash: "ACHTUNG: De exploit cha dim client schade zuefüege!"
+    confirm: "Wenn du dir de risike bewusst bisch und de exploit möchtsch usfüehre, gib /exploit confirm ih"
+    not-found: "Exploit %s het ned chönne gfunde werde!"
+    available: "Verfüegbari exploits: %s"
+    executed: "Exploit %s isch usgfüehrt worde!"
+    no-exploit: "Du hesch kei exploits zum usfüehre!"
+    resourcepack:
+      alert: "Es cha nur erkennt werde, ob eh datei existiert. Mer werdet luege, ob din .minecraft ordner eh servers.dat datei het."
+      vulnerable: "Hoppla, din client isch verwundbar."
+      notvulnerable: "Gratuliere, din client isch ned verwundbar."
+  client:
+    usage: "Verwendig: /client"
+    description: "Gseh dini informatione"
+  menu:
+    usage: "Verwendig: /menu"
+    description: "Öffne s menü"
+  items:
+    usage: "Verwendig: /items"
+    description: "Hol dir items"
