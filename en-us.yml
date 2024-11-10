@@ -319,6 +319,7 @@ commands:
     description: "Give you the item(s)"
     invalid-amount: "Invalid item amount! Please enter an integer value!"
     blacklisted: "This item is blacklisted!"
+    not-found: "Item %s not found!"
   filter:
     usage: "Usage: /filter"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
@@ -382,3 +383,9 @@ commands:
   items:
     usage: "Usage: /items"
     description: "Get items"
+  damage:
+    usage: "Usage: /damage [amount]"
+    description: "Damage you by a specified amount"
+    positive-amount: "The amount must be positive!"
+    not-a-number: "Invalid amount! Please enter a mumber value!"
+    success: "You took %s damage!"

@@ -380,3 +380,9 @@ commands:
   items:
     usage: "用法: /items"
     description: "获取物品"
+  damage:
+    usage: "用法: /damage [数值]"
+    description: "对你造成指定数值的伤害"
+    positive-amount: "数值必须大于0!"
+    not-a-number: "无效的数值! 请输入一个数字!"
+    success: "你受到了 %s 的伤害!"
