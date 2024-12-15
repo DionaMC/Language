@@ -103,6 +103,8 @@ gui:
     # you don't have to translate this
     profile: "档案"
     name: "名称: "
+    first-played: "加入日期: "
+    last-played: "最后在线: "
     network: "网络"
     ping: "Ping: "
     client: "客户端"
