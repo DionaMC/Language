@@ -103,6 +103,8 @@ gui:
     # you don't have to translate this
     profile: "Profile"
     name: "Name: "
+    first-played: "Join date: "
+    last-played: "Last login: "
     network: "Network"
     ping: "Ping: "
     client: "Client"
