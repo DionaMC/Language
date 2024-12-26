@@ -122,7 +122,6 @@ messages:
     unmute: "Tu tiki neapklusināts"
     no-permission-at: "Tev nav atļaujas lai @ spēlētāju!"
     no-permission-at-everyone: "Tev nav atļaujas lai @everyone!"
-    muteTime: "Atlikušais laiks: %d minūtes."
   teleport:
     success: "Teleportēšana izpildīta!"
     expired: "Jūsu teleportēšanās pieprasījums ir beidzies!"

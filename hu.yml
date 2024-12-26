@@ -121,7 +121,6 @@ messages:
     unmute: "A Némításod El lett távolítva!"
     no-permission-at: "Nincs jogod hogy meg említsd %s -t!"
     no-permission-at-everyone: "Nincs jogod hogy meg említsd @everyone-t!"
-    muteTime: "Hátralevő idő: %d perc."
   teleport:
     success: "Teleportálás Sikeres!"
     expired: "A Teleport Kérelmed Lejárt!"

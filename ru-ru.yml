@@ -122,7 +122,6 @@ messages:
     unmute: "Вы были размучены!"
     no-permission-at: "У вас нет прав на @ player!"
     no-permission-at-everyone: "У вас нет прав на @everyone!"
-    muteTime: "Время осталось: %d минут."
   teleport:
     success: "Вы были телепортированы!"
     expired: "Ваш запрос на телепортацию истёк!"

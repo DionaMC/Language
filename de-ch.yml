@@ -127,7 +127,6 @@ messages:
     unmute: "Du bisch nümm gstummt!"
     no-permission-at: "Dir fehled d berechtigunge zum de spieler z erwähne!"
     no-permission-at-everyone: "Dir fehled d berechtigunge zum alli spieler z erwähne!"
-    muteTime: "Verbliibendi ziit: %d minute."
   teleport:
     success: "Teleport abgschlosse!"
     expired: "Dini teleportationsahfrag isch abgloffe!"
