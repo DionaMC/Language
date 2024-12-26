@@ -4,6 +4,12 @@ contributors:
   - "HellXD"
   - "Loyisa"
 
+# https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
+# https://en.wikipedia.org/wiki/List_of_date_formats_by_country
+dateformat:
+  date: "dd/MM/yyyy"
+  time: "HH:mm:ss"
+
 aliases:
   - "eng"
   - "english"
