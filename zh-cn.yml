@@ -201,6 +201,7 @@ messages:
     broken: "你破坏了 %s!"
 
   damagetest:
+    final-damage: "伤害: %s"
     damage: "预计伤害: %s  实际伤害: %s"
 
   speedtest:
