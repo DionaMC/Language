@@ -75,8 +75,6 @@ gui:
     fix-item: "Reparation av objekt"
     remove-all-enchant: "Ta bort alla förtrollningar"
     unbreakable: "Oförstörbar"
-  potion:
-    title: "Potions meny"
   filter:
     title: "Filteranläggning"
     empty: "Tom"
@@ -249,9 +247,6 @@ commands:
   enchant:
     usage: "Användning: /enchant"
     description: "Förtrollar ett föremål"
-  potion:
-    usage: "Användning: /potion"
-    description: "Få en trolldryck"
   tpa:
     usage: "Användning: /tpa <spelare>"
     description: "Skicka en teleporteringsbegäran till en spelare"

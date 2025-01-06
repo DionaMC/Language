@@ -75,8 +75,6 @@ gui:
     fix-item: "Repareer een voorwerp"
     remove-all-enchant: "Verwijder alle betoveringen"
     unbreakable: "Onbreekbaar"
-  potion:
-    title: "Toverdrank menu"
   filter:
     title: "Filter systeem"
     empty: "Leeg"
@@ -276,9 +274,6 @@ commands:
   enchant:
     usage: "Gebruikswijze: /enchant"
     description: "Betover een voorwerp"
-  potion:
-    usage: "Gebruikswijze: /potion"
-    description: "Krijg een toverdrankje"
   tpa:
     usage: "Gebruikswijze: /tpa <speler>"
     description: "Vraag om te teleporteren naar een speler"

@@ -74,8 +74,6 @@ gui:
     fix-item: "아이템 고치기"
     remove-all-enchant: "모든 마법부여 제거"
     unbreakable: "부서지지 않게 만들기"
-  potion:
-    title: "포션 메뉴"
   filter:
     title: "필터 시스템"
     empty: "없음"
@@ -248,9 +246,6 @@ commands:
   enchant:
     usage: "사용법: /enchant"
     description: "아이템을 마법부여 합니다!"
-  potion:
-    usage: "사용법: /potion"
-    description: "포션을 받습니다."
   tpa:
     usage: "사용법: /tpa <플레이어>"
     description: "지정한 플레이어에게 순간이동을 요청합니다."

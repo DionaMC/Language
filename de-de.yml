@@ -77,8 +77,6 @@ gui:
     fix-item: "Item reparieren"
     remove-all-enchant: "Alle Verzauberungen entfernen"
     unbreakable: "Unkaputtbar"
-  potion:
-    title: "Traenke menu"
   filter:
     title: "Filter system"
     empty: "Leer"
@@ -251,9 +249,6 @@ commands:
   enchant:
     usage: "Benutzung: /enchant"
     description: "Verzaubert ein Item"
-  potion:
-    usage: "Benutzung: /potion"
-    description: "Bekomme einen Trank"
   tpa:
     usage: "Benutzung: /tpa <player>"
     description: "Sende eine Teleportanfrage an einen Spieler"

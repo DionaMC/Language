@@ -88,8 +88,6 @@ gui:
     fix-item: "Fix item"
     remove-all-enchant: "Remove all enchantments"
     unbreakable: "Unbreakable"
-  potion:
-    title: "Potion menu"
   filter:
     title: "Filter system"
     empty: "Empty"
@@ -305,9 +303,6 @@ commands:
   enchant:
     usage: "Usage: /enchant"
     description: "Enchant an item"
-  potion:
-    usage: "Usage: /potion"
-    description: "Get a potion"
   tpa:
     usage: "Usage: /tpa <player>"
     description: "Request to teleport to the specified player"

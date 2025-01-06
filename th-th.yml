@@ -79,8 +79,6 @@ gui:
     fix-item: "แก้ไอเทม"
     remove-all-enchant: "ลบเอนชานท์ทั้งหมด"
     unbreakable: "ไม่แตกหัก"
-  potion:
-    title: "เมนูยา"
   filter:
     title: "เมนูระบบกรอง"
     empty: "ว่างเปล่า"
@@ -281,9 +279,6 @@ commands:
   enchant:
     usage: "คำสั่ง: /enchant"
     description: "เอนชานท์ไอเทม"
-  potion:
-    usage: "คำสั่ง: /potion"
-    description: "รับยา Potion"
   tpa:
     usage: "คำสั่ง: /tpa <player>"
     description: "ส่งคำขอเทเลพอร์ตไปยังผู้เล่นที่ระบุ"

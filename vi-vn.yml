@@ -76,8 +76,6 @@ gui:
     fix-item: "Sửa vật phẩm"
     remove-all-enchant: "xóa tất cả phù phép"
     unbreakable: "Không thể phá vỡ"
-  potion:
-    title: "Bảng thuốc"
   filter:
     title: "Hệ thống lọc"
     empty: "Trống"
@@ -276,9 +274,6 @@ commands:
   enchant:
     usage: "Cách sử dụng: /enchant"
     description: "Phù phép vật phẩm"
-  potion:
-    usage: "Cách sử dụng: /potion"
-    description: "Lấy thuốc"
   tpa:
     usage: "Cách sử dụng: /tpa <người chơi>"
     description: "Yêu cầu dịch chuyển đến người chơi được chỉ định"

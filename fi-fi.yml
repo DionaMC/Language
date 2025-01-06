@@ -74,8 +74,6 @@ gui:
     fix-item: "Korjaa esine"
     remove-all-enchant: "Poista kaikki lumoukset"
     unbreakable: "Rikkoutumaton"
-  potion:
-    title: "Potion valikko"
   filter:
     title: "Suodatinjärjestelmä"
     empty: "Tyhjä"
@@ -259,9 +257,6 @@ commands:
   enchant:
     usage: "Käyttötapa: /enchant"
     description: "Lumoa tavara"
-  potion:
-    usage: "Käyttötapa: /potion"
-    description: "Saa potioni"
   tpa:
     usage: "Käyttötapa: /tpa <pelaaja>"
     description: "Pyydä lupaa teleportata pelaajaan"

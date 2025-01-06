@@ -80,8 +80,6 @@ gui:
     fix-item: "Labot priekšmetu"
     remove-all-enchant: "Noņemt visas burvestības"
     unbreakable: "Neiznīcināms"
-  potion:
-    title: "Dziras izvelne"
   filter:
     title: "Filtru sistēma"
     empty: "Tukšs"
@@ -288,9 +286,6 @@ commands:
   enchant:
     usage: "Izmantošana: /enchant"
     description: "Burvjot priekšmetu"
-  potion:
-    usage: "Izmantošana: /potion"
-    description: "Dabūt dziru"
   tpa:
     usage: "Izmantošana: /tpa <spēlētāju>"
     description: "Pieprasījums teleportēties pie norādītā spēlētāja"

@@ -80,8 +80,6 @@ gui:
     fix-item: "Починить предмет"
     remove-all-enchant: "Удалить все зачарования"
     unbreakable: "Неразрушимое"
-  potion:
-    title: "Меню зелий"
   filter:
     title: "Система фильтров"
     empty: "Пусто"
@@ -288,9 +286,6 @@ commands:
   enchant:
     usage: "Использование: /enchant"
     description: "Зачаровать предмет"
-  potion:
-    usage: "Использование: /potion"
-    description: "Получить зелье"
   tpa:
     usage: "Использование: /tpa <игрок>"
     description: "Запрос на телепортацию к определённому игроку"

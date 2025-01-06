@@ -77,8 +77,6 @@ gui:
     fix-item: "Opravit item"
     remove-all-enchant: "Odebrat všechny enchanty"
     unbreakable: "Nerozbitelný"
-  potion:
-    title: "Potiony"
   filter:
     title: "Filter systém"
     empty: "Prázdný"
@@ -278,9 +276,6 @@ commands:
   enchant:
     usage: "Použití: /enchant"
     description: "Enchantovat izem"
-  potion:
-    usage: "Použití: /potion"
-    description: "Zjístkat potion"
   tpa:
     usage: "Použití: /tpa <player>"
     description: "Požádat o teleport hráči"

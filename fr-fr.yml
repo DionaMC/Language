@@ -70,8 +70,6 @@ gui:
     fix-item: "Répare l'équipement"
     remove-all-enchant: "Supprimer tout les enchantements"
     unbreakable: "Incassable"
-  potion:
-    title: "Potions"
   filter:
     title: "Filtres"
     empty: "Vide"
@@ -244,9 +242,6 @@ commands:
   enchant:
     usage: "Utilisation: /enchant"
     description: "Enchante un équipement"
-  potion:
-    usage: "Utilisation: /potion"
-    description: "Permet d'obtenir une potion"
   tpa:
     usage: "Utilisation: /tpa <player>"
     description: "Envoie une demande de téléportation au joueur"

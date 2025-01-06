@@ -81,8 +81,6 @@ gui:
     fix-item: "Item repariere"
     remove-all-enchant: "Alli verzauberige entferne"
     unbreakable: "Unzerstörbar"
-  potion:
-    title: "Menü ah tränk"
   filter:
     title: "Filtersystem"
     empty: "Leer"
@@ -294,9 +292,6 @@ commands:
   enchant:
     usage: "Verwendig: /enchant"
     description: "Verzaubere es item"
-  potion:
-    usage: "Verwendig: /potion"
-    description: "Bechum en trank"
   tpa:
     usage: "Verwendig: /tpa <player>"
     description: "Schick eh teleportationsahfrag amne spieler"

@@ -79,8 +79,6 @@ gui:
     fix-item: "Item megjavítása"
     remove-all-enchant: "Minden enchant törlése"
     unbreakable: "Törhetetlen"
-  potion:
-    title: "Poti menü"
   filter:
     title: "Szűrőrendszer"
     empty: "Üres"
@@ -287,9 +285,6 @@ commands:
   enchant:
     usage: "Használat: /enchant"
     description: "Egy tárgy elvarázsolása"
-  potion:
-    usage: "Használat: /potion"
-    description: "Szerezz egy bájitalt"
   tpa:
     usage: "Használat: /tpa <játékos>"
     description: "A megadott játékoshoz való teleportálás kérése"

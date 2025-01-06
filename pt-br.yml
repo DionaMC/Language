@@ -77,8 +77,6 @@ gui:
     fix-item: "Reparar item"
     remove-all-enchant: "Remover todos os encantamentos"
     unbreakable: "Inquebrável"
-  potion:
-    title: "Menu de Poções"
   filter:
     title: "Sistema de Filtros"
     empty: "Vazio"
@@ -262,9 +260,6 @@ commands:
   enchant:
     usage: "Uso: /enchant"
     description: "Encanta um item"
-  potion:
-    usage: "Uso: /potion"
-    description: "Obtém uma poção"
   tpa:
     usage: "Uso: /tpa <jogador>"
     description: "Envia um pedido de teletransporte para o jogador especificado"

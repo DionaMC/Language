@@ -75,8 +75,6 @@ gui:
     fix-item: "Onarım kalemi"
     remove-all-enchant: "Tüm büyüleri kaldır"
     unbreakable: "Kırılmaz"
-  potion:
-    title: "Traenke menüsü"
   filter:
     title: "Filtre sistemi"
     empty: "Boş"
@@ -249,9 +247,6 @@ commands:
   enchant:
     usage: "Kullanım: /enchant"
     description: "Bir eşyayı büyüler"
-  potion:
-    usage: "Kullanım: /potion"
-    description: "Bir iksir al"
   tpa:
     usage: "Kullanım: /tpa <oyuncu>"
     description: "Bir oyuncuya ışınlanma isteği gönderme"

@@ -75,8 +75,6 @@ gui:
     fix-item: "Napraw item"
     remove-all-enchant: "Usuń wszystkie enchanty"
     unbreakable: "Nie zniszczalne"
-  potion:
-    title: "Menu potionek"
   filter:
     title: "System filtrów"
     empty: "Pusty"
@@ -276,9 +274,6 @@ commands:
   enchant:
     usage: "Użycie: /enchant"
     description: "Enchantuj przedmiot"
-  potion:
-    usage: "Użycie: /potion"
-    description: "Weź potionke"
   tpa:
     usage: "Użycie: /tpa <player>"
     description: "Prośba o teleportację do określonego gracza"

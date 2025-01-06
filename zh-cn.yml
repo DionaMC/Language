@@ -86,8 +86,6 @@ gui:
     fix-item: "修复物品"
     remove-all-enchant: "移除所有附魔"
     unbreakable: "不可破坏"
-  potion:
-    title: "药水菜单"
   filter:
     title: "过滤系统"
     empty: "空"
@@ -301,9 +299,6 @@ commands:
   enchant:
     usage: "用法: /enchant"
     description: "打开附魔GUI"
-  potion:
-    usage: "用法: /potion"
-    description: "打开药水GUI"
   tpa:
     usage: "用法: /tpa <玩家>"
     description: "请求传送到指定玩家"
