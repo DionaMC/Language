@@ -329,6 +329,7 @@ commands:
     invalid-amount: "Invalid item amount! Please enter an integer value!"
     blacklisted: "This item is blacklisted!"
     not-found: "Item %s not found!"
+    success: "Gave you %s * %s"
   filter:
     usage: "Usage: /filter"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
