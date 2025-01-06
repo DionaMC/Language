@@ -399,3 +399,11 @@ commands:
     positive-amount: "The amount must be positive!"
     not-a-number: "Invalid amount! Please enter a mumber value!"
     success: "You took %s damage!"
+  effect:
+    usage: "Usage: /effect <effect> [seconds] [amplifier]"
+    description: "Give you an effect"
+    not-found: "Effect %s not found!"
+    invalid-seconds: "Invalid seconds! Please enter a positive integer value!"
+    invalid-amplifier: "Invalid amplifier! Please enter a positive integer value!"
+    invalid-amplifier-range: "The amplifier must be between 0 and 10!"
+    success: "Gave you %s * %amplifier% for %seconds% seconds!"

@@ -395,3 +395,11 @@ commands:
     positive-amount: "数值必须大于0!"
     not-a-number: "无效的数值! 请输入一个数字!"
     success: "你受到了 %s 的伤害!"
+  effect:
+    usage: "用法: /effect <效果> [秒数] [等级]"
+    description: "给你一个效果"
+    not-found: "效果 %s 未找到!"
+    invalid-seconds: "无效的秒数! 请输入一个正整数!"
+    invalid-amplifier: "无效的等级! 请输入一个正整数!"
+    invalid-amplifier-range: "等级必须在0和10之间!"
+    success: "给予了你时长为 %seconds% 秒的 %s * %amplifier% 效果!"
