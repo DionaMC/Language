@@ -325,8 +325,8 @@ commands:
     blacklisted: "This item is blacklisted!"
     not-found: "Item %s not found!"
     success: "Gave you %s * %s"
-  filter:
-    usage: "Usage: /filter"
+  filtersystem:
+    usage: "Usage: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
     usage: "Usage: /kill [player]"

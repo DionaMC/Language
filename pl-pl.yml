@@ -294,8 +294,8 @@ commands:
     description: "Daje przedmiot(y)"
     invalid-amount: "Nieprawidłowa ilość itemów! Wprowadź wartość całkowitą!"
     blacklisted: "Ten przedmiot nie jest dozwolony!"
-  filter:
-    usage: "Użycie: /filter"
+  filtersystem:
+    usage: "Użycie: /filtersystem"
     description: "System filtrowania pakietów Bukkit Event/ProtocolLib"
   kill:
     usage: "Użycie: /kill [player]"

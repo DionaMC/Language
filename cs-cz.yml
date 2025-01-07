@@ -296,8 +296,8 @@ commands:
     description: "Dá vám item(y)"
     invalid-amount: "Neplatný počet itemů! Please enter an integer value!"
     blacklisted: "This item is blacklisted!"
-  filter:
-    usage: "Použití: /filter"
+  filtersystem:
+    usage: "Použití: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter systém"
   kill:
     usage: "Použití: /kill [hráč]"

@@ -297,8 +297,8 @@ commands:
     description: "Dar a tí item(s)"
     invalid-amount: "¡Cantidad de item inválida! Establezca un valor númeral."
     blacklisted: "¡Este item está en la lista negra!!"
-  filter:
-    usage: "Uso: /filter"
+  filtersystem:
+    usage: "Uso: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet sistema de filtro"
   kill:
     usage: "Uso: /kill [jugador]"

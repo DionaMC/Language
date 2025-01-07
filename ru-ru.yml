@@ -306,8 +306,8 @@ commands:
     description: "Дает вам предмет(ы)"
     invalid-amount: "Неверное количество предметов! Пожалуста напишите целочисленное значение!"
     blacklisted: "Этот предмет в черном списке!"
-  filter:
-    usage: "Использование: /filter"
+  filtersystem:
+    usage: "Использование: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet система фильтрации"
   kill:
     usage: "Использование: /kill [игрок]"

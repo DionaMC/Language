@@ -277,8 +277,8 @@ commands:
     description: "Antaa sinulle tavaran / tavarat"
     invalid-amount: "Epäsopiva tavara määrä! Laita numeroina!"
     blacklisted: "Tämä tavara ei ole sallitty!"
-  filter:
-    usage: "Käyttötapa: /filter"
+  filtersystem:
+    usage: "Käyttötapa: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
     usage: "Käyttötapa: /kill [pelaaja]"

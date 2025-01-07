@@ -266,8 +266,8 @@ commands:
     description: "당신에게 갯수만큼 아이템을 지급합니다."
     invalid-amount: "알 수 없는 아이템 갯수입니다! 자연수를 입력해주세요!"
     blacklisted: "해당 아이템은 사용을 할 수 없습니다."
-  filter:
-    usage: "사용법: /filter"
+  filtersystem:
+    usage: "사용법: /filtersystem"
     description: "Bukkit Event/ProtocolLib 패킷 필터 시스템"
   kill:
     usage: "사용법: /kill [플레이어]"

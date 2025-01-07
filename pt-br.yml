@@ -280,8 +280,8 @@ commands:
     description: "Obtém item(s)"
     invalid-amount: "Quantidade de item inválida! Use um valor inteiro!"
     blacklisted: "Este item está proibido!"
-  filter:
-    usage: "Uso: /filter"
+  filtersystem:
+    usage: "Uso: /filtersystem"
     description: "Sistema de filtro de Eventos Bukkit/ProtocolLib"
   kill:
     usage: "Uso: /kill [jogador]"

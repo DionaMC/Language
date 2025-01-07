@@ -306,8 +306,8 @@ commands:
     description: "Dod tev priekšmetus"
     invalid-amount: "Nederīga priekšmeta daudzveidība! Lūdzu, ievadiet veselo (Intedžera) skaitli!"
     blacklisted: "Šī prece ir melnajā sarakstā!"
-  filter:
-    usage: "Izmantošana: /filter"
+  filtersystem:
+    usage: "Izmantošana: /filtersystem"
     description: "Bukkit Event/ProtocolLib pakešu filtru sistēma"
   kill:
     usage: "Izmantošana: /kill [spēlētāju]"

@@ -312,8 +312,8 @@ commands:
     description: "Gib dir d item(s)"
     invalid-value: "Ungültige wert! Gib eh ganzi zahl ih!"
     blacklisted: "Das item dörfsch du dir ned geh!"
-  filter:
-    usage: "Verwendig: /filter"
+  filtersystem:
+    usage: "Verwendig: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
     usage: "Verwendig: /kill [spieler]"

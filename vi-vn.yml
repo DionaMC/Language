@@ -294,8 +294,8 @@ commands:
     description: "Đưa bạn vật phẩm"
     invalid-amount: "Số lượng vật phẩm không hợp lệ! Vui lòng nhập một giá trị số nguyên!"
     blacklisted: "Vật phẩm này bị cấm!"
-  filter:
-    usage: "Cách sử dụng: /filter"
+  filtersystem:
+    usage: "Cách sử dụng: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter system"
   kill:
     usage: "Cách sử dụng: /kill [người chơi]"

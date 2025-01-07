@@ -262,8 +262,8 @@ commands:
     description: "Vous donne l'objet indiqué"
     invalid-quantité: "La valeur spécifiée ne semble pas être un entier"
     blacklisted: "Cet objet est interdit"
-  filter:
-    usage: "Utilisation: /filter"
+  filtersystem:
+    usage: "Utilisation: /filtersystem"
     description: "Affiche les filtres d'évènements/packets"
   kill:
     usage: "Utilisation: /kill [joueur]"

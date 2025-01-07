@@ -267,8 +267,8 @@ commands:
     description: "Size seçili öğeyi verir"
     invalid-amount: "Geçersiz ürün numarası! Lütfen bir tam sayı girin!"
     blacklisted: "Bu ürünü kendinize veremezsiniz!"
-  filter:
-    usage: "Kullanım: /filter"
+  filtersystem:
+    usage: "Kullanım: /filtersystem"
     description: "Bukkit Event/ProtocolLib Paket Filtre Sistemi"
   kill:
     usage: "Kullanım: /kill [oyuncu]"

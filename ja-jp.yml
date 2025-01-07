@@ -268,8 +268,8 @@ commands:
     description: "アイテムを付与します"
     invalid-amount: "不正な値です！整数で入力してください。"
     blacklisted: "このアイテムは無効化されています！"
-  filter:
-    usage: "使い方: /filter"
+  filtersystem:
+    usage: "使い方: /filtersystem"
     description: "Bukkit Event/ProtocolLibのパケットフィルターシステムです"
   kill:
     usage: "使い方: /kill [プレイヤー]"

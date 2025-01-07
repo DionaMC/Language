@@ -267,8 +267,8 @@ commands:
     description: "Ger dig det valda objektet"
     invalid-amount: "Ogiltigt artikelnummer! Vänligen ange ett heltal!"
     blacklisted: "Du kan inte ge dig själv detta föremål!"
-  filter:
-    usage: "Användning: /filter"
+  filtersystem:
+    usage: "Användning: /filtersystem"
     description: "Bukkit Event/ProtocolLib Paketfiltersystem"
   kill:
     usage: "Användning: /kill [spelare]"

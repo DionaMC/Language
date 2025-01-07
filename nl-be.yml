@@ -294,8 +294,8 @@ commands:
     description: "Geef voorwerp(en)"
     invalid-amount: "Ongeldig voorwerp aantal! Vul alstublieft een heel getal in!"
     blacklisted: "Dit voorwerp is verboden te geven!"
-  filter:
-    usage: "Gebruikswijze: /filter"
+  filtersystem:
+    usage: "Gebruikswijze: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter systeem"
   kill:
     usage: "Gebruikswijze: /kill [speler]"

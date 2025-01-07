@@ -321,8 +321,8 @@ commands:
     blacklisted: "此物品在黑名单中!"
     not-found: "未找到物品: %s"
     success: "给予了你 %s * %s"
-  filter:
-    usage: "用法: /filter"
+  filtersystem:
+    usage: "用法: /filtersystem"
     description: "Bukkit事件/ProtocolLib数据包过滤系统"
   kill:
     usage: "用法: /kill [玩家]"

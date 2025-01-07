@@ -305,8 +305,8 @@ commands:
     description: "Odaadom a tárgy(ak)at"
     invalid-amount: "Érvénytelen tételösszeg! Kérjük, adjon meg egy egész számot!"
     blacklisted: "Ez az elem feketelistán van!"
-  filter:
-    usage: "Használat: /filter"
+  filtersystem:
+    usage: "Használat: /filtersystem"
     description: "Bukkit Event/ProtocolLib csomagszűrő rendszer"
   kill:
     usage: "Használat: /kill [név]"

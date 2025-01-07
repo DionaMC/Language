@@ -269,8 +269,8 @@ commands:
     description: "Gibt dir das gewahlte Item"
     invalid-amount: "Ungueltige Item Anzahl! Bitte gebe eine Integer anzahl ein!"
     blacklisted: "Dieses Item kannst du dir nicht geben!"
-  filter:
-    usage: "Benutzung: /filter"
+  filtersystem:
+    usage: "Benutzung: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter System"
   kill:
     usage: "Benutzung: /kill [spieler]"
