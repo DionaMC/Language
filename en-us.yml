@@ -402,3 +402,7 @@ commands:
     invalid-amplifier: "Invalid amplifier! Please enter a positive integer value!"
     invalid-amplifier-range: "The amplifier must be between 0 and 10!"
     success: "Gave you %s * %amplifier% for %seconds% seconds!"
+  repair:
+    usage: "Usage: /repair"
+    description: "Repair all items in your inventory"
+    success: "Your items have been repaired!"

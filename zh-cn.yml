@@ -398,3 +398,7 @@ commands:
     invalid-amplifier: "无效的等级! 请输入一个正整数!"
     invalid-amplifier-range: "等级必须在0和10之间!"
     success: "给予了你时长为 %seconds% 秒的 %s * %amplifier% 效果!"
+  repair:
+    usage: "用法: /repair"
+    description: "修复物品栏中的所有物品"
+    success: "你的物品已全部修复!"
