@@ -19,7 +19,7 @@ skullItem:
     - "&6Нажми, чтобы поменять язык!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "Blocking: "
   sneaking: "Sneaking: "
   sprinting: "Sprinting: "
@@ -157,7 +157,7 @@ messages:
   player-not-found: "Игрок %s не найден или не в сети!"
   welcome:
     new-player:
-      - "Привет! Добро пожаловать на тест сервер Loyisa's"
+      - "Привет! Добро пожаловать на тест сервер CCBlueX's"
       - "На это сервере вы можете тестировать анти-читы и менять их в игре!"
       - "Вы можете использовать /ac чтобы поменять анти-чит"
       - "Вы можете использовать /lang чтобы поменять язык"

@@ -21,7 +21,7 @@ skullItem:
     - "&6Dili değiştirmek için tıklayın!"
 
 scoreboard:
-  title: "Loyisa'nın Test Sunucusu"
+  title: "CCBlueX'nın Test Sunucusu"
 
 gui:
   language:
@@ -136,7 +136,7 @@ messages:
   player-not-found: "Oyuncu %s bulunamadı!"
   welcome:
     new-player:
-      - "Loyisa'nın test sunucusuna hoş geldiniz!"
+      - "CCBlueX'nın test sunucusuna hoş geldiniz!"
       - "Bu sunucuda AntiCheats'i test edebilir ve ortada geçiş yapabilirsiniz!"
       - "AntiCheat'i değiştirmek için /ac kullanın"
       - "Dilinizi değiştirmek için /lang kullanın"

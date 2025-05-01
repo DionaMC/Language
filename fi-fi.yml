@@ -18,7 +18,7 @@ skullItem:
     - "&6Paina vaihtaaksesi kieltä!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "Blocking: "
   sneaking: "Sneaking: "
 
@@ -135,7 +135,7 @@ messages:
   player-not-found: "%s ei löydy tai ei ole paikalla!"
   welcome:
     new-player:
-      - "Moi! Tervetuloa Loyisan test serveriin!"
+      - "Moi! Tervetuloa CCBlueXn test serveriin!"
       - "Täällä on anticheatteja joita voit vaihtaa ja testata niitä!"
       - "Käytä /ac vaihtaaksesi anticheatteja"
       - "Käytä /lang vaihtaaksesi kieltä"

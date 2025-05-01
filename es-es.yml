@@ -21,7 +21,7 @@ skullItem:
     - "&6¡Clic para cambiar tu idioma!"
 
 scoreboard:
-  title: "Servidor de prueba de Loyisa"
+  title: "Servidor de prueba de CCBlueX"
   blocking: "Bloqueando: "
   sneaking: "Agachandose: "
   sprinting: "Corriendo: "
@@ -155,7 +155,7 @@ messages:
   player-not-found: "¡El jugador %s no fue encontrado o no está conectado!"
   welcome:
     new-player:
-      - "¡Hola! Bienvenido al servidor de prueba de Loyisa."
+      - "¡Hola! Bienvenido al servidor de prueba de CCBlueX."
       - "En este servidor, puedes probar anticheats y cambiarlos en juego"
       - "Puedes usar /ac para cambiar de anticheat"
       - "Puedes usar /lang para cambiar de idioma"

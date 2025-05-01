@@ -20,7 +20,7 @@ skullItem:
     - "&6클릭하여 언어 바꾸기"
 
 scoreboard:
-  title: "Loyisa의 테스트서버"
+  title: "CCBlueX의 테스트서버"
 
 gui:
   language:
@@ -135,7 +135,7 @@ messages:
   player-not-found: "%s을(를) 찾지 못했거나 접속하지 않았습니다."
   welcome:
     new-player:
-      - "Loyisa의 테스트 서버에 오신걸 환영합니다!"
+      - "CCBlueX의 테스트 서버에 오신걸 환영합니다!"
       - "서버 안에서, 안티치트들을 변경하고 테스트하세요!"
       - "/ac 명령어를 입력하여 안티치트를 변경할 수 있습니다."
       - "/lang 명령어를 입력하여 언어를 변경할 수 있습니다."

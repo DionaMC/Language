@@ -16,7 +16,7 @@ skullItem:
     - "&6Cliquez pour passer en français !"
 
 scoreboard:
-  title: "Test serveur de Loyisa"
+  title: "Test serveur de CCBlueX"
 
 gui:
   language:
@@ -131,7 +131,7 @@ messages:
   player-not-found: "Le joueur %s est hors-ligne !"
   welcome:
     new-player:
-      - "Salut ! Bienvenue sur le serveur de Loyisa"
+      - "Salut ! Bienvenue sur le serveur de CCBlueX"
       - "Sur ce serveur, vous pouvez tester des anti-triches !"
       - "Vous pouvez changer en faisant la commande /ac"
       - "En utilisant /lang, vous pouvez choisir une autre langue"

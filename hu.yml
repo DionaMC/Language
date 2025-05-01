@@ -18,7 +18,7 @@ skullItem:
     - "&6Kattints Ide Hogy Meg Változtasd A Nyelvet!"
 
 scoreboard:
-  title: "Loyisa Tesztszerver"
+  title: "CCBlueX Tesztszerver"
   blocking: "Blokkolás: "
   sneaking: "Gugolás: "
   sprinting: "Futás: "
@@ -156,7 +156,7 @@ messages:
   player-not-found: "%s nem található / nem elérhető!"
   welcome:
     new-player:
-      - "Helló! Üdvözöllek A Loyisa teszt szerveren!"
+      - "Helló! Üdvözöllek A CCBlueX teszt szerveren!"
       - "Ezen a szerveren, tesztelhetsz anticheateket és változgathatod őket játékban!"
       - "Használd a /ac parancsot hogy anticheatet válts"
       - "Használd a /lang parancsot hogy nyelvet válts"

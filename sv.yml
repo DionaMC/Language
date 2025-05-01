@@ -21,7 +21,7 @@ skullItem:
     - "&6Klicka för att ändra språk!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
 
 gui:
   language:
@@ -136,7 +136,7 @@ messages:
   player-not-found: "Spelaren %s hittades inte!"
   welcome:
     new-player:
-      - "Välkommen till Loyisas testserver!"
+      - "Välkommen till CCBlueXs testserver!"
       - "På denna server kan du testa AntiCheats och växla i mitten!"
       - "Använd /ac för att ändra AntiCheat"
       - "Använd /lang för att ändra ditt språk"

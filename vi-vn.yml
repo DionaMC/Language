@@ -19,7 +19,7 @@ skullItem:
     - "&6Bấm vào đây để đổi ngôn ngữ!"
 
 scoreboard:
-  title: "Server thử nghiệm của Loyisa"
+  title: "Server thử nghiệm của CCBlueX"
   blocking: "Đang chặn: "
   sneaking: "Đang ngồi: "
   sprinting: "Đang chạy: "
@@ -153,7 +153,7 @@ messages:
   player-not-found: "Người chơi %s không thể tìm thấy hoặc không hoạt động!"
   welcome:
     new-player:
-      - "Xin chào! Chào mừng bạn đến với server thử nghiệm của Loyisa!"
+      - "Xin chào! Chào mừng bạn đến với server thử nghiệm của CCBlueX!"
       - "Trong server này, bạn có thể thử nghiệm với các Anticheat và thay đổi chúng trong game!"
       - "Bạn có thể dùng /ac để đổi Anticheat"
       - "Bạn có thể dùng /lang để đổi ngôn ngữ"

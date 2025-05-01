@@ -18,7 +18,7 @@ skullItem:
     - "&6klik om te veranderen naar jouw taal!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "Blocken: "
   sneaking: "Sluipen: "
   sprinting: "Rennen: "
@@ -154,7 +154,7 @@ messages:
   player-not-found: "Speler %s is niet gevonden of niet online!"
   welcome:
     new-player:
-      - "Hallo! Welkom op de Loyisa's test server!" 
+      - "Hallo! Welkom op de CCBlueX's test server!" 
       - "In deze server, kan je anticheat's testen en wisselen in het spel!"
       - "Je kan /ac gebruiken om van anticheat te wisselen"
       - "Je kan /lang gebruiken om van taal te wisselen"

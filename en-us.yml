@@ -2,7 +2,7 @@ languageName: English
 
 contributors:
   - "HellXD"
-  - "Loyisa"
+  - "CCBlueX"
 
 # https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
 # https://en.wikipedia.org/wiki/List_of_date_formats_by_country
@@ -25,7 +25,7 @@ skullItem:
     - "&6Click to change your language!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "Blocking: "
   sneaking: "Sneaking: "
   sprinting: "Sprinting: "
@@ -172,7 +172,7 @@ messages:
   player-not-found: "Player %s not found or not online!"
   welcome:
     new-player:
-      - "Hello! Welcome to Loyisa's test server!"
+      - "Hello! Welcome to CCBlueX's test server!"
       - "In this server, you can test anticheats and switch them in game!"
       - "You can use /ac to switch anticheats"
       - "You can use /lang to change the language"

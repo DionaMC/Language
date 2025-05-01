@@ -20,7 +20,7 @@ skullItem:
     - "&6クリックして言語を変更します！"
 
 scoreboard:
-  title: "Loyisaのテストサーバー"
+  title: "CCBlueXのテストサーバー"
   blocking: "ブロッキング: "
   sneaking: "しゃがむ: "
 
@@ -137,7 +137,7 @@ messages:
   player-not-found: "プレイヤー %s は存在しないか、オフラインです！"
   welcome:
     new-player:
-      - "こんにちは！Loyisaのテストサーバーへようこそ！"
+      - "こんにちは！CCBlueXのテストサーバーへようこそ！"
       - "このサーバーでは、アンチチートを自分でテストすることができます！"
       - "/ac を利用して、アンチチートを変更できます！"
       - "/lang を使用して、言語を変更できます！"

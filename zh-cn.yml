@@ -1,7 +1,7 @@
 languageName: "简体中文"
 
 contributors:
-  - "Loyisa"
+  - "CCBlueX"
 
 dateformat:
   date: "yyyy年M月d日"
@@ -22,7 +22,7 @@ skullItem:
     - "&6点击更换您你的语言!"
 
 scoreboard:
-  title: "Loyisa的测试服务器"
+  title: "CCBlueX的测试服务器"
   kick: "踢出: "
   blocking: "格挡中: "
   sprinting: "疾跑中: "
@@ -168,7 +168,7 @@ messages:
   player-not-found: "玩家 %s 不存在或不在线!"
   welcome:
     new-player:
-      - "欢迎来到Loyisa的测试服务器!"
+      - "欢迎来到CCBlueX的测试服务器!"
       - "在这个服务器里, 你可以测试反作弊并实时在游戏中切换反作弊!"
       - "你可以使用 /ac 指令来切换反作弊"
       - "你可以使用 /lang 来更换语言"

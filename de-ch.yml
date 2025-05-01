@@ -18,7 +18,7 @@ skullItem:
     - "&6Klick zum dini sprach z ändere"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "Am blocke: "
   sneaking: "Am schliiche: "
   sprinting: "Am renne: "
@@ -162,7 +162,7 @@ messages:
   player-not-found: "De spieler %s het ned chönne gfunde werde oder isch ned online!"
   welcome:
     new-player:
-      - "Hoi! Willkomme ufem Loyisa's test server!"
+      - "Hoi! Willkomme ufem CCBlueX's test server!"
       - "Uf dem server chasch du anticheats teste und sie zmitzdrinn wächsle!"
       - "Mit /ac chasch dis anticheat wächsle"
       - "Mit /lang chasch dini sprach ändere"

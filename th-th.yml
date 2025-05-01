@@ -18,7 +18,7 @@ skullItem:
     - "&6คลิกเพื่อเปลื่ยนภาษา!"
 
 scoreboard:
-  title: "Loyisa's Testserver"
+  title: "CCBlueX's Testserver"
   blocking: "กำลังบล็อก: "
   sneaking: "กำลังย่อ: "
   sprinting: "กำลังวิ่ง: "
@@ -157,7 +157,7 @@ messages:
   player-not-found: "ผู้เล่น %s ไม่พบหรือไม่ออนไลน์!"
   welcome:
     new-player:
-      - "สวัสดี! ยินดีต้อนรับเข้าสู่ Loyisa's test server!"
+      - "สวัสดี! ยินดีต้อนรับเข้าสู่ CCBlueX's test server!"
       - "ในเชิฟเวอร์นี้คุณสามารถทดลอง anticheats และสลับ anticheat ในเกม!"
       - "คุณสามารถใช้ /ac เพื่อเปลี่ยน anticheats"
       - "คุณสามารถใช้ /lang เพื่อเปลื่ยนภาษา"
