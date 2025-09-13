@@ -1,7 +1,7 @@
 languageName: "简体中文"
 
 contributors:
-  - "CCBlueX"
+  - "Loyisa"
 
 dateformat:
   date: "yyyy年M月d日"
@@ -68,6 +68,10 @@ gui:
       name: "允许原版飞行"
       description:
         - "改变`server.properties`中`allow-flight`的值"
+    hitbox:
+      name: "可视化 Hitbox"
+      description:
+        - "启用/禁用可视化 Hitbox"
   warp:
     title: "传送菜单"
     world: "世界"

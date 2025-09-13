@@ -70,6 +70,10 @@ gui:
       name: "Allow Flight"
       description:
         - "Change the value for server.properties under the allow-flight setting."
+    hitbox:
+      name: "Visual Hitbox"
+      description:
+        - "Enable/disable visual hitbox"
   warp:
     title: "Warp menu"
     world: "World"
