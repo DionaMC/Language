@@ -180,7 +180,7 @@ messages:
     amount-limit: "Du chasch ned meh als %s anticheats gliichziitig verwende!"
     selected: "Du hesch %s usgwählt"
     not-found: "S anticheat %s het ned chönne gfunde werde!"
-    rejoin: "Zum sicherzstelle, dass s anticheat %s richtig funktioniert, muesch de server rejoine!"
+    #rejoin: "Zum sicherzstelle, dass s anticheat %s richtig funktioniert, muesch de server rejoine!"
 
   itemcleaner:
     countdown: "Alli items ufem bode werdet ih %s sekunde entfernt!"
