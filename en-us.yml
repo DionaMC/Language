@@ -330,6 +330,7 @@ commands:
     blacklisted: "This item is blacklisted!"
     not-found: "Item %s not found!"
     success: "Gave you %s * %s"
+    inventory-full: "Failed to give you item, your inventory is full!"
   filtersystem:
     usage: "Usage: /filtersystem"
     description: "Bukkit Event/ProtocolLib Packet Filter system"

@@ -325,6 +325,7 @@ commands:
     blacklisted: "此物品在黑名单中!"
     not-found: "未找到物品: %s"
     success: "给予了你 %s * %s"
+    inventory-full: "无法给予物品，你的物品栏已满！"
   filtersystem:
     usage: "用法: /filtersystem"
     description: "Bukkit事件/ProtocolLib数据包过滤系统"
