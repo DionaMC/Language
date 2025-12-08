@@ -237,6 +237,9 @@ messages:
   action-bar:
     position-alert: "§bServer Position (S08) Receiving | Elapsed Time: §a%.2fs"
 
+  kick:
+    anticheat: "Kicked by %s"
+
 commands:
   anticheat:
     usage: "Usage: /ac [anticheat|ac ac ...]"
