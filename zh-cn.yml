@@ -191,6 +191,7 @@ messages:
     selected: "已启用: %s"
     not-found: "未找到反作弊: %s"
     rejoin: "为了确保反作弊正常工作，正在重新连接服务器..."
+    rejoin-kick: "正在重新连接..."
 
   itemcleaner:
     countdown: "地面上的所有物品将在 %s 秒后被清除!"

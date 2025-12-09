@@ -196,6 +196,7 @@ messages:
     selected: "You selected: %s"
     not-found: "Anticheat %s not found!"
     rejoin: "To ensure anticheat(s) works properly, reconnecting to the server..."
+    rejoin-kick: "Reconnecting..."
 
   itemcleaner:
     countdown: "All items on the ground will be cleaned in %s seconds!"
