@@ -346,6 +346,7 @@ commands:
   clear:
     usage: "Usage: /clear"
     description: "Clear all items in your inventory"
+    cleared: "Your inventory has been cleared!"
   fly:
     usage: "Usage: /fly"
     description: "Fly you to the moon"

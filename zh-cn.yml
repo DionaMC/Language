@@ -341,6 +341,7 @@ commands:
   clear:
     usage: "用法: /clear"
     description: "清空你物品栏中的所有物品"
+    cleared: "你的物品栏已清空!"
   fly:
     usage: "用法: /fly"
     description: "起飞！"
