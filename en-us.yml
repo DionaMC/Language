@@ -191,6 +191,7 @@ messages:
     disabled: "Anticheat %s has been disabled!"
     dev-only: "Anticheat %s is only available for developers!"
     cant-use-with-others: "Anticheat %s can't be used with others anticheats!"
+    should-use-with-others: "NOTE: Anticheat %s is just an addition, you should use it with other anticheat(s)!"
     must-use-with-others: "Anticheat %s must be used with others anticheats!"
     amount-limit: "You can't use more than %s anticheats at the same time!"
     selected: "You selected: %s"

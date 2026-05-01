@@ -186,6 +186,7 @@ messages:
     disabled: "%s 反作弊已禁用!"
     dev-only: "%s 反作弊只有开发者才能使用!"
     cant-use-with-others: "%s 反作弊不能和其他反作弊一起使用!"
+    should-use-with-others: "提示: %s 反作弊仅作为补充, 您应将其与其他反作弊一起使用!"
     must-use-with-others: "%s 反作弊必须和其他反作弊一起使用!"
     amount-limit: "你不能同时使用超过 %s 个反作弊!"
     selected: "已启用: %s"
