@@ -419,3 +419,8 @@ commands:
     usage: "Usage: /repair"
     description: "Repair all items in your inventory"
     success: "Your items have been repaired!"
+  scale:
+    usage: "Usage: /scale [multiplier]"
+    description: "Set your scale by a specified amount"
+    invalid-multiplier: "Invalid amount! Please enter a number between %.2f and %.2f."
+    success: "You set your scale to %.2f."
