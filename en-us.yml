@@ -206,6 +206,13 @@ messages:
   scaffoldcleaner:
     countdown: "All scaffold areas will be cleaned in %s seconds!"
 
+  antitrap:
+    kick: "You were kicked for trapping players with blocks."
+    victim: "Player %s is trapping you with blocks!"
+    warning-title: "⚠ Warning ⚠"
+    warning-subtitle: "You received a warning, see chat for details."
+    warning-chat: "This violation has been logged and staff have been notified. Do not keep trapping players with blocks or you will be banned!"
+
   breaktest:
     broken: "You broke the %s!"
 

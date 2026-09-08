@@ -201,6 +201,13 @@ messages:
   scaffoldcleaner:
     countdown: "所有的搭路区域将在 %s 秒后被清除!"
 
+  antitrap:
+    kick: "你因多次使用方块堵人而被踢出."
+    victim: "玩家 %s 正在使用方块堵住你!"
+    warning-title: "⚠ 警告 ⚠"
+    warning-subtitle: "你收到了一条警告, 详见聊天栏."
+    warning-chat: "当前违规行为已被记录并通知给管理员, 请勿继续尝试使用方块堵人, 你将因此受到封禁!"
+
   breaktest:
     broken: "你破坏了 %s!"
 
