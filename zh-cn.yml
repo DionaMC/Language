@@ -165,6 +165,7 @@ messages:
       accept: "若要接受这个请求, 请输入 /tpaccept"
       deny: "若要拒绝这个请求, 请输入 /tpdeny"
     already-requested: "你已经给 %s 发送了一个传送请求! 输入 /tpacancel 取消这个请求."
+    already-incoming: "%s 已经有一个未处理的传送请求!"
     not-online: "玩家 %s 不在线!"
     self: "你不能给自己发送传送请求!"
   command-cooldown: "你使用指令的速度太快了! 请稍后再试!"

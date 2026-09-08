@@ -170,6 +170,7 @@ messages:
       accept: "To teleport, type /tpaccept"
       deny: "To deny the teleport request, type /tpdeny"
     already-requested: "You have already sent %s a teleport request! Type /tpacancel to cancel it."
+    already-incoming: "%s already has a pending teleport request!"
     not-online: "Player %s is not online!"
     self: "You can't request a teleport to yourself!"
   command-cooldown: "You are using this command too fast! Please calm down!"
