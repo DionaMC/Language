@@ -432,3 +432,11 @@ commands:
     description: "Set your scale by a specified amount"
     invalid-multiplier: "Invalid amount! Please enter a number between %.2f and %.2f."
     success: "You set your scale to %.2f."
+  clientprefix:
+    added: "Client %s added!"
+    removed: "Client %s removed!"
+    already-exists: "Client %s already exists!"
+    not-found: "Client %s not found!"
+    failed: "Failed to update client %s! Please check the console."
+    list: "Clients:"
+    no-clients: "No clients!"
