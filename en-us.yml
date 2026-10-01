@@ -42,6 +42,12 @@ gui:
     version: "Version"
     author: "Author(s)"
     description: "Description"
+    testing: "Testing"
+    combine: "Test several…"
+    combine-title: "Test several anticheats"
+    combine-hint: "Pick up to %s anticheats to test together."
+    apply: "Apply"
+    back: "Back"
   settings:
     title: "Settings menu"
     status: "Status"
