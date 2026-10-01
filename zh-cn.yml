@@ -40,9 +40,9 @@ gui:
     author: "作者"
     description: "简介"
     testing: "正在测试"
-    combine: "同时测试多个…"
-    combine-title: "同时测试多个反作弊"
-    combine-hint: "最多选择 %s 个反作弊一起测试。"
+    combine: "混合…"
+    combine-title: "混合反作弊"
+    combine-hint: "最多选择 %s 个反作弊混合测试。"
     apply: "应用"
     back: "返回"
   settings:

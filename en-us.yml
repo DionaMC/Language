@@ -43,9 +43,9 @@ gui:
     author: "Author(s)"
     description: "Description"
     testing: "Testing"
-    combine: "Test several…"
-    combine-title: "Test several anticheats"
-    combine-hint: "Pick up to %s anticheats to test together."
+    combine: "Mix…"
+    combine-title: "Mix anticheats"
+    combine-hint: "Pick up to %s anticheats to mix."
     apply: "Apply"
     back: "Back"
   settings:
