@@ -78,6 +78,10 @@ gui:
       name: "可视化 Hitbox"
       description:
         - "启用/禁用可视化 Hitbox"
+    blockcleaner:
+      name: "方块清理"
+      description:
+        - "在搭路区域放置的方块一段时间后自动清除"
   warp:
     title: "传送菜单"
     world: "世界"

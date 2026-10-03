@@ -81,6 +81,10 @@ gui:
       name: "Visual Hitbox"
       description:
         - "Enable/disable visual hitbox"
+    blockcleaner:
+      name: "Block Cleaner"
+      description:
+        - "Remove the blocks you place in scaffold areas after a while"
   warp:
     title: "Warp menu"
     world: "World"
