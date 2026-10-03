@@ -341,10 +341,10 @@ commands:
     usage: "Usage: /tpacancel"
     description: "Cancel a teleport request sent by you"
   tpaccept:
-    usage: "Usage: /tpaccept"
+    usage: "Usage: /tpaccept [player]"
     description: "Accept a teleport request"
   tpdeny:
-    usage: "Usage: /tpdeny"
+    usage: "Usage: /tpdeny [player]"
     description: "Deny a teleport request"
   give:
     usage: "Usage: /give <item> [amount]"

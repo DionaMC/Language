@@ -336,10 +336,10 @@ commands:
     usage: "用法: /tpacancel"
     description: "取消一个你发送的传送请求"
   tpaccept:
-    usage: "用法: /tpaccept"
+    usage: "用法: /tpaccept [玩家]"
     description: "接受一个传送请求"
   tpdeny:
-    usage: "用法: /tpdeny"
+    usage: "用法: /tpdeny [玩家]"
     description: "拒绝一个传送请求"
   give:
     usage: "用法: /give <物品> [数量]"
