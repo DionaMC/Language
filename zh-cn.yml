@@ -114,6 +114,14 @@ gui:
   search:
     title: "搜索菜单"
     item: "搜索"
+  ignore:
+    title: "忽略列表"
+    remove: "点击取消忽略"
+    add: "忽略玩家"
+    add-hint: "输入名字的开头来搜索"
+    pick: "点击忽略"
+    no-results: "没有找到玩家"
+    name: "名字"
   client:
     title: "客户端信息"
     # you don't have to translate this
@@ -315,6 +323,29 @@ commands:
     description: "回复上一次收到的消息"
     not-target: "你没有要回复的消息!"
     target-not-online: "玩家 %s 不在线!"
+  ignore:
+    usage: "用法: /ignore [玩家] | /ignore list [页码]"
+    description: "忽略一个玩家"
+    self: "你不能忽略自己!"
+    not-found: "玩家 %s 从没进过这个服务器!"
+    staff: "%s 是管理员，不能忽略!"
+    already: "你已经忽略了 %s!"
+    full: "你的忽略列表已满 (%s 人)!"
+    added: "已忽略 %s。"
+    busy: "上一个请求还在查询中，请稍候。"
+    failed: "查询失败，请稍后再试。"
+    list-header: "已忽略的玩家: %s 人 (第 %s/%s 页)"
+    list-empty: "你还没有忽略任何人。"
+    list-remove: "点击取消忽略 %s"
+    previous-page: "上一页"
+    next-page: "下一页"
+  unignore:
+    usage: "用法: /unignore <玩家>"
+    description: "取消忽略一个玩家"
+    not-ignored: "你没有忽略 %s!"
+    removed: "已取消忽略 %s。"
+    undo: "[撤销]"
+    undo-hover: "点击重新忽略 %s"
   spawn:
     usage: "用法: /spawn"
     description: "传送到出生点"

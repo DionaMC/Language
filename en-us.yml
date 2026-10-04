@@ -117,6 +117,14 @@ gui:
   search:
     title: "Search menu"
     item: "Search"
+  ignore:
+    title: "Ignore List"
+    remove: "Click to stop ignoring"
+    add: "Ignore a Player"
+    add-hint: "Search by the start of a name"
+    pick: "Click to ignore"
+    no-results: "No player found"
+    name: "Name"
   client:
     title: "Client information"
     # you don't have to translate this
@@ -320,6 +328,29 @@ commands:
     description: "Reply to the last message"
     not-target: "You don't have a message to reply to!"
     target-not-online: "Player %s is not online!"
+  ignore:
+    usage: "Usage: /ignore [player] | /ignore list [page]"
+    description: "Ignore a player"
+    self: "You can't ignore yourself!"
+    not-found: "Player %s has never joined this server!"
+    staff: "%s is staff and can't be ignored!"
+    already: "You are already ignoring %s!"
+    full: "Your ignore list is full (%s players)!"
+    added: "You are now ignoring %s."
+    busy: "Your last request is still being looked up, please wait."
+    failed: "Could not look that up, please try again later."
+    list-header: "Ignored players: %s (page %s/%s)"
+    list-empty: "You aren't ignoring anyone."
+    list-remove: "Click to stop ignoring %s"
+    previous-page: "Previous page"
+    next-page: "Next page"
+  unignore:
+    usage: "Usage: /unignore <player>"
+    description: "Stop ignoring a player"
+    not-ignored: "You aren't ignoring %s!"
+    removed: "You are no longer ignoring %s."
+    undo: "[Undo]"
+    undo-hover: "Click to ignore %s again"
   spawn:
     usage: "Usage: /spawn"
     description: "Teleport to spawn location"
