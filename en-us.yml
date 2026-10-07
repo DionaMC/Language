@@ -158,6 +158,13 @@ messages:
     no-permission-at: "You don't have permission to @ player!"
     no-permission-at-everyone: "You don't have permission to @everyone!"
     muteTime: "Expiration time: %s"
+  antispam:
+    rate: "You are sending messages too fast!"
+    rate-long: "You are sending too many messages, please wait %s seconds!"
+    repeat: "Please do not send the same message again!"
+    muted: "You have been muted for %s seconds for spamming."
+    still-muted: "You are muted for %s more seconds."
+    typing: "You are typing too fast!"
   teleport:
     success: "Teleport complete!"
     expired: "Your teleport request has expired!"

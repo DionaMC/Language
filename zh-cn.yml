@@ -153,6 +153,13 @@ messages:
     no-permission-at: "你没有权限来 @ 玩家!"
     no-permission-at-everyone: "你没有权限来 @everyone!"
     muteTime: "过期时间: %s"
+  antispam:
+    rate: "你发消息太快了!"
+    rate-long: "你发的消息太多了, 请等待 %s 秒!"
+    repeat: "请不要重复发送相同的消息!"
+    muted: "你因刷屏被禁言 %s 秒。"
+    still-muted: "你还在禁言中, 剩余 %s 秒。"
+    typing: "你打字太快了!"
   teleport:
     success: "传送完成!"
     expired: "你的传送请求已过期!"
