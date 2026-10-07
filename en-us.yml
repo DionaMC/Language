@@ -149,6 +149,9 @@ gui:
   exploit:
     title: "Exploits menu"
 messages:
+  transfer:
+    busy: '&eSaving your data for a server transfer. Please wait before changing settings.'
+    failed: '&cYour data could not be saved. The rejoin was cancelled; please try again.'
   message:
     sender: "&7[&fme &b-> &f%s&7] &f%s"
     receiver: "&7[&f%s &b-> &fme&7] &f%s"

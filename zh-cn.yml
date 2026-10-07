@@ -144,6 +144,9 @@ gui:
   items:
     title: "物品菜单"
 messages:
+  transfer:
+    busy: '&e正在保存换服数据, 请稍后再修改设置。'
+    failed: '&c数据保存失败, 已取消重新连接。请稍后再试。'
   message:
     sender: "&7[&f我 &b-> &f%s&7] &f%s"
     receiver: "&7[&f%s &b-> &f我&7] &f%s"
