@@ -143,6 +143,8 @@ gui:
     click-to-view: "点击查看"
   items:
     title: "物品菜单"
+  practice:
+    in-queue: "%d 人排队中"
 messages:
   transfer:
     busy: '&e正在保存换服数据, 请稍后再修改设置。'
@@ -272,6 +274,10 @@ messages:
 
   kick:
     anticheat: "被 %s 踢出"
+
+  practice:
+    opponent-busy: "%s 正在对决中。"
+    opponent-gone: "%s 已不在线。"
 
 commands:
   anticheat:

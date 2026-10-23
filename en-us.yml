@@ -148,6 +148,8 @@ gui:
     title: "Items menu"
   exploit:
     title: "Exploits menu"
+  practice:
+    in-queue: "%d in queue"
 messages:
   transfer:
     busy: '&eSaving your data for a server transfer. Please wait before changing settings.'
@@ -277,6 +279,10 @@ messages:
 
   kick:
     anticheat: "Kicked by %s"
+
+  practice:
+    opponent-busy: "%s is in a duel right now."
+    opponent-gone: "%s is no longer online."
 
 commands:
   anticheat:
