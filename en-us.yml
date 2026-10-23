@@ -85,6 +85,10 @@ gui:
       name: "Block Cleaner"
       description:
         - "Remove the blocks you place in scaffold areas after a while"
+    skip-move-checks:
+      name: "Skip Move Checks"
+      description:
+        - "Skip the 26.3 checks behind \"Invalid move player packet received\""
   warp:
     title: "Warp menu"
     world: "World"

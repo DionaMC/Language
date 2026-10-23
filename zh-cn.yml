@@ -82,6 +82,10 @@ gui:
       name: "方块清理"
       description:
         - "在搭路区域放置的方块一段时间后自动清除"
+    skip-move-checks:
+      name: "跳过移动检查"
+      description:
+        - "跳过 26.3 中导致 \"Invalid move player packet received\" 的检查"
   warp:
     title: "传送菜单"
     world: "世界"
