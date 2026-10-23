@@ -287,6 +287,25 @@ messages:
   practice:
     opponent-busy: "%s is in a duel right now."
     opponent-gone: "%s is no longer online."
+    botduel:
+      unavailable: "Bot duels are not available on this server."
+      usage: "Usage: /botduel <kit> [easy|normal|hard]"
+      unknown-kit: "There is no bot duel for the kit %s."
+      unknown-difficulty: "%s is not a difficulty; pick easy, normal or hard."
+      busy: "Leave your queue, match or bot duel first."
+      no-arena: "No arena is free for %s right now. Try again in a moment."
+      preparing: "Building your arena..."
+      start: "%s against a %s bot on %s. Type /leave to give up."
+      fight: "&cFight!"
+      hits: "Hits: %d - %d"
+      won: "You beat the %s bot in %s."
+      lost: "The %s bot beat you in %s."
+      draw: "Time is up: your duel against the %s bot in %s is a draw."
+      cancelled: "Your bot duel was cancelled."
+      title-won: "&aVictory"
+      title-lost: "&cDefeat"
+      title-draw: "&eDraw"
+      rematch: "&b[Click to play again]"
 
 commands:
   anticheat:

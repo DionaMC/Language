@@ -282,6 +282,25 @@ messages:
   practice:
     opponent-busy: "%s 正在对决中。"
     opponent-gone: "%s 已不在线。"
+    botduel:
+      unavailable: "本服务器没有机器人对决。"
+      usage: "用法: /botduel <套装> [easy|normal|hard]"
+      unknown-kit: "没有 %s 套装的机器人对决。"
+      unknown-difficulty: "%s 不是难度，请选择 easy、normal 或 hard。"
+      busy: "请先离开队列、对决或机器人对决。"
+      no-arena: "%s 暂时没有空闲的竞技场，请稍后再试。"
+      preparing: "正在搭建竞技场..."
+      start: "%s 对阵 %s 机器人，地图 %s。输入 /leave 认输。"
+      fight: "&c开始!"
+      hits: "命中: %d - %d"
+      won: "你在 %2$s 中击败了 %1$s 机器人。"
+      lost: "%1$s 机器人在 %2$s 中击败了你。"
+      draw: "时间到: 你在 %2$s 中与 %1$s 机器人打成平局。"
+      cancelled: "你的机器人对决已取消。"
+      title-won: "&a胜利"
+      title-lost: "&c失败"
+      title-draw: "&e平局"
+      rematch: "&b[点击再来一局]"
 
 commands:
   anticheat:
