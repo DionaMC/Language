@@ -148,6 +148,11 @@ gui:
   menu:
     title: "Menu"
     click-to-view: "Click to view"
+  servers:
+    title: "Servers"
+    players: "Players"
+    you-are-here: "You are here"
+    click-to-join: "Click to join"
   items:
     title: "Items menu"
   kits:
