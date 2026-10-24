@@ -147,6 +147,8 @@ gui:
     click-to-view: "点击查看"
   items:
     title: "物品菜单"
+  kits:
+    title: "套装菜单"
   practice:
     in-queue: "%d 人排队中"
 messages:
@@ -483,6 +485,12 @@ commands:
   items:
     usage: "用法: /items"
     description: "获取物品"
+  kits:
+    usage: "用法: /kits [套装]"
+    description: "获取练习服的套装"
+    success: "你获得了套装 %s!"
+    not-found: "套装 %s 不存在!"
+    none: "本服务器没有套装。"
   damage:
     usage: "用法: /damage [数值]"
     description: "对你造成指定数值的伤害"

@@ -150,6 +150,8 @@ gui:
     click-to-view: "Click to view"
   items:
     title: "Items menu"
+  kits:
+    title: "Kits menu"
   exploit:
     title: "Exploits menu"
   practice:
@@ -488,6 +490,12 @@ commands:
   items:
     usage: "Usage: /items"
     description: "Get items"
+  kits:
+    usage: "Usage: /kits [kit]"
+    description: "Get a practice kit"
+    success: "You got the %s kit!"
+    not-found: "Kit %s not found!"
+    none: "There are no kits on this server."
   damage:
     usage: "Usage: /damage [amount]"
     description: "Damage you by a specified amount"
