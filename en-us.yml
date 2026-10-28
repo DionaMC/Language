@@ -161,6 +161,17 @@ gui:
     title: "Exploits menu"
   practice:
     in-queue: "%d in queue"
+    minigame:
+      title: "Minigames"
+      players: "Players: %d/%d"
+      waiting: "Waiting for players"
+      starting: "Starting in %ds"
+      running: "Running"
+      ended: "Ending"
+      join: "Click to join"
+      fill: "Fill with bots"
+      fill-lore: "Bots take the empty places when the countdown ends"
+      personality: "%s bots: %s"
 messages:
   transfer:
     busy: '&eSaving your data for a server transfer. Please wait before changing settings.'
@@ -294,6 +305,10 @@ messages:
   practice:
     opponent-busy: "%s is in a duel right now."
     opponent-gone: "%s is no longer online."
+    minigame:
+      running: "%s has already started."
+      full: "%s is full."
+      refused: "You could not join %s."
     botduel:
       unavailable: "Bot duels are not available on this server."
       usage: "Usage: /botduel <kit> [beginner|easy|normal|hard|adaptive]"
