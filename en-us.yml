@@ -169,9 +169,6 @@ gui:
       running: "Running"
       ended: "Ending"
       join: "Click to join"
-      fill: "Fill with bots"
-      fill-lore: "Bots take the empty places when the countdown ends"
-      personality: "%s bots: %s"
 messages:
   transfer:
     busy: '&eSaving your data for a server transfer. Please wait before changing settings.'
