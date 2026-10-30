@@ -306,6 +306,7 @@ messages:
       running: "%s has already started."
       full: "%s is full."
       refused: "You could not join %s."
+      none-open: "No %s game is open right now. Try again in a moment."
     botduel:
       unavailable: "Bot duels are not available on this server."
       usage: "Usage: /botduel <kit> [beginner|easy|normal|hard|adaptive]"
