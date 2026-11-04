@@ -391,6 +391,9 @@ commands:
     usage: "用法: /spawn"
     description: "传送到出生点"
     not-initialized: "出生点尚未初始化!请设置一个名为spawn的传送点!"
+  practice:
+    usage: "用法: /practice"
+    description: "练习对战、小游戏和机器人"
   heal:
     usage: "用法: /heal"
     description: "恢复你的生命值和饥饿值"

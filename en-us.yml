@@ -433,6 +433,9 @@ commands:
     usage: "Usage: /spawn"
     description: "Teleport to spawn location"
     not-initialized: "Spawn location is not initialized! Please set a warp named 'spawn'!"
+  practice:
+    usage: "Usage: /practice"
+    description: "Play practice duels, minigames and bots"
   heal:
     usage: "Usage: /heal"
     description: "Heal and feed yourself"
