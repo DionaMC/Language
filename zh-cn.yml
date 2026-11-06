@@ -145,12 +145,27 @@ gui:
   menu:
     title: "菜单"
     click-to-view: "点击查看"
+  servers:
+    title: "服务器"
+    players: "玩家"
+    you-are-here: "你在这里"
+    click-to-join: "点击加入"
   items:
     title: "物品菜单"
   kits:
     title: "套装菜单"
+  exploit:
+    title: "漏洞测试菜单"
   practice:
     in-queue: "%d 人排队中"
+    minigame:
+      title: "小游戏"
+      players: "玩家: %d/%d"
+      waiting: "等待玩家中"
+      starting: "%d 秒后开始"
+      running: "进行中"
+      ended: "即将结束"
+      join: "点击加入"
 messages:
   transfer:
     busy: '&e正在保存换服数据, 请稍后再修改设置。'
@@ -284,6 +299,11 @@ messages:
   practice:
     opponent-busy: "%s 正在对决中。"
     opponent-gone: "%s 已不在线。"
+    minigame:
+      running: "%s 已经开始了。"
+      full: "%s 已满员。"
+      refused: "你无法加入 %s。"
+      none-open: "当前没有开放的 %s 游戏，请稍后再试。"
     botduel:
       unavailable: "本服务器没有机器人对决。"
       usage: "用法: /botduel <套装> [easy|normal|hard]"
@@ -297,12 +317,31 @@ messages:
       hits: "命中: %d - %d"
       won: "你在 %2$s 中击败了 %1$s 机器人。"
       lost: "%1$s 机器人在 %2$s 中击败了你。"
+      time-won: "时间到: 你在 %2$s 中领先 %1$s 机器人，获得胜利。"
+      time-lost: "时间到: %1$s 机器人在 %2$s 中领先，获得胜利。"
       draw: "时间到: 你在 %2$s 中与 %1$s 机器人打成平局。"
       cancelled: "你的机器人对决已取消。"
       title-won: "&a胜利"
       title-lost: "&c失败"
       title-draw: "&e平局"
-      rematch: "&b[点击再来一局]"
+      summary-you: "&7你: 命中 &f%d &7次, 最高连击 &f%d&7, 造成/受到伤害 &f%s&7/&f%s&7, 命中率 &f%d%%&7, 消耗图腾 &f%d &7个"
+      summary-bot: "&7机器人: 命中 &f%d &7次, 最高连击 &f%d&7, 消耗图腾 &f%d &7个"
+      play-again: "&b[再来一局]"
+      harder: "&c[提高难度]"
+      easier: "&a[降低难度]"
+      hud:
+        kit: "套装"
+        bot: "机器人"
+        style: "风格"
+        time: "剩余时间"
+        you: "你"
+        opponent: "机器人"
+        hits: "命中"
+        combo: "连击"
+        damage: "造成/受到"
+        accuracy: "命中率"
+        heals: "治疗"
+        pops: "图腾"
 
 commands:
   anticheat:
@@ -430,7 +469,7 @@ commands:
   kill:
     usage: "用法: /kill [玩家]"
     description: "自鲨或者鲨了其他玩家"
-    message: "你寄了"
+    self: "你寄了"
     success: "鲨了 %s!"
   clear:
     usage: "用法: /clear"
@@ -513,3 +552,16 @@ commands:
     usage: "用法: /repair"
     description: "修复物品栏中的所有物品"
     success: "你的物品已全部修复!"
+  scale:
+    usage: "用法: /scale [倍数]"
+    description: "按指定倍数设置你的体型大小"
+    invalid-multiplier: "无效的数值! 请输入 %.2f 到 %.2f 之间的数字。"
+    success: "你的体型大小已设为 %.2f。"
+  clientprefix:
+    added: "已添加客户端 %s!"
+    removed: "已移除客户端 %s!"
+    already-exists: "客户端 %s 已存在!"
+    not-found: "未找到客户端 %s!"
+    failed: "更新客户端 %s 失败! 请查看控制台。"
+    list: "客户端列表:"
+    no-clients: "暂无客户端!"
