@@ -298,6 +298,7 @@ messages:
 
   kick:
     anticheat: "Kicked by %s"
+    close-connection: "Anticheat tried to close your connection"
 
   practice:
     opponent-busy: "%s is in a duel right now."

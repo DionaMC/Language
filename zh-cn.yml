@@ -295,6 +295,7 @@ messages:
 
   kick:
     anticheat: "被 %s 踢出"
+    close-connection: "反作弊尝试断开你的连接"
 
   practice:
     opponent-busy: "%s 正在对决中。"
