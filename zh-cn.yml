@@ -86,6 +86,10 @@ gui:
       name: "跳过移动检查"
       description:
         - "跳过 26.3 中导致 \"Invalid move player packet received\" 的检查"
+    dialogs:
+      name: "对话框菜单"
+      description:
+        - "使用新版对话框菜单代替传统箱子菜单"
   warp:
     title: "传送菜单"
     world: "世界"

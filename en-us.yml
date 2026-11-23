@@ -89,6 +89,10 @@ gui:
       name: "Skip Move Checks"
       description:
         - "Skip the 26.3 checks behind \"Invalid move player packet received\""
+    dialogs:
+      name: "Dialog Menus"
+      description:
+        - "Use dialog menus instead of classic chest menus"
   warp:
     title: "Warp menu"
     world: "World"
